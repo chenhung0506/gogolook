@@ -1,0 +1,20 @@
+version: "3.7"
+services:
+  mysql:
+    image: mysql/mysql-server:8.0.23
+    container_name: mysql
+    restart: always
+    volumes:
+      - ~/volumes/mysql:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_USER: deployer
+      MYSQL_PASSWORD: Password@1
+    ports:
+      - "3306:3306"
+    networks:
+      - nginx
+networks:
+  nginx:
+    external: true
+    name: nginx

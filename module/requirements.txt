@@ -7,7 +7,7 @@ Flask-Cors==3.0.8
 Flask-RESTful==0.3.8
 APScheduler==3.5.0
 Flask-Cors==3.0.8
-pysftp==0.2.9
+# pysftp==0.2.9
 flask-script==2.0.6
 Flask-Testing==0.8.1
 # cffi==1.14.2 
@@ -18,6 +18,6 @@ Flask-Testing==0.8.1
 # bcrypt==3.2.0 
 # cryptography==3.1 
 # pynacl==1.4.0 
-cryptography==3.3.1
-pycrypto==2.6.1
-PyJWT==2.0.1
+# cryptography==3.3.1
+# pycrypto==2.6.1
+# PyJWT==2.0.1

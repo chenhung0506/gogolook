@@ -49,6 +49,13 @@ cd ./gogolook/docker && ./run.sh 0 3 -v
 cd ./gogolook/docker && ./run.sh 0 1
 ```
 
+## Note if mysql db was init, excute below command 
+```
+cd ./gogolook/docker && ./run.sh 3 -v
+```
+```
+cd ./gogolook/docker && ./run.sh 1
+```
 
 
 ## Test API

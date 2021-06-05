@@ -5,8 +5,6 @@ import const
 import os
 import csv
 import smtplib, ssl
-import pysftp
-import paramiko
 import hashlib
 import re
 import unicodedata
@@ -118,66 +116,6 @@ def exportCsv(path, data):
         writer = csv.writer(csvfile, delimiter=',')
         for row in data:
             writer.writerow(row)
-
-def sftpUpload(uploadFileList):
-    try:
-        sHostName = str(const.SFTP_HOST_NAME)
-        sUserName = str(const.SFTP_USER_NAME)
-        sPassWord = str(const.SFTP_PASS_WORD)
-        ConecPort = int(const.SFTP_CONE_PORT)
-
-        keydata = bytes(const.PUBLIC_KEY_DATA, 'utf-8')
-        key = paramiko.RSAKey(data=decodebytes(keydata))
-        cnopts = pysftp.CnOpts()
-        # cnopts = pysftp.CnOpts(knownhosts='known_hosts')
-        cnopts.hostkeys.add(const.PUBLIC_KEY_HOST, const.PUBLIC_KEY_HASH, key)
-
-        # pysftp.CnOpts(knownhosts='known_hosts')
-        cnopts.hostkeys = None
-
-        with pysftp.Connection(sHostName, username=sUserName, password=sPassWord, cnopts=cnopts, port=ConecPort) as sftp:
-            sftp.cwd(const.SFTP_REMO_PATH)
-            # sftp.put_d(uploadData,const.SFTP_REMO_PATH)
-            for file in uploadFileList:
-                log.info("ftp upload file: " + file)
-                try:
-                    sftp.put(file)
-                except Exception as e:
-                    log.error("sftp upload error: " + except_raise(e))
-                    return except_raise(e)
-        sftp.close()
-
-    except Exception as e:
-        log.error("transmitProcess error: " + except_raise(e))
-        return except_raise(e)
-
-def ftpUpload(uploadFileList):
-    log.info(uploadFileList)
-    sHostName = str(const.SFTP_HOST_NAME)
-    ConecPort = int(const.SFTP_CONE_PORT)
-    sUserName = str(const.SFTP_USER_NAME)
-    sPassWord = str(const.SFTP_PASS_WORD)
-    anonymous = str(const.SFTP_ANONYMOUS)
-
-    try:
-        ftp=FTP() 
-        ftp.set_debuglevel(2) 
-        ftp.connect(sHostName,ConecPort) 
-        log.info('login ftp server')
-        if anonymous == 'true':
-            ftp.login()
-        else:
-            ftp.login(sUserName,sPassWord)
-        log.info('change folder')
-        ftp.cwd(const.SFTP_REMO_PATH) 
-        for file_path in uploadFileList:
-            log.info('upload file: ' + file_path)
-            ftp.storbinary('STOR ' + os.path.basename(file_path), open(file_path,'rb'), 1024)  
-        ftp.set_debuglevel(0) 
-        ftp.quit 
-    except Exception as e:
-        log.error("transmitProcess error: " + except_raise(e))
-        return except_raise(e)
 
 def cleanFolder(folder):
     for filename in os.listdir(folder):

@@ -2,6 +2,9 @@
 import os
 import errno
 import logging.config
+import sys, os
+currentdir = os.path.dirname(os.path.realpath(__file__))
+sys.path.append(currentdir)
 import const
 
 def setup_logging(conf):

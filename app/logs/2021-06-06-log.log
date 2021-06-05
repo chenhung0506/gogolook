@@ -1,0 +1,1314 @@
+[2021-06-06 01:59:18,543][45282][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 01:59:18,553][45282][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 01:59:18,555][45282][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 01:59:18,757][45282][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 02:02:44,974][45380][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:02:44,985][45380][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:02:44,986][45380][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:02:44,987][45380][MainThread][I][dao_migrate.py:__init__:13] : 3306
+[2021-06-06 02:02:44,987][45380][MainThread][I][dao_migrate.py:__init__:14] : 172.17.0.1
+[2021-06-06 02:02:44,987][45380][MainThread][I][dao_migrate.py:__init__:15] : deployer
+[2021-06-06 02:02:44,987][45380][MainThread][I][dao_migrate.py:__init__:16] : Password@1
+[2021-06-06 02:03:24,255][45503][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:03:24,264][45503][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:03:24,265][45503][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:03:24,265][45503][MainThread][I][dao_migrate.py:__init__:13] : 3306
+[2021-06-06 02:03:24,265][45503][MainThread][I][dao_migrate.py:__init__:14] : 127.0.0.1
+[2021-06-06 02:03:24,265][45503][MainThread][I][dao_migrate.py:__init__:15] : deployer
+[2021-06-06 02:03:24,265][45503][MainThread][I][dao_migrate.py:__init__:16] : Password@1
+[2021-06-06 02:04:23,456][45600][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:04:23,467][45600][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:04:23,469][45600][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:04:23,469][45600][MainThread][I][dao_migrate.py:__init__:13] : 3306
+[2021-06-06 02:04:23,469][45600][MainThread][I][dao_migrate.py:__init__:14] : 127.0.0.1
+[2021-06-06 02:04:23,469][45600][MainThread][I][dao_migrate.py:__init__:15] : deployer
+[2021-06-06 02:04:23,469][45600][MainThread][I][dao_migrate.py:__init__:16] : Password@1
+[2021-06-06 02:04:23,482][45600][MainThread][I][server.py:<module>:38] : [{'id': '1', 'name': 'test', 'init_date': '2021-06-05 17:49:51'}]
+[2021-06-06 02:04:23,711][45600][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 02:10:59,699][45649][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:10:59,708][45649][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:10:59,709][45649][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:10:59,721][45649][MainThread][I][server.py:<module>:38] : [{'id': '1', 'name': 'test', 'init_date': '2021-06-05 17:49:51'}]
+[2021-06-06 02:10:59,958][45649][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 02:18:45,880][45736][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:18:45,889][45736][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:18:45,889][45736][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:18:45,903][45736][MainThread][I][server.py:<module>:38] : [{'id': '1', 'name': 'test', 'init_date': '2021-06-05 17:49:51'}]
+[2021-06-06 02:18:45,903][45736][MainThread][I][server.py:<module>:39] : []
+[2021-06-06 02:18:46,077][45736][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 02:19:02,702][45772][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:19:02,711][45772][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:19:02,713][45772][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:19:02,724][45772][MainThread][I][server.py:<module>:38] : [{'id': '1', 'name': 'test', 'init_date': '2021-06-05 17:49:51'}]
+[2021-06-06 02:19:02,725][45772][MainThread][I][server.py:<module>:39] : ['./migrate/gogolook.sql']
+[2021-06-06 02:19:02,751][45772][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 02:27:41,517][45894][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:27:41,526][45894][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:27:41,527][45894][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:27:41,542][45894][MainThread][I][server.py:<module>:40] : [{'id': '1', 'name': 'test', 'init_date': '2021-06-05 17:49:51'}]
+[2021-06-06 02:27:41,543][45894][MainThread][I][server.py:<module>:42] : ['./migrate/001.sql']
+[2021-06-06 02:27:41,544][45894][MainThread][I][server.py:<module>:47] : ./migrate/001.sql
+[2021-06-06 02:27:41,544][45894][MainThread][I][server.py:<module>:48] : 001.
+[2021-06-06 02:27:41,738][45894][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 02:27:50,090][45927][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:27:50,099][45927][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:27:50,101][45927][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:27:50,111][45927][MainThread][I][server.py:<module>:40] : [{'id': '1', 'name': 'test', 'init_date': '2021-06-05 17:49:51'}]
+[2021-06-06 02:27:50,112][45927][MainThread][I][server.py:<module>:42] : ['./migrate/001.sql']
+[2021-06-06 02:27:50,112][45927][MainThread][I][server.py:<module>:47] : ./migrate/001.sql
+[2021-06-06 02:27:50,113][45927][MainThread][I][server.py:<module>:48] : 001
+[2021-06-06 02:27:50,137][45927][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 02:30:22,054][45995][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:30:22,063][45995][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:30:22,065][45995][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:30:22,074][45995][MainThread][I][server.py:<module>:40] : ['test']
+[2021-06-06 02:30:22,074][45995][MainThread][I][server.py:<module>:43] : ./migrate/001.sql
+[2021-06-06 02:30:22,075][45995][MainThread][I][server.py:<module>:46] : ./migrate/001.sql
+[2021-06-06 02:30:22,075][45995][MainThread][I][server.py:<module>:47] : 001
+[2021-06-06 02:30:22,261][45995][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 02:31:21,440][46047][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:31:21,449][46047][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:31:21,451][46047][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:31:21,462][46047][MainThread][I][server.py:<module>:40] : ['test']
+[2021-06-06 02:31:21,462][46047][MainThread][I][server.py:<module>:43] : ./migrate/002.sql
+[2021-06-06 02:31:21,463][46047][MainThread][I][server.py:<module>:46] : 002
+[2021-06-06 02:31:21,463][46047][MainThread][I][server.py:<module>:43] : ./migrate/001.sql
+[2021-06-06 02:31:21,463][46047][MainThread][I][server.py:<module>:46] : 001
+[2021-06-06 02:31:21,487][46047][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 02:33:07,566][46094][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:33:07,576][46094][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:33:07,577][46094][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:33:07,589][46094][MainThread][I][server.py:<module>:40] : ['test']
+[2021-06-06 02:33:07,590][46094][MainThread][I][server.py:<module>:48] : ['002', '001']
+[2021-06-06 02:33:07,840][46094][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 02:33:20,865][46128][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:33:20,875][46128][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:33:20,876][46128][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:33:20,888][46128][MainThread][I][server.py:<module>:40] : ['test']
+[2021-06-06 02:33:20,890][46128][MainThread][I][server.py:<module>:48] : [2, 1]
+[2021-06-06 02:33:20,912][46128][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 02:34:13,314][46173][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:34:13,324][46173][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:34:13,325][46173][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:34:13,335][46173][MainThread][I][server.py:<module>:40] : ['test']
+[2021-06-06 02:34:13,337][46173][MainThread][I][server.py:<module>:48] : ['002', '001']
+[2021-06-06 02:34:13,337][46173][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 02:34:13,363][46173][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 02:36:30,448][46229][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:36:30,457][46229][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:36:30,458][46229][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:36:30,468][46229][MainThread][I][server.py:<module>:40] : ['test']
+[2021-06-06 02:36:30,469][46229][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 02:36:30,469][46229][MainThread][I][server.py:<module>:52] : ./migrate/001.sql
+[2021-06-06 02:36:30,470][46229][MainThread][I][server.py:<module>:52] : ./migrate/002.sql
+[2021-06-06 02:36:30,684][46229][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 02:38:14,053][46279][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:38:14,062][46279][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:38:14,064][46279][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:38:14,076][46279][MainThread][I][server.py:<module>:40] : ['test']
+[2021-06-06 02:38:14,076][46279][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 02:38:14,077][46279][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 02:38:14,077][46279][MainThread][I][server.py:<module>:54] : ./migrate/002.sql
+[2021-06-06 02:38:14,100][46279][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 02:38:29,928][46311][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:38:29,938][46311][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:38:29,939][46311][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:38:29,950][46311][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 02:38:29,950][46311][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 02:38:29,951][46311][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 02:38:30,817][46311][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 02:45:37,561][46419][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:45:37,572][46419][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:45:37,573][46419][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:45:37,583][46419][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 02:45:37,584][46419][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 02:45:37,585][46419][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 02:45:37,836][46419][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 02:49:44,254][46497][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:49:44,264][46497][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:49:44,265][46497][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:49:44,280][46497][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 02:49:44,281][46497][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 02:49:44,281][46497][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 02:49:44,281][46497][MainThread][I][utils.py:excuteSqlFile:280] : CREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci
+[2021-06-06 02:49:44,305][46497][MainThread][I][utils.py:excuteSqlFile:280] : 
+USE `gogolook`
+[2021-06-06 02:49:44,316][46497][MainThread][I][utils.py:excuteSqlFile:280] : 
+START TRANSACTION
+[2021-06-06 02:49:44,327][46497][MainThread][I][utils.py:excuteSqlFile:280] : 
+
+drop table if exists gogolook.task
+[2021-06-06 02:49:44,343][46497][MainThread][I][utils.py:excuteSqlFile:280] : 
+create table gogolook.task(
+    `id` INT NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(20) NOT NULL,
+    `status` VARCHAR(100) NOT NULL,
+    PRIMARY KEY ( `id` )
+)engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務'
+[2021-06-06 02:49:44,386][46497][MainThread][I][utils.py:excuteSqlFile:280] : 
+    
+
+COMMIT
+[2021-06-06 02:49:44,395][46497][MainThread][I][utils.py:excuteSqlFile:280] : 
+
+[2021-06-06 02:49:44,644][46497][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 02:51:56,052][46549][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:51:56,062][46549][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:51:56,063][46549][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:51:56,074][46549][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 02:51:56,075][46549][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 02:51:56,075][46549][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 02:51:56,277][46549][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 02:53:20,329][46597][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:53:20,339][46597][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:53:20,340][46597][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:53:20,352][46597][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 02:53:20,353][46597][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 02:53:20,353][46597][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 02:53:20,377][46597][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 02:54:00,030][46637][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:54:00,048][46637][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:54:00,053][46637][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:54:00,070][46637][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 02:54:00,071][46637][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 02:54:00,071][46637][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 02:54:00,071][46637][MainThread][I][utils.py:excuteSqlFile:275] : ./migrate/001.sql
+[2021-06-06 02:54:00,269][46637][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 02:55:40,606][46689][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:55:40,615][46689][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:55:40,616][46689][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:55:40,627][46689][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 02:55:40,628][46689][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 02:55:40,628][46689][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 02:55:40,629][46689][MainThread][I][utils.py:excuteSqlFile:275] : ./migrate/001.sql
+[2021-06-06 02:55:40,629][46689][MainThread][I][utils.py:excuteSqlFile:281] : CREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci
+[2021-06-06 02:55:40,643][46689][MainThread][I][utils.py:excuteSqlFile:281] : 
+USE `gogolook`
+[2021-06-06 02:55:40,653][46689][MainThread][I][utils.py:excuteSqlFile:281] : 
+START TRANSACTION
+[2021-06-06 02:55:40,662][46689][MainThread][I][utils.py:excuteSqlFile:281] : 
+
+drop table if exists gogolook.task
+[2021-06-06 02:55:40,677][46689][MainThread][I][utils.py:excuteSqlFile:281] : 
+create table gogolook.task(
+    `id` INT NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(20) NOT NULL,
+    `status` VARCHAR(100) NOT NULL,
+    PRIMARY KEY ( `id` )
+)engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務'
+[2021-06-06 02:55:40,722][46689][MainThread][I][utils.py:excuteSqlFile:281] : 
+    
+
+COMMIT
+[2021-06-06 02:55:40,733][46689][MainThread][I][utils.py:excuteSqlFile:281] : 
+
+[2021-06-06 02:55:40,770][46689][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 02:56:10,643][46722][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:56:10,653][46722][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:56:10,654][46722][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:56:10,665][46722][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 02:56:10,666][46722][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 02:56:10,666][46722][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 02:56:10,667][46722][MainThread][I][utils.py:excuteSqlFile:275] : ./migrate/001.sql
+[2021-06-06 02:56:10,667][46722][MainThread][I][utils.py:excuteSqlFile:281] : CREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+[2021-06-06 02:56:10,678][46722][MainThread][I][utils.py:excuteSqlFile:281] : 
+USE `gogolook`;
+[2021-06-06 02:56:10,687][46722][MainThread][I][utils.py:excuteSqlFile:281] : 
+START TRANSACTION;
+[2021-06-06 02:56:10,695][46722][MainThread][I][utils.py:excuteSqlFile:281] : 
+
+drop table if exists gogolook.task;
+[2021-06-06 02:56:10,727][46722][MainThread][I][utils.py:excuteSqlFile:281] : 
+create table gogolook.task(
+    `id` INT NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(20) NOT NULL,
+    `status` VARCHAR(100) NOT NULL,
+    PRIMARY KEY ( `id` )
+)engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務';
+[2021-06-06 02:56:10,769][46722][MainThread][I][utils.py:excuteSqlFile:281] : 
+    
+
+COMMIT;
+[2021-06-06 02:56:10,778][46722][MainThread][I][utils.py:excuteSqlFile:281] : 
+;
+[2021-06-06 02:56:10,969][46722][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 02:57:08,094][46760][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:57:08,104][46760][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:57:08,106][46760][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:57:08,120][46760][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 02:57:08,121][46760][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 02:57:08,121][46760][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 02:57:08,121][46760][MainThread][I][utils.py:excuteSqlFile:275] : ./migrate/001.sql
+[2021-06-06 02:57:08,122][46760][MainThread][I][utils.py:excuteSqlFile:281] : DROP DATABASE [IF EXISTS] `gogolook`;
+[2021-06-06 02:57:08,193][46760][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 02:57:42,647][46798][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:57:42,657][46798][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:57:42,658][46798][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:57:42,670][46798][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 02:57:42,671][46798][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 02:57:42,672][46798][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 02:57:42,672][46798][MainThread][I][utils.py:excuteSqlFile:275] : ./migrate/001.sql
+[2021-06-06 02:57:42,672][46798][MainThread][I][utils.py:excuteSqlFile:280] : ['DROP DATABASE [IF EXISTS] `gogolook`', '\nCREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci', '\nUSE `gogolook`', '\nSTART TRANSACTION', '\n\ndrop table if exists gogolook.task', "\ncreate table gogolook.task(\n    `id` INT NOT NULL AUTO_INCREMENT,\n    `name` VARCHAR(20) NOT NULL,\n    `status` VARCHAR(100) NOT NULL,\n    PRIMARY KEY ( `id` )\n)engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務'", '\n    \n\nCOMMIT', '\n']
+[2021-06-06 02:57:42,673][46798][MainThread][I][utils.py:excuteSqlFile:282] : DROP DATABASE [IF EXISTS] `gogolook`;
+[2021-06-06 02:57:42,720][46798][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 02:59:11,824][46844][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 02:59:11,834][46844][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 02:59:11,835][46844][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 02:59:11,846][46844][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 02:59:11,847][46844][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 02:59:11,847][46844][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 02:59:11,847][46844][MainThread][I][utils.py:excuteSqlFile:275] : ./migrate/001.sql
+[2021-06-06 02:59:11,848][46844][MainThread][I][utils.py:excuteSqlFile:280] : ['DROP DATABASE [IF EXISTS] `gogolook`', 'CREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci', 'USE `gogolook`', 'START TRANSACTION', 'drop table if exists gogolook.task', "create table gogolook.task(    `id` INT NOT NULL AUTO_INCREMENT,    `name` VARCHAR(20) NOT NULL,    `status` VARCHAR(100) NOT NULL,    PRIMARY KEY ( `id` ))engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務'", '    COMMIT', '']
+[2021-06-06 02:59:11,848][46844][MainThread][I][utils.py:excuteSqlFile:282] : DROP DATABASE [IF EXISTS] `gogolook`;
+[2021-06-06 02:59:12,089][46844][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:00:09,974][46900][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:00:09,983][46900][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:00:09,984][46900][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:00:09,994][46900][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 03:00:09,996][46900][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 03:00:09,996][46900][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 03:00:09,996][46900][MainThread][I][utils.py:excuteSqlFile:275] : ./migrate/001.sql
+[2021-06-06 03:00:09,996][46900][MainThread][I][utils.py:excuteSqlFile:280] : ['DROP DATABASE [IF EXISTS] `gogolook`', 'CREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci', 'USE `gogolook`', 'START TRANSACTION', 'drop table if exists gogolook.task', "create table gogolook.task(    `id` INT NOT NULL AUTO_INCREMENT,    `name` VARCHAR(20) NOT NULL,    `status` VARCHAR(100) NOT NULL,    PRIMARY KEY ( `id` ))engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務'", '    COMMIT', '']
+[2021-06-06 03:00:09,997][46900][MainThread][I][utils.py:excuteSqlFile:282] : DROP DATABASE [IF EXISTS] `gogolook`;
+[2021-06-06 03:00:10,028][46900][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:00:56,280][46938][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:00:56,289][46938][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:00:56,291][46938][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:00:56,301][46938][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 03:00:56,302][46938][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 03:00:56,302][46938][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 03:00:56,302][46938][MainThread][I][utils.py:excuteSqlFile:275] : ./migrate/001.sql
+[2021-06-06 03:00:56,303][46938][MainThread][I][utils.py:excuteSqlFile:280] : ['DROP DATABASE [IF EXISTS] `gogolook`', 'CREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci', 'USE `gogolook`', 'START TRANSACTION', 'drop table if exists gogolook.task', "create table gogolook.task(    `id` INT NOT NULL AUTO_INCREMENT,    `name` VARCHAR(20) NOT NULL,    `status` VARCHAR(100) NOT NULL,    PRIMARY KEY ( `id` ))engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務'", '    COMMIT', '']
+[2021-06-06 03:00:56,303][46938][MainThread][I][utils.py:excuteSqlFile:282] : DROP DATABASE [IF EXISTS] `gogolook`;
+[2021-06-06 03:00:56,303][46938][MainThread][I][utils.py:excuteSqlFile:282] : CREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+[2021-06-06 03:00:56,304][46938][MainThread][I][utils.py:excuteSqlFile:282] : USE `gogolook`;
+[2021-06-06 03:00:56,304][46938][MainThread][I][utils.py:excuteSqlFile:282] : START TRANSACTION;
+[2021-06-06 03:00:56,304][46938][MainThread][I][utils.py:excuteSqlFile:282] : drop table if exists gogolook.task;
+[2021-06-06 03:00:56,304][46938][MainThread][I][utils.py:excuteSqlFile:282] : create table gogolook.task(    `id` INT NOT NULL AUTO_INCREMENT,    `name` VARCHAR(20) NOT NULL,    `status` VARCHAR(100) NOT NULL,    PRIMARY KEY ( `id` ))engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務';
+[2021-06-06 03:00:56,304][46938][MainThread][I][utils.py:excuteSqlFile:282] :     COMMIT;
+[2021-06-06 03:00:56,304][46938][MainThread][I][utils.py:excuteSqlFile:282] : ;
+[2021-06-06 03:00:56,328][46938][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:01:39,014][46978][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:01:39,023][46978][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:01:39,024][46978][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:01:39,035][46978][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 03:01:39,036][46978][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 03:01:39,037][46978][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 03:01:39,037][46978][MainThread][I][utils.py:excuteSqlFile:275] : ./migrate/001.sql
+[2021-06-06 03:01:39,037][46978][MainThread][I][utils.py:excuteSqlFile:280] : ['DROP DATABASE [IF EXISTS] `gogolook`', 'CREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci', 'USE `gogolook`', 'START TRANSACTION', 'drop table if exists gogolook.task', "create table gogolook.task(    `id` INT NOT NULL AUTO_INCREMENT,    `name` VARCHAR(20) NOT NULL,    `status` VARCHAR(100) NOT NULL,    PRIMARY KEY ( `id` ))engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務'", '    COMMIT', '']
+[2021-06-06 03:01:39,046][46978][MainThread][I][utils.py:excuteSqlFile:284] : DROP DATABASE [IF EXISTS] `gogolook`;
+[2021-06-06 03:01:39,219][46978][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:02:07,414][47011][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:02:07,424][47011][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:02:07,425][47011][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:02:07,434][47011][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 03:02:07,436][47011][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 03:02:07,436][47011][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 03:02:07,436][47011][MainThread][I][utils.py:excuteSqlFile:275] : ./migrate/001.sql
+[2021-06-06 03:02:07,436][47011][MainThread][I][utils.py:excuteSqlFile:280] : ['DROP DATABASE [IF EXISTS] `gogolook`', 'CREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci', 'USE `gogolook`', 'START TRANSACTION', 'drop table if exists gogolook.task', "create table gogolook.task(    `id` INT NOT NULL AUTO_INCREMENT,    `name` VARCHAR(20) NOT NULL,    `status` VARCHAR(100) NOT NULL,    PRIMARY KEY ( `id` ))engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務'", '    COMMIT', '']
+[2021-06-06 03:02:07,447][47011][MainThread][I][utils.py:excuteSqlFile:284] : DROP DATABASE [IF EXISTS] `gogolook`;
+[2021-06-06 03:02:07,447][47011][MainThread][I][utils.py:excuteSqlFile:284] : CREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+[2021-06-06 03:02:07,447][47011][MainThread][I][utils.py:excuteSqlFile:284] : USE `gogolook`;
+[2021-06-06 03:02:07,447][47011][MainThread][I][utils.py:excuteSqlFile:284] : START TRANSACTION;
+[2021-06-06 03:02:07,447][47011][MainThread][I][utils.py:excuteSqlFile:284] : drop table if exists gogolook.task;
+[2021-06-06 03:02:07,447][47011][MainThread][I][utils.py:excuteSqlFile:284] : create table gogolook.task(    `id` INT NOT NULL AUTO_INCREMENT,    `name` VARCHAR(20) NOT NULL,    `status` VARCHAR(100) NOT NULL,    PRIMARY KEY ( `id` ))engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務';
+[2021-06-06 03:02:07,448][47011][MainThread][I][utils.py:excuteSqlFile:284] :     COMMIT;
+[2021-06-06 03:02:07,448][47011][MainThread][I][utils.py:excuteSqlFile:284] : ;
+[2021-06-06 03:02:07,470][47011][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:02:16,334][47043][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:02:16,344][47043][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:02:16,345][47043][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:02:16,359][47043][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 03:02:16,360][47043][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 03:02:16,360][47043][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 03:02:16,360][47043][MainThread][I][utils.py:excuteSqlFile:275] : ./migrate/001.sql
+[2021-06-06 03:02:16,367][47043][MainThread][I][utils.py:excuteSqlFile:284] : DROP DATABASE [IF EXISTS] `gogolook`;
+[2021-06-06 03:02:16,367][47043][MainThread][I][utils.py:excuteSqlFile:284] : CREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+[2021-06-06 03:02:16,367][47043][MainThread][I][utils.py:excuteSqlFile:284] : USE `gogolook`;
+[2021-06-06 03:02:16,367][47043][MainThread][I][utils.py:excuteSqlFile:284] : START TRANSACTION;
+[2021-06-06 03:02:16,367][47043][MainThread][I][utils.py:excuteSqlFile:284] : drop table if exists gogolook.task;
+[2021-06-06 03:02:16,368][47043][MainThread][I][utils.py:excuteSqlFile:284] : create table gogolook.task(    `id` INT NOT NULL AUTO_INCREMENT,    `name` VARCHAR(20) NOT NULL,    `status` VARCHAR(100) NOT NULL,    PRIMARY KEY ( `id` ))engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務';
+[2021-06-06 03:02:16,368][47043][MainThread][I][utils.py:excuteSqlFile:284] :     COMMIT;
+[2021-06-06 03:02:16,368][47043][MainThread][I][utils.py:excuteSqlFile:284] : ;
+[2021-06-06 03:02:16,407][47043][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:02:22,677][47075][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:02:22,686][47075][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:02:22,687][47075][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:02:22,699][47075][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 03:02:22,700][47075][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 03:02:22,700][47075][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 03:02:22,707][47075][MainThread][I][utils.py:excuteSqlFile:283] : DROP DATABASE [IF EXISTS] `gogolook`;
+[2021-06-06 03:02:22,707][47075][MainThread][I][utils.py:excuteSqlFile:283] : CREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+[2021-06-06 03:02:22,707][47075][MainThread][I][utils.py:excuteSqlFile:283] : USE `gogolook`;
+[2021-06-06 03:02:22,707][47075][MainThread][I][utils.py:excuteSqlFile:283] : START TRANSACTION;
+[2021-06-06 03:02:22,707][47075][MainThread][I][utils.py:excuteSqlFile:283] : drop table if exists gogolook.task;
+[2021-06-06 03:02:22,707][47075][MainThread][I][utils.py:excuteSqlFile:283] : create table gogolook.task(    `id` INT NOT NULL AUTO_INCREMENT,    `name` VARCHAR(20) NOT NULL,    `status` VARCHAR(100) NOT NULL,    PRIMARY KEY ( `id` ))engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務';
+[2021-06-06 03:02:22,708][47075][MainThread][I][utils.py:excuteSqlFile:283] :     COMMIT;
+[2021-06-06 03:02:22,708][47075][MainThread][I][utils.py:excuteSqlFile:283] : ;
+[2021-06-06 03:02:22,730][47075][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:05:20,062][47123][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:05:20,071][47123][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:05:20,072][47123][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:05:20,083][47123][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 03:05:20,084][47123][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 03:05:20,084][47123][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 03:05:20,091][47123][MainThread][I][utils.py:excuteSqlFile:283] : DROP DATABASE [IF EXISTS] `gogolook`;
+[2021-06-06 03:05:20,326][47123][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:05:41,933][47161][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:05:41,942][47161][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:05:41,944][47161][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:05:41,955][47161][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 03:05:41,956][47161][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 03:05:41,956][47161][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 03:05:41,964][47161][MainThread][I][utils.py:excuteSqlFile:283] : DROP DATABASE [IF EXISTS] `gogolook`;
+[2021-06-06 03:06:23,675][47240][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:06:23,685][47240][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:06:23,687][47240][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:06:23,699][47240][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 03:06:23,699][47240][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 03:06:23,700][47240][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 03:06:23,707][47240][MainThread][I][utils.py:excuteSqlFile:283] : DROP DATABASE [IF EXISTS] `gogolook`;
+[2021-06-06 03:06:23,735][47240][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:07:22,152][47283][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:07:22,161][47283][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:07:22,162][47283][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:07:22,174][47283][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 03:07:22,175][47283][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 03:07:22,175][47283][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 03:07:22,184][47283][MainThread][I][utils.py:excuteSqlFile:282] : <pymysql.connections.Connection object at 0x10d321430>
+[2021-06-06 03:07:22,184][47283][MainThread][I][utils.py:excuteSqlFile:284] : DROP DATABASE [IF EXISTS] `gogolook`;
+[2021-06-06 03:07:22,437][47283][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:07:45,654][47335][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:07:45,663][47335][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:07:45,666][47335][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:07:45,679][47335][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 03:07:45,680][47335][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 03:07:45,680][47335][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 03:07:45,690][47335][MainThread][I][utils.py:excuteSqlFile:283] : CREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+[2021-06-06 03:07:45,701][47335][MainThread][I][utils.py:excuteSqlFile:285] : success
+[2021-06-06 03:07:45,701][47335][MainThread][I][utils.py:excuteSqlFile:283] : USE `gogolook`;
+[2021-06-06 03:07:45,704][47335][MainThread][I][utils.py:excuteSqlFile:285] : success
+[2021-06-06 03:07:45,704][47335][MainThread][I][utils.py:excuteSqlFile:283] : START TRANSACTION;
+[2021-06-06 03:07:45,707][47335][MainThread][I][utils.py:excuteSqlFile:285] : success
+[2021-06-06 03:07:45,707][47335][MainThread][I][utils.py:excuteSqlFile:283] : drop table if exists gogolook.task;
+[2021-06-06 03:07:45,738][47335][MainThread][I][utils.py:excuteSqlFile:285] : success
+[2021-06-06 03:07:45,738][47335][MainThread][I][utils.py:excuteSqlFile:283] : create table gogolook.task(    `id` INT NOT NULL AUTO_INCREMENT,    `name` VARCHAR(20) NOT NULL,    `status` VARCHAR(100) NOT NULL,    PRIMARY KEY ( `id` ))engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務';
+[2021-06-06 03:07:45,795][47335][MainThread][I][utils.py:excuteSqlFile:285] : success
+[2021-06-06 03:07:45,795][47335][MainThread][I][utils.py:excuteSqlFile:283] :     COMMIT;
+[2021-06-06 03:07:45,798][47335][MainThread][I][utils.py:excuteSqlFile:285] : success
+[2021-06-06 03:07:45,798][47335][MainThread][I][utils.py:excuteSqlFile:283] : ;
+[2021-06-06 03:07:45,833][47335][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:08:45,663][47367][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:08:45,672][47367][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:08:45,673][47367][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:08:45,683][47367][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 03:08:45,684][47367][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 03:08:45,684][47367][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 03:08:45,689][47367][MainThread][I][utils.py:excuteSqlFile:283] : DROP DATABASE IF EXISTS `gogolook`;
+[2021-06-06 03:08:45,698][47367][MainThread][I][utils.py:excuteSqlFile:285] : success
+[2021-06-06 03:08:45,698][47367][MainThread][I][utils.py:excuteSqlFile:283] : CREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+[2021-06-06 03:08:45,709][47367][MainThread][I][utils.py:excuteSqlFile:285] : success
+[2021-06-06 03:08:45,709][47367][MainThread][I][utils.py:excuteSqlFile:283] : USE `gogolook`;
+[2021-06-06 03:08:45,711][47367][MainThread][I][utils.py:excuteSqlFile:285] : success
+[2021-06-06 03:08:45,712][47367][MainThread][I][utils.py:excuteSqlFile:283] : START TRANSACTION;
+[2021-06-06 03:08:45,715][47367][MainThread][I][utils.py:excuteSqlFile:285] : success
+[2021-06-06 03:08:45,715][47367][MainThread][I][utils.py:excuteSqlFile:283] : drop table if exists gogolook.task;
+[2021-06-06 03:08:45,723][47367][MainThread][I][utils.py:excuteSqlFile:285] : success
+[2021-06-06 03:08:45,723][47367][MainThread][I][utils.py:excuteSqlFile:283] : create table gogolook.task(    `id` INT NOT NULL AUTO_INCREMENT,    `name` VARCHAR(20) NOT NULL,    `status` VARCHAR(100) NOT NULL,    PRIMARY KEY ( `id` ))engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務';
+[2021-06-06 03:08:45,762][47367][MainThread][I][utils.py:excuteSqlFile:285] : success
+[2021-06-06 03:08:45,762][47367][MainThread][I][utils.py:excuteSqlFile:283] :     COMMIT;
+[2021-06-06 03:08:45,764][47367][MainThread][I][utils.py:excuteSqlFile:285] : success
+[2021-06-06 03:08:45,765][47367][MainThread][I][utils.py:excuteSqlFile:283] : ;
+[2021-06-06 03:08:45,794][47367][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:09:00,333][47404][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:09:00,342][47404][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:09:00,343][47404][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:09:00,353][47404][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 03:09:00,354][47404][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 03:09:00,354][47404][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 03:09:00,360][47404][MainThread][I][utils.py:excuteSqlFile:283] : DROP DATABASE IF EXISTS `gogolook`;
+[2021-06-06 03:09:00,390][47404][MainThread][I][utils.py:excuteSqlFile:283] : CREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+[2021-06-06 03:09:00,403][47404][MainThread][I][utils.py:excuteSqlFile:283] : USE `gogolook`;
+[2021-06-06 03:09:00,407][47404][MainThread][I][utils.py:excuteSqlFile:283] : START TRANSACTION;
+[2021-06-06 03:09:00,410][47404][MainThread][I][utils.py:excuteSqlFile:283] : drop table if exists gogolook.task;
+[2021-06-06 03:09:00,420][47404][MainThread][I][utils.py:excuteSqlFile:283] : create table gogolook.task(    `id` INT NOT NULL AUTO_INCREMENT,    `name` VARCHAR(20) NOT NULL,    `status` VARCHAR(100) NOT NULL,    PRIMARY KEY ( `id` ))engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務';
+[2021-06-06 03:09:00,457][47404][MainThread][I][utils.py:excuteSqlFile:283] :     COMMIT;
+[2021-06-06 03:09:00,460][47404][MainThread][I][utils.py:excuteSqlFile:283] : ;
+[2021-06-06 03:09:00,487][47404][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:09:20,203][47443][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:09:20,212][47443][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:09:20,213][47443][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:09:20,223][47443][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 03:09:20,224][47443][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 03:09:20,224][47443][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 03:09:20,343][47443][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:09:49,253][47480][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:09:49,263][47480][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:09:49,264][47480][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:09:49,274][47480][MainThread][I][server.py:<module>:40] : ['test', '002']
+[2021-06-06 03:09:49,276][47480][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 03:09:49,276][47480][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 03:09:49,283][47480][MainThread][I][utils.py:excuteSqlFile:283] : DROP DATABASE IF EXISTS `gogolook`;
+[2021-06-06 03:09:49,312][47480][MainThread][I][utils.py:excuteSqlFile:283] : CREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+[2021-06-06 03:09:49,326][47480][MainThread][I][utils.py:excuteSqlFile:283] : USE `gogolook`;
+[2021-06-06 03:09:49,329][47480][MainThread][I][utils.py:excuteSqlFile:283] : START TRANSACTION;
+[2021-06-06 03:09:49,332][47480][MainThread][I][utils.py:excuteSqlFile:283] : drop table if exists gogolook.task;
+[2021-06-06 03:09:49,342][47480][MainThread][I][utils.py:excuteSqlFile:283] : create table gogolook.task(    `id` INT NOT NULL AUTO_INCREMENT,    `name` VARCHAR(20) NOT NULL,    `status` VARCHAR(100) NOT NULL,    PRIMARY KEY ( `id` ))engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務';
+[2021-06-06 03:09:49,387][47480][MainThread][I][utils.py:excuteSqlFile:283] :     COMMIT;
+[2021-06-06 03:09:49,391][47480][MainThread][I][utils.py:excuteSqlFile:283] : ;
+[2021-06-06 03:09:49,416][47480][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:12:30,930][47816][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:12:30,939][47816][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:12:30,940][47816][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:12:30,972][47816][MainThread][I][server.py:<module>:40] : []
+[2021-06-06 03:12:30,974][47816][MainThread][I][server.py:<module>:51] : ['001', '002']
+[2021-06-06 03:12:30,974][47816][MainThread][I][server.py:<module>:55] : ./migrate/001.sql
+[2021-06-06 03:12:30,983][47816][MainThread][I][utils.py:excuteSqlFile:283] : DROP DATABASE IF EXISTS `gogolook`;
+[2021-06-06 03:12:30,993][47816][MainThread][I][utils.py:excuteSqlFile:283] : CREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+[2021-06-06 03:12:31,006][47816][MainThread][I][utils.py:excuteSqlFile:283] : USE `gogolook`;
+[2021-06-06 03:12:31,009][47816][MainThread][I][utils.py:excuteSqlFile:283] : START TRANSACTION;
+[2021-06-06 03:12:31,014][47816][MainThread][I][utils.py:excuteSqlFile:283] : drop table if exists gogolook.task;
+[2021-06-06 03:12:31,024][47816][MainThread][I][utils.py:excuteSqlFile:283] : create table gogolook.task(    `id` INT NOT NULL AUTO_INCREMENT,    `name` VARCHAR(20) NOT NULL,    `status` VARCHAR(100) NOT NULL,    PRIMARY KEY ( `id` ))engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務';
+[2021-06-06 03:12:31,061][47816][MainThread][I][utils.py:excuteSqlFile:283] :     COMMIT;
+[2021-06-06 03:12:31,065][47816][MainThread][I][utils.py:excuteSqlFile:283] : ;
+[2021-06-06 03:12:31,069][47816][MainThread][I][server.py:<module>:55] : ./migrate/002.sql
+[2021-06-06 03:12:31,076][47816][MainThread][I][utils.py:excuteSqlFile:283] : ;
+[2021-06-06 03:12:31,329][47816][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:12:58,858][47855][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:12:58,867][47855][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:12:58,868][47855][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:12:58,878][47855][MainThread][I][server.py:<module>:40] : []
+[2021-06-06 03:12:58,879][47855][MainThread][I][server.py:<module>:51] : ['001', '002']
+[2021-06-06 03:12:58,880][47855][MainThread][I][server.py:<module>:55] : ./migrate/001.sql
+[2021-06-06 03:12:58,886][47855][MainThread][I][utils.py:excuteSqlFile:283] : DROP DATABASE IF EXISTS `gogolook`;
+[2021-06-06 03:12:58,937][47855][MainThread][I][utils.py:excuteSqlFile:283] : CREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+[2021-06-06 03:12:58,950][47855][MainThread][I][utils.py:excuteSqlFile:283] : USE `gogolook`;
+[2021-06-06 03:12:58,955][47855][MainThread][I][utils.py:excuteSqlFile:283] : START TRANSACTION;
+[2021-06-06 03:12:58,958][47855][MainThread][I][utils.py:excuteSqlFile:283] : drop table if exists gogolook.task;
+[2021-06-06 03:12:58,965][47855][MainThread][I][utils.py:excuteSqlFile:283] : create table gogolook.task(    `id` INT NOT NULL AUTO_INCREMENT,    `name` VARCHAR(20) NOT NULL,    `status` VARCHAR(100) NOT NULL,    PRIMARY KEY ( `id` ))engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務';
+[2021-06-06 03:12:59,012][47855][MainThread][I][utils.py:excuteSqlFile:283] :     COMMIT;
+[2021-06-06 03:12:59,016][47855][MainThread][I][utils.py:excuteSqlFile:283] : ;
+[2021-06-06 03:12:59,020][47855][MainThread][I][server.py:<module>:55] : ./migrate/002.sql
+[2021-06-06 03:12:59,026][47855][MainThread][I][utils.py:excuteSqlFile:283] : ;
+[2021-06-06 03:12:59,049][47855][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:14:59,921][47919][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:14:59,930][47919][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:14:59,931][47919][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:14:59,943][47919][MainThread][I][server.py:<module>:40] : []
+[2021-06-06 03:14:59,944][47919][MainThread][I][server.py:<module>:51] : ['001', '002']
+[2021-06-06 03:14:59,944][47919][MainThread][I][server.py:<module>:55] : ./migrate/001.sql
+[2021-06-06 03:14:59,951][47919][MainThread][I][utils.py:excuteSqlFile:283] : DROP DATABASE IF EXISTS `gogolook`;
+[2021-06-06 03:14:59,988][47919][MainThread][I][utils.py:excuteSqlFile:283] : CREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+[2021-06-06 03:15:00,007][47919][MainThread][I][utils.py:excuteSqlFile:283] : USE `gogolook`;
+[2021-06-06 03:15:00,012][47919][MainThread][I][utils.py:excuteSqlFile:283] : START TRANSACTION;
+[2021-06-06 03:15:00,016][47919][MainThread][I][utils.py:excuteSqlFile:283] : drop table if exists gogolook.task;
+[2021-06-06 03:15:00,026][47919][MainThread][I][utils.py:excuteSqlFile:283] : create table gogolook.task(    `id` INT NOT NULL AUTO_INCREMENT,    `name` VARCHAR(20) NOT NULL,    `status` VARCHAR(100) NOT NULL,    PRIMARY KEY ( `id` ))engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務';
+[2021-06-06 03:15:00,068][47919][MainThread][I][utils.py:excuteSqlFile:283] :     COMMIT;
+[2021-06-06 03:15:00,074][47919][MainThread][I][utils.py:excuteSqlFile:283] : ;
+[2021-06-06 03:15:00,085][47919][MainThread][I][dao_migrate.py:addMigrate:48] : 001
+[2021-06-06 03:15:00,096][47919][MainThread][I][server.py:<module>:61] : excute ./migrate/001.sql result:
+[2021-06-06 03:15:00,096][47919][MainThread][I][server.py:<module>:55] : ./migrate/002.sql
+[2021-06-06 03:15:00,108][47919][MainThread][I][utils.py:excuteSqlFile:283] : ;
+[2021-06-06 03:15:00,120][47919][MainThread][I][dao_migrate.py:addMigrate:48] : 002
+[2021-06-06 03:15:00,130][47919][MainThread][I][server.py:<module>:61] : excute ./migrate/002.sql result:
+[2021-06-06 03:15:00,369][47919][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:15:25,721][47953][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:15:25,730][47953][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:15:25,731][47953][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:15:25,741][47953][MainThread][I][server.py:<module>:40] : ['001', '002']
+[2021-06-06 03:15:25,742][47953][MainThread][I][server.py:<module>:51] : ['001', '002']
+[2021-06-06 03:15:25,749][47953][MainThread][I][dao_migrate.py:addMigrate:48] : 001
+[2021-06-06 03:15:25,754][47953][MainThread][I][server.py:<module>:61] : excute ./migrate/001.sql result: True
+[2021-06-06 03:15:25,762][47953][MainThread][I][dao_migrate.py:addMigrate:48] : 002
+[2021-06-06 03:15:25,769][47953][MainThread][I][server.py:<module>:61] : excute ./migrate/002.sql result: True
+[2021-06-06 03:15:25,792][47953][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:16:21,653][47993][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:16:21,661][47993][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:16:21,662][47993][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:16:21,675][47993][MainThread][I][server.py:<module>:40] : ['001', '002', '001', '002']
+[2021-06-06 03:16:21,676][47993][MainThread][I][server.py:<module>:51] : ['001', '002']
+[2021-06-06 03:16:21,700][47993][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:19:36,756][48164][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:19:36,765][48164][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:19:36,766][48164][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:19:36,776][48164][MainThread][I][server.py:<module>:40] : []
+[2021-06-06 03:19:36,777][48164][MainThread][I][server.py:<module>:51] : ['001', '002']
+[2021-06-06 03:19:36,777][48164][MainThread][I][server.py:<module>:55] : ./migrate/001.sql
+[2021-06-06 03:19:36,810][48164][MainThread][I][utils.py:excuteSqlFile:283] : DROP DATABASE IF EXISTS `gogolook`;
+[2021-06-06 03:19:36,825][48164][MainThread][I][utils.py:excuteSqlFile:283] : CREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+[2021-06-06 03:19:36,840][48164][MainThread][I][utils.py:excuteSqlFile:283] : USE `gogolook`;
+[2021-06-06 03:19:36,844][48164][MainThread][I][utils.py:excuteSqlFile:283] : START TRANSACTION;
+[2021-06-06 03:19:36,848][48164][MainThread][I][utils.py:excuteSqlFile:283] : drop table if exists gogolook.task;
+[2021-06-06 03:19:36,858][48164][MainThread][I][utils.py:excuteSqlFile:283] : create table gogolook.task(    `id` INT NOT NULL AUTO_INCREMENT,    `name` VARCHAR(20) NOT NULL,    `status` VARCHAR(100) NOT NULL,    PRIMARY KEY ( `id` ))engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務';
+[2021-06-06 03:19:36,891][48164][MainThread][I][utils.py:excuteSqlFile:283] :     COMMIT;
+[2021-06-06 03:19:36,895][48164][MainThread][I][utils.py:excuteSqlFile:283] : ;
+[2021-06-06 03:19:36,898][48164][MainThread][I][server.py:<module>:55] : ./migrate/002.sql
+[2021-06-06 03:19:36,907][48164][MainThread][I][utils.py:excuteSqlFile:283] : ;
+[2021-06-06 03:19:37,136][48164][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:20:50,066][48203][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:20:50,074][48203][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:20:50,075][48203][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:20:50,088][48203][MainThread][I][server.py:<module>:40] : []
+[2021-06-06 03:20:50,089][48203][MainThread][I][server.py:<module>:51] : ['001', '002']
+[2021-06-06 03:20:50,089][48203][MainThread][I][server.py:<module>:55] : ./migrate/001.sql
+[2021-06-06 03:20:50,095][48203][MainThread][I][utils.py:excuteSqlFile:283] : START TRANSACTION;
+[2021-06-06 03:20:50,099][48203][MainThread][I][utils.py:excuteSqlFile:283] : DROP DATABASE IF EXISTS `gogolook`;
+[2021-06-06 03:20:50,156][48203][MainThread][I][utils.py:excuteSqlFile:283] : CREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+[2021-06-06 03:20:50,170][48203][MainThread][I][utils.py:excuteSqlFile:283] : USE `gogolook`;
+[2021-06-06 03:20:50,173][48203][MainThread][I][utils.py:excuteSqlFile:283] : drop table if exists gogolook.task;
+[2021-06-06 03:20:50,183][48203][MainThread][I][utils.py:excuteSqlFile:283] : create table gogolook.task(    `id` INT NOT NULL AUTO_INCREMENT,    `name` VARCHAR(20) NOT NULL,    `status` VARCHAR(100) NOT NULL,    PRIMARY KEY ( `id` ))engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務';
+[2021-06-06 03:20:50,220][48203][MainThread][I][utils.py:excuteSqlFile:283] :     COMMIT;
+[2021-06-06 03:20:50,223][48203][MainThread][I][utils.py:excuteSqlFile:283] : ;
+[2021-06-06 03:20:50,226][48203][MainThread][I][server.py:<module>:55] : ./migrate/002.sql
+[2021-06-06 03:20:50,235][48203][MainThread][I][utils.py:excuteSqlFile:283] : ;
+[2021-06-06 03:20:50,260][48203][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:21:35,581][48236][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:21:35,591][48236][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:21:35,592][48236][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:21:35,603][48236][MainThread][I][server.py:<module>:40] : []
+[2021-06-06 03:21:35,604][48236][MainThread][I][server.py:<module>:51] : ['001', '002']
+[2021-06-06 03:21:35,604][48236][MainThread][I][server.py:<module>:55] : ./migrate/001.sql
+[2021-06-06 03:21:35,614][48236][MainThread][I][utils.py:excuteSqlFile:283] : -- DROP DATABASE IF EXISTS `gogolook`;
+[2021-06-06 03:21:35,619][48236][MainThread][I][utils.py:excuteSqlFile:283] : CREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+[2021-06-06 03:21:35,628][48236][MainThread][I][utils.py:excuteSqlFile:283] : START TRANSACTION;
+[2021-06-06 03:21:35,632][48236][MainThread][I][utils.py:excuteSqlFile:283] : USE `gogolook`;
+[2021-06-06 03:21:35,639][48236][MainThread][I][utils.py:excuteSqlFile:283] : drop table if exists gogolook.task;
+[2021-06-06 03:21:35,669][48236][MainThread][I][utils.py:excuteSqlFile:283] : create table gogolook.task(    `id` INT NOT NULL AUTO_INCREMENT,    `name` VARCHAR(20) NOT NULL,    `status` VARCHAR(100) NOT NULL,    PRIMARY KEY ( `id` ))engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務';
+[2021-06-06 03:21:35,712][48236][MainThread][I][utils.py:excuteSqlFile:283] :     COMMIT;
+[2021-06-06 03:21:35,716][48236][MainThread][I][utils.py:excuteSqlFile:283] : ;
+[2021-06-06 03:21:35,721][48236][MainThread][I][server.py:<module>:55] : ./migrate/002.sql
+[2021-06-06 03:21:35,734][48236][MainThread][I][utils.py:excuteSqlFile:283] : ;
+[2021-06-06 03:21:35,763][48236][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:22:10,442][48279][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:22:10,450][48279][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:22:10,452][48279][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:22:10,463][48279][MainThread][I][server.py:<module>:40] : []
+[2021-06-06 03:22:10,464][48279][MainThread][I][server.py:<module>:51] : ['001', '002']
+[2021-06-06 03:22:10,464][48279][MainThread][I][server.py:<module>:55] : ./migrate/001.sql
+[2021-06-06 03:22:10,471][48279][MainThread][I][utils.py:excuteSqlFile:283] : -- DROP DATABASE IF EXISTS `gogolook`;
+[2021-06-06 03:22:10,474][48279][MainThread][I][utils.py:excuteSqlFile:283] : CREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+[2021-06-06 03:22:10,484][48279][MainThread][I][utils.py:excuteSqlFile:283] : START TRANSACTION;
+[2021-06-06 03:22:10,487][48279][MainThread][I][utils.py:excuteSqlFile:283] : USE `gogolook`;
+[2021-06-06 03:22:10,490][48279][MainThread][I][utils.py:excuteSqlFile:283] : drop table if exists gogolook.task;
+[2021-06-06 03:22:10,517][48279][MainThread][I][utils.py:excuteSqlFile:283] : create table gogolook.task(    `id` INT NOT NULL AUTO_INCREMENT,    `name` VARCHAR(20) NOT NULL,    `status` VARCHAR(100) NOT NULL,    PRIMARY KEY ( `id` ))engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務';
+[2021-06-06 03:22:10,585][48279][MainThread][I][utils.py:excuteSqlFile:283] :     COMMIT;
+[2021-06-06 03:22:10,589][48279][MainThread][I][utils.py:excuteSqlFile:283] : ;
+[2021-06-06 03:22:10,601][48279][MainThread][I][dao_migrate.py:addMigrate:48] : 001
+[2021-06-06 03:22:10,608][48279][MainThread][I][server.py:<module>:61] : excute ./migrate/001.sql result: True
+[2021-06-06 03:22:10,608][48279][MainThread][I][server.py:<module>:55] : ./migrate/002.sql
+[2021-06-06 03:22:10,616][48279][MainThread][I][utils.py:excuteSqlFile:283] : ;
+[2021-06-06 03:22:10,624][48279][MainThread][I][dao_migrate.py:addMigrate:48] : 002
+[2021-06-06 03:22:10,633][48279][MainThread][I][server.py:<module>:61] : excute ./migrate/002.sql result: True
+[2021-06-06 03:22:10,656][48279][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:22:20,971][48311][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:22:20,981][48311][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:22:20,982][48311][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:22:20,992][48311][MainThread][I][server.py:<module>:40] : ['001', '002']
+[2021-06-06 03:22:20,993][48311][MainThread][I][server.py:<module>:51] : ['001', '002']
+[2021-06-06 03:22:21,016][48311][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:22:54,260][48349][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:22:54,270][48349][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:22:54,271][48349][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:22:54,282][48349][MainThread][I][server.py:<module>:40] : ['001', '002']
+[2021-06-06 03:22:54,283][48349][MainThread][I][server.py:<module>:51] : ['001', '002']
+[2021-06-06 03:22:54,306][48349][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:23:53,039][48392][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:23:53,048][48392][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:23:53,049][48392][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:23:53,061][48392][MainThread][I][server.py:<module>:40] : []
+[2021-06-06 03:23:53,062][48392][MainThread][I][server.py:<module>:51] : ['001', '002']
+[2021-06-06 03:23:53,062][48392][MainThread][I][server.py:<module>:55] : ./migrate/001.sql
+[2021-06-06 03:23:53,068][48392][MainThread][I][utils.py:excuteSqlFile:283] : -- DROP DATABASE IF EXISTS `gogolook`;
+[2021-06-06 03:23:53,071][48392][MainThread][I][utils.py:excuteSqlFile:283] : CREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+[2021-06-06 03:23:53,077][48392][MainThread][I][utils.py:excuteSqlFile:283] : START TRANSACTION;
+[2021-06-06 03:23:53,080][48392][MainThread][I][utils.py:excuteSqlFile:283] : USE `gogolook`;
+[2021-06-06 03:23:53,084][48392][MainThread][I][utils.py:excuteSqlFile:283] : drop table if exists gogolook.task;
+[2021-06-06 03:23:53,110][48392][MainThread][I][utils.py:excuteSqlFile:283] : create table gogolook.task(    `id` INT NOT NULL AUTO_INCREMENT,    `name` VARCHAR(20) NOT NULL,    `status` BOOLEAN DEFAULT false,    PRIMARY KEY ( `id` ))engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務';
+[2021-06-06 03:23:53,145][48392][MainThread][I][utils.py:excuteSqlFile:283] :     COMMIT;
+[2021-06-06 03:23:53,149][48392][MainThread][I][utils.py:excuteSqlFile:283] : ;
+[2021-06-06 03:23:53,157][48392][MainThread][I][dao_migrate.py:addMigrate:48] : 001
+[2021-06-06 03:23:53,169][48392][MainThread][I][server.py:<module>:62] : excute ./migrate/001.sql result: True
+[2021-06-06 03:23:53,169][48392][MainThread][I][server.py:<module>:55] : ./migrate/002.sql
+[2021-06-06 03:23:53,177][48392][MainThread][I][utils.py:excuteSqlFile:283] : ;
+[2021-06-06 03:23:53,187][48392][MainThread][I][dao_migrate.py:addMigrate:48] : 002
+[2021-06-06 03:23:53,198][48392][MainThread][I][server.py:<module>:62] : excute ./migrate/002.sql result: True
+[2021-06-06 03:23:53,396][48392][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:36:59,927][48904][MainThread][I][utils.py:setLogFileName:78] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:36:59,933][48904][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:36:59,934][48904][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:36:59,969][48904][MainThread][I][server.py:<module>:39] : []
+[2021-06-06 03:36:59,970][48904][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 03:36:59,970][48904][MainThread][I][server.py:<module>:54] : ./migrate/001.sql
+[2021-06-06 03:36:59,976][48904][MainThread][I][utils.py:excuteSqlFile:283] : -- DROP DATABASE IF EXISTS `gogolook`;
+[2021-06-06 03:36:59,979][48904][MainThread][I][utils.py:excuteSqlFile:283] : CREATE DATABASE IF NOT EXISTS `gogolook` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+[2021-06-06 03:36:59,994][48904][MainThread][I][utils.py:excuteSqlFile:283] : START TRANSACTION;
+[2021-06-06 03:36:59,997][48904][MainThread][I][utils.py:excuteSqlFile:283] : USE `gogolook`;
+[2021-06-06 03:37:00,003][48904][MainThread][I][utils.py:excuteSqlFile:283] : drop table if exists gogolook.tasks;
+[2021-06-06 03:37:00,014][48904][MainThread][I][utils.py:excuteSqlFile:283] : create table gogolook.tasks(    `id` INT NOT NULL AUTO_INCREMENT,    `name` VARCHAR(20) NOT NULL,    `status` BOOLEAN DEFAULT false,    PRIMARY KEY ( `id` ))engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='任務';
+[2021-06-06 03:37:00,051][48904][MainThread][I][utils.py:excuteSqlFile:283] :     COMMIT;
+[2021-06-06 03:37:00,054][48904][MainThread][I][utils.py:excuteSqlFile:283] : ;
+[2021-06-06 03:37:00,066][48904][MainThread][I][daoMigrate.py:addMigrate:48] : 001
+[2021-06-06 03:37:00,073][48904][MainThread][I][server.py:<module>:61] : migrate ./migrate/001.sql result: True
+[2021-06-06 03:37:00,073][48904][MainThread][I][server.py:<module>:54] : ./migrate/002.sql
+[2021-06-06 03:37:00,079][48904][MainThread][I][utils.py:excuteSqlFile:283] : ;
+[2021-06-06 03:37:00,087][48904][MainThread][I][daoMigrate.py:addMigrate:48] : 002
+[2021-06-06 03:37:00,097][48904][MainThread][I][server.py:<module>:61] : migrate ./migrate/002.sql result: True
+[2021-06-06 03:37:00,261][48904][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:39:18,733][49140][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:39:18,737][49140][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:39:18,738][49140][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:39:18,750][49140][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 03:39:18,751][49140][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 03:39:18,964][49140][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:44:23,573][49281][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:44:23,578][49281][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:44:23,579][49281][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:44:23,589][49281][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 03:44:23,590][49281][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 03:44:23,754][49281][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:44:33,693][49281][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 03:44:33] "[33mGET /getTasks HTTP/1.1[0m" 404 -
+[2021-06-06 03:44:54,587][49281][  Thread-2][E][controller.py:get:37] : GetTasks error: File "/Users/chenhunglin/python/gogolook/module/controller.py", line 33, in get: [TypeError] getTasks() missing 1 required positional argument: 'data'
+[2021-06-06 03:44:54,588][49281][  Thread-2][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 03:44:54] "[37mGET /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 03:46:01,228][49437][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:46:01,233][49437][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:46:01,234][49437][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:46:01,246][49437][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 03:46:01,247][49437][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 03:46:01,270][49437][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:46:02,201][49437][  Thread-1][I][controller.py:get:34] : []
+[2021-06-06 03:46:02,203][49437][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 03:46:02] "[37mGET /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 03:52:11,398][49614][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:52:11,405][49614][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:52:11,406][49614][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:52:11,418][49614][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 03:52:11,419][49614][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 03:52:11,628][49614][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:52:19,447][49614][  Thread-1][I][controller.py:post:44] : {'result': {'name': '買晚餐', 'status': 0, 'id': 1}}
+[2021-06-06 03:52:19,454][49614][  Thread-1][I][daoGogolook.py:addTasks:44] : ('買晚餐', 0)
+[2021-06-06 03:52:19,464][49614][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 03:52:19] "[37mPOST /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 03:53:44,609][49723][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:53:44,614][49723][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:53:44,616][49723][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:53:44,627][49723][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 03:53:44,628][49723][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 03:53:44,653][49723][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:53:46,283][49723][  Thread-1][I][controller.py:post:44] : {'result': {'name': '買晚餐', 'status': 0, 'id': 1}}
+[2021-06-06 03:53:46,291][49723][  Thread-1][I][daoGogolook.py:addTasks:44] : ('買晚餐', 0)
+[2021-06-06 03:53:46,305][49723][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 03:53:46] "[37mPOST /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 03:55:07,360][49815][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:55:07,364][49815][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:55:07,365][49815][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:55:07,375][49815][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 03:55:07,376][49815][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 03:55:07,548][49815][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:55:11,677][49815][  Thread-1][I][controller.py:post:44] : {'result': {'name': '買晚餐', 'status': 0, 'id': 1}}
+[2021-06-06 03:55:11,688][49815][  Thread-1][I][daoGogolook.py:addTasks:44] : ('買晚餐', 0)
+[2021-06-06 03:55:11,688][49815][  Thread-1][I][daoGogolook.py:addTasks:50] : query 'INSERT INTO `gogolook`.`tasks` (name)                 VALUES ( %s )' with params ('買晚餐', 0) failed with not all arguments converted during string formatting
+[2021-06-06 03:55:11,688][49815][  Thread-1][I][daoGogolook.py:addTasks:51] : None
+[2021-06-06 03:55:11,691][49815][  Thread-1][E][controller.py:post:48] : AddTasks error: File "/usr/local/lib/python3.9/site-packages/pymysql/cursors.py", line 147, in mogrify: [TypeError] not all arguments converted during string formatting
+[2021-06-06 03:55:11,692][49815][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 03:55:11] "[37mPOST /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 03:55:36,800][49875][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:55:36,805][49875][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:55:36,806][49875][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:55:36,818][49875][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 03:55:36,819][49875][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 03:55:36,841][49875][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:55:38,208][49875][  Thread-1][I][controller.py:post:44] : {'result': {'name': '買晚餐', 'status': 0, 'id': 1}}
+[2021-06-06 03:55:38,221][49875][  Thread-1][I][daoGogolook.py:addTasks:43] : 買晚餐
+[2021-06-06 03:55:38,232][49875][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 03:55:38] "[37mPOST /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 03:59:50,013][49995][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 03:59:50,017][49995][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 03:59:50,018][49995][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 03:59:50,032][49995][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 03:59:50,033][49995][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 03:59:50,252][49995][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 03:59:51,135][49995][  Thread-1][I][controller.py:post:44] : {'result': {'name': '買晚餐', 'status': 0, 'id': 1}}
+[2021-06-06 03:59:51,143][49995][  Thread-1][I][daoGogolook.py:addTasks:46] : 買晚餐
+[2021-06-06 03:59:51,169][49995][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 03:59:51] "[37mPOST /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 04:00:08,787][49995][  Thread-2][I][controller.py:get:34] : [{'id': '1', 'name': '買晚餐', 'status': '0'}, {'id': '2', 'name': '買晚餐', 'status': '0'}, {'id': '3', 'name': '買晚餐', 'status': '0'}, {'id': '4', 'name': '買晚餐', 'status': '0'}]
+[2021-06-06 04:00:08,788][49995][  Thread-2][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:00:08] "[37mGET /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 04:00:15,791][49995][  Thread-3][I][controller.py:get:34] : [{'id': '1', 'name': '買晚餐', 'status': '0'}, {'id': '2', 'name': '買晚餐', 'status': '0'}, {'id': '3', 'name': '買晚餐', 'status': '0'}, {'id': '4', 'name': '買晚餐', 'status': '0'}]
+[2021-06-06 04:00:15,793][49995][  Thread-3][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:00:15] "[37mGET /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 04:01:15,915][50160][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 04:01:15,920][50160][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 04:01:15,921][50160][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 04:01:15,932][50160][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 04:01:15,933][50160][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 04:01:15,958][50160][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 04:01:17,204][50160][  Thread-1][I][controller.py:get:34] : [{'id': '1', 'name': '買晚餐', 'status': '0'}, {'id': '2', 'name': '買晚餐', 'status': '0'}, {'id': '3', 'name': '買晚餐', 'status': '0'}, {'id': '4', 'name': '買晚餐', 'status': '0'}]
+[2021-06-06 04:01:17,206][50160][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:01:17] "[37mGET /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 04:01:31,226][50160][  Thread-2][I][controller.py:post:44] : {'result': {'name': '買晚餐'}}
+[2021-06-06 04:01:31,233][50160][  Thread-2][I][daoGogolook.py:addTasks:46] : 買晚餐
+[2021-06-06 04:01:31,252][50160][  Thread-2][E][controller.py:post:51] : AddTasks error: File "/Users/chenhunglin/python/gogolook/module/daoGogolook.py", line 36, in getTasks: [TypeError] can only concatenate str (not "NoneType") to str
+[2021-06-06 04:01:31,253][50160][  Thread-2][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:01:31] "[37mPOST /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 04:03:56,340][50309][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 04:03:56,345][50309][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 04:03:56,347][50309][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 04:03:56,357][50309][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 04:03:56,358][50309][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 04:03:56,562][50309][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 04:03:57,403][50309][  Thread-1][I][controller.py:post:44] : {'result': {'name': '買晚餐'}}
+[2021-06-06 04:03:57,418][50309][  Thread-1][I][daoGogolook.py:addTasks:46] : None
+[2021-06-06 04:03:57,422][50309][  Thread-1][I][daoGogolook.py:addTasks:52] : query 'INSERT INTO `gogolook`.`tasks` (name) VALUES ( %s )' with params None failed with (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s )' at line 1")
+[2021-06-06 04:03:57,422][50309][  Thread-1][I][daoGogolook.py:addTasks:53] : None
+[2021-06-06 04:03:57,429][50309][  Thread-1][E][controller.py:post:51] : AddTasks error: File "/usr/local/lib/python3.9/site-packages/pymysql/err.py", line 109, in raise_mysql_exception: [ProgrammingError] 1064
+[2021-06-06 04:03:57,431][50309][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:03:57] "[37mPOST /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 04:04:15,972][50309][  Thread-2][I][controller.py:post:44] : {'name': '買晚餐'}
+[2021-06-06 04:04:15,981][50309][  Thread-2][I][daoGogolook.py:addTasks:46] : 買晚餐
+[2021-06-06 04:04:16,004][50309][  Thread-2][E][controller.py:post:51] : AddTasks error: File "/Users/chenhunglin/python/gogolook/module/daoGogolook.py", line 36, in getTasks: [TypeError] can only concatenate str (not "NoneType") to str
+[2021-06-06 04:04:16,005][50309][  Thread-2][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:04:16] "[37mPOST /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 04:18:08,101][50483][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 04:18:08,106][50483][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 04:18:08,107][50483][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 04:18:08,117][50483][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 04:18:08,119][50483][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 04:18:08,342][50483][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 04:18:09,480][50483][  Thread-1][I][controller.py:post:44] : {'name': '買晚餐'}
+[2021-06-06 04:18:09,487][50483][  Thread-1][I][daoGogolook.py:addTasks:48] : 買晚餐
+[2021-06-06 04:18:09,510][50483][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:18:09] "[37mPOST /tasks HTTP/1.1[0m" 201 -
+[2021-06-06 04:19:06,727][50551][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 04:19:06,731][50551][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 04:19:06,732][50551][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 04:19:06,743][50551][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 04:19:06,743][50551][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 04:19:06,763][50551][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 04:19:08,570][50551][  Thread-1][I][controller.py:post:44] : {'name': '買晚餐'}
+[2021-06-06 04:19:08,579][50551][  Thread-1][I][daoGogolook.py:addTasks:48] : 買晚餐
+[2021-06-06 04:19:08,604][50551][  Thread-1][I][daoGogolook.py:getTasks:38] : getTasks error: select * from gogolook.tasks order by 1 desc limit 1;
+[2021-06-06 04:19:08,605][50551][  Thread-1][E][controller.py:post:51] : AddTasks error: File "/Users/chenhunglin/python/gogolook/module/daoGogolook.py", line 33, in getTasks: [TypeError] can only concatenate str (not "int") to str
+[2021-06-06 04:19:08,606][50551][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:19:08] "[37mPOST /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 04:20:00,419][50625][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 04:20:00,424][50625][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 04:20:00,426][50625][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 04:20:00,438][50625][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 04:20:00,439][50625][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 04:20:00,467][50625][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 04:20:01,480][50625][  Thread-1][I][controller.py:post:44] : {'name': '買晚餐'}
+[2021-06-06 04:20:01,487][50625][  Thread-1][I][daoGogolook.py:addTasks:48] : 買晚餐
+[2021-06-06 04:20:01,508][50625][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:20:01] "[37mPOST /tasks HTTP/1.1[0m" 201 -
+[2021-06-06 04:20:18,680][50625][  Thread-2][I][controller.py:post:44] : {'name': '買晚餐'}
+[2021-06-06 04:20:18,687][50625][  Thread-2][I][daoGogolook.py:addTasks:48] : 買晚餐
+[2021-06-06 04:20:18,708][50625][  Thread-2][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:20:18] "[37mPOST /tasks HTTP/1.1[0m" 201 -
+[2021-06-06 04:20:44,893][50625][  Thread-3][I][daoGogolook.py:getTasks:38] : getTasks error: select * from `gogolook`.`tasks`;
+[2021-06-06 04:20:44,894][50625][  Thread-3][E][controller.py:get:37] : GetTasks error: File "/Users/chenhunglin/python/gogolook/module/daoGogolook.py", line 28, in getTasks: [AttributeError] 'NoneType' object has no attribute 'get'
+[2021-06-06 04:20:44,895][50625][  Thread-3][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:20:44] "[37mGET /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 04:21:04,640][50816][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 04:21:04,644][50816][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 04:21:04,645][50816][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 04:21:04,656][50816][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 04:21:04,657][50816][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 04:21:04,821][50816][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 04:21:06,031][50816][  Thread-1][I][daoGogolook.py:getTasks:38] : getTasks error: select * from `gogolook`.`tasks`;
+[2021-06-06 04:21:06,032][50816][  Thread-1][E][controller.py:get:37] : GetTasks error: File "/Users/chenhunglin/python/gogolook/module/daoGogolook.py", line 28, in getTasks: [AttributeError] 'NoneType' object has no attribute 'get'
+[2021-06-06 04:21:06,034][50816][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:21:06] "[37mGET /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 04:23:48,980][50907][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 04:23:48,985][50907][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 04:23:48,987][50907][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 04:23:48,998][50907][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 04:23:48,999][50907][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 04:23:49,169][50907][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 04:23:50,924][50907][  Thread-1][I][daoGogolook.py:getTasks:22] : None
+[2021-06-06 04:23:50,927][50907][  Thread-1][I][daoGogolook.py:getTasks:39] : getTasks error: select * from `gogolook`.`tasks`;
+[2021-06-06 04:23:50,928][50907][  Thread-1][E][controller.py:get:37] : GetTasks error: File "/Users/chenhunglin/python/gogolook/module/daoGogolook.py", line 29, in getTasks: [AttributeError] 'NoneType' object has no attribute 'get'
+[2021-06-06 04:23:50,929][50907][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:23:50] "[37mGET /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 04:24:27,986][50968][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 04:24:27,992][50968][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 04:24:27,993][50968][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 04:24:28,004][50968][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 04:24:28,005][50968][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 04:24:28,029][50968][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 04:24:30,426][50968][  Thread-1][I][daoGogolook.py:getTasks:22] : None
+[2021-06-06 04:24:30,426][50968][  Thread-1][I][daoGogolook.py:getTasks:23] : True
+[2021-06-06 04:24:30,429][50968][  Thread-1][I][daoGogolook.py:getTasks:40] : getTasks error: select * from `gogolook`.`tasks`;
+[2021-06-06 04:24:30,430][50968][  Thread-1][E][controller.py:get:37] : GetTasks error: File "/Users/chenhunglin/python/gogolook/module/daoGogolook.py", line 30, in getTasks: [AttributeError] 'NoneType' object has no attribute 'get'
+[2021-06-06 04:24:30,431][50968][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:24:30] "[37mGET /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 04:25:00,949][51027][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 04:25:00,953][51027][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 04:25:00,955][51027][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 04:25:00,968][51027][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 04:25:00,969][51027][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 04:25:00,992][51027][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 04:25:02,115][51027][  Thread-1][I][daoGogolook.py:getTasks:22] : None
+[2021-06-06 04:25:02,115][51027][  Thread-1][I][daoGogolook.py:getTasks:25] : True
+[2021-06-06 04:25:02,119][51027][  Thread-1][I][daoGogolook.py:getTasks:40] : getTasks error: select * from `gogolook`.`tasks`;
+[2021-06-06 04:25:02,120][51027][  Thread-1][E][controller.py:get:37] : GetTasks error: File "/Users/chenhunglin/python/gogolook/module/daoGogolook.py", line 30, in getTasks: [AttributeError] 'NoneType' object has no attribute 'get'
+[2021-06-06 04:25:02,121][51027][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:25:02] "[37mGET /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 04:25:14,274][51027][  Thread-2][I][daoGogolook.py:getTasks:22] : None
+[2021-06-06 04:25:14,274][51027][  Thread-2][I][daoGogolook.py:getTasks:25] : True
+[2021-06-06 04:25:14,277][51027][  Thread-2][I][daoGogolook.py:getTasks:40] : getTasks error: select * from `gogolook`.`tasks`;
+[2021-06-06 04:25:14,277][51027][  Thread-2][E][controller.py:get:37] : GetTasks error: File "/Users/chenhunglin/python/gogolook/module/daoGogolook.py", line 30, in getTasks: [AttributeError] 'NoneType' object has no attribute 'get'
+[2021-06-06 04:25:14,278][51027][  Thread-2][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:25:14] "[37mGET /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 04:25:36,085][51124][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 04:25:36,090][51124][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 04:25:36,091][51124][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 04:25:36,101][51124][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 04:25:36,102][51124][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 04:25:36,125][51124][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 04:25:37,533][51124][  Thread-1][I][controller.py:get:34] : [{'id': 1, 'name': '買晚餐', 'status': 0}, {'id': 2, 'name': '買晚餐', 'status': 0}, {'id': 3, 'name': '買晚餐', 'status': 0}, {'id': 4, 'name': '買晚餐', 'status': 0}, {'id': 5, 'name': '買晚餐', 'status': 0}, {'id': 6, 'name': '買晚餐', 'status': 0}, {'id': 7, 'name': '買晚餐', 'status': 0}, {'id': 8, 'name': '買晚餐', 'status': 0}, {'id': 9, 'name': '買晚餐', 'status': 0}, {'id': 10, 'name': '買晚餐', 'status': 0}]
+[2021-06-06 04:25:37,535][51124][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:25:37] "[37mGET /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 04:25:51,742][51124][  Thread-2][I][controller.py:get:34] : [{'id': 1, 'name': '買晚餐', 'status': 0}, {'id': 2, 'name': '買晚餐', 'status': 0}, {'id': 3, 'name': '買晚餐', 'status': 0}, {'id': 4, 'name': '買晚餐', 'status': 0}, {'id': 5, 'name': '買晚餐', 'status': 0}, {'id': 6, 'name': '買晚餐', 'status': 0}, {'id': 7, 'name': '買晚餐', 'status': 0}, {'id': 8, 'name': '買晚餐', 'status': 0}, {'id': 9, 'name': '買晚餐', 'status': 0}, {'id': 10, 'name': '買晚餐', 'status': 0}]
+[2021-06-06 04:25:51,744][51124][  Thread-2][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:25:51] "[37mGET /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 04:28:26,273][51271][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 04:28:26,277][51271][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 04:28:26,279][51271][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 04:28:26,293][51271][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 04:28:26,294][51271][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 04:28:26,544][51271][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 04:29:16,901][51271][  Thread-1][E][controller.py:put:67] : EditTasks error: File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 353, in raw_decode: [JSONDecodeError] Expecting ':' delimiter: line 1 column 6 (char 5)
+[2021-06-06 04:29:16,902][51271][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:29:16] "[37mPUT /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 04:29:44,510][51271][  Thread-2][I][controller.py:put:56] : {'id': 3, 'name': '買晚餐', 'status': 1}
+[2021-06-06 04:29:44,530][51271][  Thread-2][I][daoGogolook.py:editTasks:66] : ('買晚餐', 1)
+[2021-06-06 04:29:44,539][51271][  Thread-2][I][controller.py:put:61] : edit result:True
+[2021-06-06 04:29:44,550][51271][  Thread-2][I][controller.py:put:64] : [{'id': 3, 'name': '買晚餐', 'status': 1}]
+[2021-06-06 04:29:44,550][51271][  Thread-2][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:29:44] "[37mPUT /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 04:30:17,458][51415][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 04:30:17,463][51415][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 04:30:17,464][51415][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 04:30:17,474][51415][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 04:30:17,475][51415][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 04:30:17,497][51415][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 04:30:22,130][51415][  Thread-1][I][controller.py:put:57] : {'id': 3, 'name': '買晚餐', 'status': 0}
+[2021-06-06 04:30:22,147][51415][  Thread-1][I][daoGogolook.py:editTasks:66] : ('買晚餐', 0)
+[2021-06-06 04:30:22,159][51415][  Thread-1][I][controller.py:put:62] : edit result:True
+[2021-06-06 04:30:22,169][51415][  Thread-1][I][controller.py:put:65] : [{'id': 3, 'name': '買晚餐', 'status': 0}]
+[2021-06-06 04:30:22,170][51415][  Thread-1][E][controller.py:put:68] : EditTasks error: File "/Users/chenhunglin/python/gogolook/module/controller.py", line 66, in put: [TypeError] unhashable type: 'list'
+[2021-06-06 04:30:22,171][51415][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:30:22] "[37mPUT /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 04:30:38,693][51480][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 04:30:38,697][51480][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 04:30:38,699][51480][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 04:30:38,709][51480][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 04:30:38,710][51480][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 04:30:38,909][51480][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 04:30:39,967][51480][  Thread-1][I][controller.py:put:57] : {'id': 3, 'name': '買晚餐', 'status': 0}
+[2021-06-06 04:30:39,991][51480][  Thread-1][I][daoGogolook.py:editTasks:66] : ('買晚餐', 0)
+[2021-06-06 04:30:39,996][51480][  Thread-1][I][controller.py:put:62] : edit result:True
+[2021-06-06 04:30:40,008][51480][  Thread-1][I][controller.py:put:65] : [{'id': 3, 'name': '買晚餐', 'status': 0}]
+[2021-06-06 04:30:40,009][51480][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:30:40] "[37mPUT /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 04:30:45,850][51480][  Thread-2][I][controller.py:put:57] : {'id': 3, 'name': '買晚餐1', 'status': 0}
+[2021-06-06 04:30:45,872][51480][  Thread-2][I][daoGogolook.py:editTasks:66] : ('買晚餐1', 0)
+[2021-06-06 04:30:45,881][51480][  Thread-2][I][controller.py:put:62] : edit result:True
+[2021-06-06 04:30:45,894][51480][  Thread-2][I][controller.py:put:65] : [{'id': 3, 'name': '買晚餐1', 'status': 0}]
+[2021-06-06 04:30:45,896][51480][  Thread-2][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:30:45] "[37mPUT /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 04:30:52,985][51480][  Thread-3][I][controller.py:put:57] : {'id': 3, 'name': '買晚餐2', 'status': 1}
+[2021-06-06 04:30:53,008][51480][  Thread-3][I][daoGogolook.py:editTasks:66] : ('買晚餐2', 1)
+[2021-06-06 04:30:53,018][51480][  Thread-3][I][controller.py:put:62] : edit result:True
+[2021-06-06 04:30:53,030][51480][  Thread-3][I][controller.py:put:65] : [{'id': 3, 'name': '買晚餐2', 'status': 1}]
+[2021-06-06 04:30:53,031][51480][  Thread-3][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:30:53] "[37mPUT /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 04:32:45,725][51620][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 04:32:45,731][51620][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 04:32:45,732][51620][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 04:32:45,742][51620][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 04:32:45,743][51620][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 04:32:45,921][51620][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 04:33:18,735][51620][  Thread-1][I][controller.py:delete:75] : 2
+[2021-06-06 04:33:18,736][51620][  Thread-1][E][controller.py:delete:85] : DelTasks error: File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode: [JSONDecodeError] Expecting value: line 1 column 1 (char 0)
+[2021-06-06 04:33:18,737][51620][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:33:18] "[37mDELETE /tasks/2 HTTP/1.1[0m" 200 -
+[2021-06-06 04:34:22,912][51755][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 04:34:22,917][51755][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 04:34:22,918][51755][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 04:34:22,933][51755][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 04:34:22,935][51755][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 04:34:22,958][51755][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 04:34:25,592][51755][  Thread-1][I][controller.py:delete:76] : 2
+[2021-06-06 04:34:25,602][51755][  Thread-1][E][controller.py:delete:83] : DelTasks error: File "/Users/chenhunglin/python/gogolook/module/daoGogolook.py", line 90, in delTasks: [TypeError] can only concatenate str (not "NoneType") to str
+[2021-06-06 04:34:25,603][51755][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:34:25] "[37mDELETE /tasks/2 HTTP/1.1[0m" 200 -
+[2021-06-06 04:34:51,201][51815][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 04:34:51,207][51815][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 04:34:51,209][51815][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 04:34:51,219][51815][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 04:34:51,220][51815][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 04:34:51,458][51815][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 04:34:52,320][51815][  Thread-1][I][controller.py:delete:76] : 2
+[2021-06-06 04:34:52,338][51815][  Thread-1][I][daoGogolook.py:delTasks:87] : 1
+[2021-06-06 04:34:52,340][51815][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:34:52] "[37mDELETE /tasks/2 HTTP/1.1[0m" 200 -
+[2021-06-06 04:35:34,484][51815][  Thread-2][I][controller.py:get:35] : [{'id': 1, 'name': '買晚餐2', 'status': 1}, {'id': 3, 'name': '買晚餐2', 'status': 1}, {'id': 4, 'name': '買晚餐2', 'status': 1}, {'id': 5, 'name': '買晚餐2', 'status': 1}, {'id': 6, 'name': '買晚餐2', 'status': 1}, {'id': 7, 'name': '買晚餐2', 'status': 1}, {'id': 8, 'name': '買晚餐2', 'status': 1}, {'id': 9, 'name': '買晚餐2', 'status': 1}, {'id': 10, 'name': '買晚餐2', 'status': 1}]
+[2021-06-06 04:35:34,485][51815][  Thread-2][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:35:34] "[37mGET /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 04:35:41,693][51815][  Thread-3][I][controller.py:delete:76] : 5
+[2021-06-06 04:35:41,709][51815][  Thread-3][I][daoGogolook.py:delTasks:87] : 1
+[2021-06-06 04:35:41,711][51815][  Thread-3][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:35:41] "[37mDELETE /tasks/5 HTTP/1.1[0m" 200 -
+[2021-06-06 04:35:54,954][51815][  Thread-4][I][controller.py:get:35] : [{'id': 1, 'name': '買晚餐2', 'status': 1}, {'id': 3, 'name': '買晚餐2', 'status': 1}, {'id': 4, 'name': '買晚餐2', 'status': 1}, {'id': 6, 'name': '買晚餐2', 'status': 1}, {'id': 7, 'name': '買晚餐2', 'status': 1}, {'id': 8, 'name': '買晚餐2', 'status': 1}, {'id': 9, 'name': '買晚餐2', 'status': 1}, {'id': 10, 'name': '買晚餐2', 'status': 1}]
+[2021-06-06 04:35:54,955][51815][  Thread-4][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:35:54] "[37mGET /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 04:47:52,944][52840][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 04:47:52,949][52840][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 04:47:52,950][52840][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 04:47:52,960][52840][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 04:47:52,961][52840][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 04:49:26,159][52889][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 04:49:26,163][52889][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 04:49:26,164][52889][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 04:49:26,176][52889][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 04:49:26,177][52889][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 04:49:26,418][52889][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 04:49:39,344][52889][  Thread-1][I][controller.py:get:35] : [{'id': 1, 'name': '買晚餐2', 'status': 1}, {'id': 3, 'name': '買晚餐2', 'status': 1}, {'id': 4, 'name': '買晚餐2', 'status': 1}, {'id': 6, 'name': '買晚餐2', 'status': 1}, {'id': 7, 'name': '買晚餐2', 'status': 1}, {'id': 8, 'name': '買晚餐2', 'status': 1}, {'id': 9, 'name': '買晚餐2', 'status': 1}, {'id': 10, 'name': '買晚餐2', 'status': 1}]
+[2021-06-06 04:49:39,346][52889][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 04:49:39] "[37mGET /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 05:00:01,321][53458][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 05:00:01,326][53458][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 05:00:01,327][53458][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 05:00:01,338][53458][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 05:00:01,339][53458][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 05:00:01,533][53458][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 05:08:17,169][53635][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 05:08:17,174][53635][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 05:08:17,176][53635][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 05:08:17,187][53635][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 05:08:17,188][53635][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 05:10:19,194][53705][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 05:10:19,198][53705][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 05:10:19,199][53705][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 05:10:19,210][53705][MainThread][I][server.py:<module>:40] : ['001', '002']
+[2021-06-06 05:10:19,211][53705][MainThread][I][server.py:<module>:51] : ['001', '002']
+[2021-06-06 05:10:36,027][53743][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 05:10:36,030][53743][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 05:10:36,032][53743][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 05:10:36,042][53743][MainThread][I][server.py:<module>:40] : ['001', '002']
+[2021-06-06 05:10:36,043][53743][MainThread][I][server.py:<module>:51] : ['001', '002']
+[2021-06-06 05:34:44,151][53932][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 05:34:44,156][53932][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 05:34:44,157][53932][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 05:34:44,168][53932][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 05:34:44,168][53932][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 05:35:17,151][53964][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 05:35:17,157][53964][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 05:35:17,158][53964][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 05:35:17,167][53964][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 05:35:17,168][53964][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 05:37:14,526][54035][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 05:37:14,531][54035][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 05:37:14,533][54035][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 05:37:14,545][54035][MainThread][I][server.py:<module>:39] : ['001', '002']
+[2021-06-06 05:37:14,546][54035][MainThread][I][server.py:<module>:50] : ['001', '002']
+[2021-06-06 05:38:20,810][54079][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 05:38:20,814][54079][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 05:38:20,815][54079][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 05:38:20,825][54079][MainThread][I][server.py:<module>:37] : ['001', '002']
+[2021-06-06 05:38:20,826][54079][MainThread][I][server.py:<module>:48] : ['001', '002']
+[2021-06-06 05:38:21,044][54079][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 05:38:24,437][54079][  Thread-1][I][controller.py:get:35] : [{'id': 1, 'name': '買晚餐2', 'status': 1}, {'id': 3, 'name': '買晚餐2', 'status': 1}, {'id': 4, 'name': '買晚餐2', 'status': 1}, {'id': 6, 'name': '買晚餐2', 'status': 1}, {'id': 7, 'name': '買晚餐2', 'status': 1}, {'id': 8, 'name': '買晚餐2', 'status': 1}, {'id': 9, 'name': '買晚餐2', 'status': 1}, {'id': 10, 'name': '買晚餐2', 'status': 1}]
+[2021-06-06 05:38:24,440][54079][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 05:38:24] "[37mGET /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 05:42:52,456][54171][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 05:42:52,460][54171][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 05:42:52,461][54171][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 05:42:52,472][54171][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 05:42:52,473][54171][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 05:45:17,802][54299][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 05:45:17,806][54299][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 05:45:17,807][54299][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 05:45:17,818][54299][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 05:45:17,819][54299][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 05:45:39,603][54338][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 05:45:39,607][54338][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 05:45:39,608][54338][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 05:45:39,619][54338][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 05:45:39,620][54338][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 05:45:52,067][54376][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 05:45:52,071][54376][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 05:45:52,072][54376][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 05:45:52,082][54376][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 05:45:52,082][54376][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 05:46:32,543][54416][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 05:46:32,547][54416][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 05:46:32,548][54416][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 05:46:32,563][54416][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 05:46:32,564][54416][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 05:46:32,753][54416][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 05:46:40,465][54416][MainThread][I][controller.py:get:35] : [{'id': 1, 'name': '買晚餐2', 'status': 1}, {'id': 3, 'name': '買晚餐2', 'status': 1}, {'id': 4, 'name': '買晚餐2', 'status': 1}, {'id': 6, 'name': '買晚餐2', 'status': 1}, {'id': 7, 'name': '買晚餐2', 'status': 1}, {'id': 8, 'name': '買晚餐2', 'status': 1}, {'id': 9, 'name': '買晚餐2', 'status': 1}, {'id': 10, 'name': '買晚餐2', 'status': 1}]
+[2021-06-06 05:46:40,467][54416][MainThread][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 05:46:40] "[37mGET /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 05:46:43,736][54416][MainThread][I][controller.py:get:35] : [{'id': 1, 'name': '買晚餐2', 'status': 1}, {'id': 3, 'name': '買晚餐2', 'status': 1}, {'id': 4, 'name': '買晚餐2', 'status': 1}, {'id': 6, 'name': '買晚餐2', 'status': 1}, {'id': 7, 'name': '買晚餐2', 'status': 1}, {'id': 8, 'name': '買晚餐2', 'status': 1}, {'id': 9, 'name': '買晚餐2', 'status': 1}, {'id': 10, 'name': '買晚餐2', 'status': 1}]
+[2021-06-06 05:46:43,737][54416][MainThread][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 05:46:43] "[37mGET /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 05:46:53,260][54553][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 05:46:53,264][54553][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 05:46:53,265][54553][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 05:46:53,276][54553][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 05:46:53,277][54553][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 05:46:53,286][54553][MainThread][I][_internal.py:_log:113] :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2021-06-06 05:48:05,816][54677][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 05:48:05,820][54677][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 05:48:05,821][54677][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 05:48:05,832][54677][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 05:48:05,833][54677][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 05:48:05,837][54677][MainThread][I][server.py:custom_call:67] : <unittest.suite.TestSuite tests=[]>
+[2021-06-06 05:48:05,840][54677][MainThread][I][_internal.py:_log:113] :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2021-06-06 05:50:05,448][54731][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 05:50:05,452][54731][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 05:50:05,453][54731][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 05:50:05,462][54731][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 05:50:05,463][54731][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 05:50:05,468][54731][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[]>
+[2021-06-06 05:50:05,472][54731][MainThread][I][_internal.py:_log:113] :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2021-06-06 05:51:38,769][54796][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 05:51:38,772][54796][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 05:51:38,774][54796][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 05:51:38,785][54796][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 05:51:38,786][54796][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 05:51:38,790][54796][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[]>
+[2021-06-06 05:51:38,794][54796][MainThread][I][_internal.py:_log:113] :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2021-06-06 05:52:00,925][54828][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 05:52:00,929][54828][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 05:52:00,930][54828][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 05:52:00,939][54828][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 05:52:00,940][54828][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 05:52:00,945][54828][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[]>
+[2021-06-06 05:52:00,948][54828][MainThread][I][_internal.py:_log:113] :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2021-06-06 05:52:25,473][54875][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 05:52:25,477][54875][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 05:52:25,478][54875][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 05:52:25,492][54875][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 05:52:25,492][54875][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 05:52:25,502][54875][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.loader._FailedTest testMethod=test_api>]>]>
+[2021-06-06 05:55:13,387][54958][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 05:55:13,391][54958][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 05:55:13,392][54958][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 05:55:13,404][54958][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 05:55:13,404][54958][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 05:55:13,410][54958][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.loader._FailedTest testMethod=test_api>]>]>
+[2021-06-06 05:58:06,997][55033][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 05:58:07,002][55033][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 05:58:07,003][55033][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 05:58:07,014][55033][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 05:58:07,014][55033][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 05:58:07,022][55033][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.loader._FailedTest testMethod=test_api>]>]>
+[2021-06-06 06:00:42,917][55125][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:00:42,921][55125][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:00:42,922][55125][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:00:42,934][55125][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:00:42,934][55125][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:00:42,942][55125][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.loader._FailedTest testMethod=test_api>]>]>
+[2021-06-06 06:01:28,543][55197][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:01:28,548][55197][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:01:28,549][55197][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:01:28,559][55197][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:01:28,560][55197][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:01:28,573][55197][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.loader._FailedTest testMethod=test_api>]>]>
+[2021-06-06 06:01:48,425][55237][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:01:48,429][55237][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:01:48,430][55237][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:01:48,441][55237][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:01:48,441][55237][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:01:48,452][55237][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.loader._FailedTest testMethod=test_api>]>]>
+[2021-06-06 06:02:54,046][55303][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:02:54,050][55303][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:02:54,051][55303][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:02:54,062][55303][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:02:54,063][55303][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:02:54,076][55303][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.loader._FailedTest testMethod=test_api>]>]>
+[2021-06-06 06:03:18,126][55360][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:03:18,130][55360][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:03:18,131][55360][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:03:18,141][55360][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:03:18,142][55360][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:03:18,152][55360][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.loader._FailedTest testMethod=test_api>]>]>
+[2021-06-06 06:04:32,091][55435][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:04:32,096][55435][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:04:32,097][55435][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:04:32,107][55435][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:04:32,108][55435][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:04:32,121][55435][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_api.CheckApi testMethod=test_getTasks>]>, <unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[]>]>]>
+[2021-06-06 06:05:38,379][55512][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:05:38,382][55512][MainThread][I][server.py:<module>:37] : /Users/chenhunglin/python/gogolook
+[2021-06-06 06:05:38,383][55512][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:05:38,384][55512][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:05:38,394][55512][MainThread][I][server.py:<module>:43] : ['001', '002']
+[2021-06-06 06:05:38,395][55512][MainThread][I][server.py:<module>:54] : ['001', '002']
+[2021-06-06 06:05:38,405][55512][MainThread][I][server.py:custom_call:73] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.loader._FailedTest testMethod=test_api>]>]>
+[2021-06-06 06:06:35,141][55582][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:06:35,144][55582][MainThread][I][server.py:<module>:38] : /Users/chenhunglin/python
+[2021-06-06 06:06:35,145][55582][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:06:35,146][55582][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:06:35,158][55582][MainThread][I][server.py:<module>:44] : ['001', '002']
+[2021-06-06 06:06:35,159][55582][MainThread][I][server.py:<module>:55] : ['001', '002']
+[2021-06-06 06:06:35,169][55582][MainThread][I][server.py:custom_call:74] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.loader._FailedTest testMethod=test_api>]>]>
+[2021-06-06 06:07:26,379][55654][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:07:39,458][55695][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:07:39,462][55695][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:07:39,463][55695][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:07:39,472][55695][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:07:39,473][55695][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:07:39,485][55695][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_api.CheckApi testMethod=test_getTasks>]>, <unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[]>]>]>
+[2021-06-06 06:08:38,069][55735][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:08:38,073][55735][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:08:38,074][55735][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:08:38,085][55735][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:08:38,086][55735][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:08:38,098][55735][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.loader._FailedTest testMethod=test_api>]>]>
+[2021-06-06 06:08:48,618][55780][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:08:48,622][55780][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:08:48,623][55780][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:08:48,632][55780][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:08:48,633][55780][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:08:48,643][55780][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_api.CheckApi testMethod=test_getTasks>]>, <unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[]>]>]>
+[2021-06-06 06:09:42,065][55816][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:09:42,069][55816][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:09:42,070][55816][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:09:42,081][55816][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:09:42,082][55816][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:09:42,095][55816][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_api.CheckApi testMethod=test_getTasks>]>, <unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[]>]>]>
+[2021-06-06 06:11:55,794][55877][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:11:55,798][55877][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:11:55,799][55877][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:11:55,808][55877][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:11:55,809][55877][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:11:55,821][55877][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_api.CheckUserAndLogin testMethod=test_signup>, <test_api.CheckUserAndLogin testMethod=test_signup_400>, <test_api.CheckUserAndLogin testMethod=test_signup_422>]>, <unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[]>]>]>
+[2021-06-06 06:12:18,148][55921][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:12:18,152][55921][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:12:18,153][55921][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:12:18,163][55921][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:12:18,164][55921][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:12:18,175][55921][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.loader._FailedTest testMethod=test_api>]>]>
+[2021-06-06 06:12:45,795][55984][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:12:45,799][55984][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:12:45,800][55984][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:12:45,811][55984][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:12:45,812][55984][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:12:45,823][55984][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.loader._FailedTest testMethod=test_api>]>]>
+[2021-06-06 06:13:20,708][56022][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:13:20,712][56022][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:13:20,713][56022][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:13:20,722][56022][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:13:20,723][56022][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:13:20,734][56022][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_api.CheckUserAndLogin testMethod=test_signup>]>, <unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[]>]>]>
+[2021-06-06 06:17:09,863][56085][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:17:09,868][56085][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:17:09,869][56085][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:17:09,878][56085][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:17:09,879][56085][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:17:09,893][56085][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_api.CheckApi testMethod=test_getTasks>]>, <unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[]>]>]>
+[2021-06-06 06:18:11,258][56132][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:18:11,262][56132][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:18:11,263][56132][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:18:11,272][56132][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:18:11,273][56132][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:18:11,288][56132][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_api.CheckApi testMethod=test_getTasks>]>, <unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[]>]>]>
+[2021-06-06 06:18:53,929][56167][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:18:53,934][56167][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:18:53,935][56167][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:18:53,944][56167][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:18:53,945][56167][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:18:53,960][56167][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_api.CheckUserAndLogin testMethod=test_signup>, <test_api.CheckUserAndLogin testMethod=test_signup_400>, <test_api.CheckUserAndLogin testMethod=test_signup_422>]>, <unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[]>]>]>
+[2021-06-06 06:20:30,538][56216][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:20:30,544][56216][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:20:30,545][56216][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:20:30,556][56216][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:20:30,557][56216][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:20:30,572][56216][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.loader._FailedTest testMethod=test_api>]>]>
+[2021-06-06 06:22:47,506][56322][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:22:47,510][56322][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:22:47,511][56322][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:22:47,523][56322][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:22:47,523][56322][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:22:47,537][56322][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_api.CheckUserAndLogin testMethod=test_signup>, <test_api.CheckUserAndLogin testMethod=test_signup_400>, <test_api.CheckUserAndLogin testMethod=test_signup_422>]>, <unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[]>]>]>
+[2021-06-06 06:25:45,132][56406][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:25:45,136][56406][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:25:45,137][56406][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:25:45,148][56406][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:25:45,149][56406][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:25:45,162][56406][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_api.CheckUserAndLogin testMethod=test_signup>, <test_api.CheckUserAndLogin testMethod=test_signup_400>, <test_api.CheckUserAndLogin testMethod=test_signup_422>]>, <unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[]>]>]>
+[2021-06-06 06:25:45,180][56406][MainThread][I][daoGogolook.py:addTasks:48] : unitest
+[2021-06-06 06:25:45,188][56406][MainThread][I][test_api.py:test_signup:37] : True
+[2021-06-06 06:25:45,203][56406][MainThread][I][daoGogolook.py:addTasks:48] : unitest
+[2021-06-06 06:25:45,224][56406][MainThread][I][daoGogolook.py:addTasks:48] : unitest
+[2021-06-06 06:25:45,238][56406][MainThread][I][daoGogolook.py:addTasks:48] : unitest
+[2021-06-06 06:26:00,429][56469][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:26:00,433][56469][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:26:00,434][56469][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:26:00,443][56469][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:26:00,444][56469][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:26:00,457][56469][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_api.CheckUserAndLogin testMethod=test_signup>]>, <unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[]>]>]>
+[2021-06-06 06:26:00,473][56469][MainThread][I][daoGogolook.py:addTasks:48] : unitest
+[2021-06-06 06:26:00,481][56469][MainThread][I][test_api.py:test_signup:37] : True
+[2021-06-06 06:26:27,810][56507][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:26:27,814][56507][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:26:27,815][56507][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:26:27,825][56507][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:26:27,826][56507][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:26:27,839][56507][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_api.CheckUserAndLogin testMethod=test_signup>]>, <unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[]>]>]>
+[2021-06-06 06:26:27,855][56507][MainThread][I][daoGogolook.py:addTasks:48] : unitest
+[2021-06-06 06:26:27,861][56507][MainThread][I][test_api.py:test_signup:37] : True
+[2021-06-06 06:26:27,865][56507][MainThread][I][_internal.py:_log:113] :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2021-06-06 06:26:55,074][56539][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:26:55,077][56539][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:26:55,079][56539][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:26:55,089][56539][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:26:55,090][56539][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:26:55,102][56539][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_api.CheckUserAndLogin testMethod=test_addTasks>]>, <unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[]>]>]>
+[2021-06-06 06:26:55,120][56539][MainThread][I][daoGogolook.py:addTasks:48] : unitest
+[2021-06-06 06:26:55,130][56539][MainThread][I][test_api.py:test_addTasks:37] : True
+[2021-06-06 06:26:55,135][56539][MainThread][I][_internal.py:_log:113] :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2021-06-06 06:27:44,829][56579][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:27:44,833][56579][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:27:44,834][56579][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:27:44,844][56579][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:27:44,845][56579][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:27:44,858][56579][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_api.CheckUserAndLogin testMethod=test_addTasks>]>, <unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[]>]>]>
+[2021-06-06 06:27:44,867][56579][MainThread][I][test_api.py:setUp:26] : <pymysql.connections.Connection object at 0x10379ca30>
+[2021-06-06 06:27:44,874][56579][MainThread][I][daoGogolook.py:addTasks:48] : unitest
+[2021-06-06 06:27:44,882][56579][MainThread][I][test_api.py:test_addTasks:38] : True
+[2021-06-06 06:27:44,887][56579][MainThread][I][_internal.py:_log:113] :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2021-06-06 06:29:10,719][56637][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:29:10,723][56637][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:29:10,724][56637][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:29:10,734][56637][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:29:10,735][56637][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:29:10,749][56637][MainThread][I][server.py:custom_call:68] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_api.CheckUserAndLogin testMethod=test_addTasks>, <test_api.CheckUserAndLogin testMethod=test_getTasks>]>, <unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[]>]>]>
+[2021-06-06 06:29:10,767][56637][MainThread][I][daoGogolook.py:addTasks:48] : unitest
+[2021-06-06 06:29:10,774][56637][MainThread][I][test_api.py:test_addTasks:40] : True
+[2021-06-06 06:29:10,792][56637][MainThread][I][daoGogolook.py:addTasks:48] : unitest
+[2021-06-06 06:29:10,799][56637][MainThread][I][test_api.py:test_getTasks:45] : True
+[2021-06-06 06:29:10,804][56637][MainThread][I][_internal.py:_log:113] :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2021-06-06 06:30:29,031][56815][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:30:29,036][56815][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:30:29,037][56815][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:30:29,047][56815][MainThread][I][server.py:<module>:38] : ['001', '002']
+[2021-06-06 06:30:29,048][56815][MainThread][I][server.py:<module>:49] : ['001', '002']
+[2021-06-06 06:30:29,058][56815][MainThread][I][server.py:<module>:66] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_api.CheckUserAndLogin testMethod=test_addTasks>, <test_api.CheckUserAndLogin testMethod=test_getTasks>]>, <unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[]>]>]>
+[2021-06-06 06:30:29,077][56815][MainThread][I][daoGogolook.py:addTasks:48] : unitest
+[2021-06-06 06:30:29,087][56815][MainThread][I][test_api.py:test_addTasks:40] : True
+[2021-06-06 06:30:29,107][56815][MainThread][I][daoGogolook.py:addTasks:48] : unitest
+[2021-06-06 06:30:29,116][56815][MainThread][I][test_api.py:test_getTasks:45] : True
+[2021-06-06 06:30:29,127][56815][MainThread][I][_internal.py:_log:113] :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2021-06-06 06:31:46,499][56857][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-06-06-log.log
+[2021-06-06 06:31:46,503][56857][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 06:31:46,504][56857][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 06:31:46,515][56857][MainThread][I][server.py:<module>:36] : ['001', '002']
+[2021-06-06 06:31:46,516][56857][MainThread][I][server.py:<module>:47] : ['001', '002']
+[2021-06-06 06:31:46,525][56857][MainThread][I][server.py:<module>:65] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_api.CheckUserAndLogin testMethod=test_addTasks>, <test_api.CheckUserAndLogin testMethod=test_getTasks>]>, <unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[]>]>]>
+[2021-06-06 06:31:46,571][56857][MainThread][I][daoGogolook.py:addTasks:48] : unitest
+[2021-06-06 06:31:46,580][56857][MainThread][I][test_api.py:test_addTasks:40] : True
+[2021-06-06 06:31:46,598][56857][MainThread][I][daoGogolook.py:addTasks:48] : unitest
+[2021-06-06 06:31:46,607][56857][MainThread][I][test_api.py:test_getTasks:45] : True
+[2021-06-06 06:31:46,834][56857][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 06:31:50,846][56857][  Thread-1][I][controller.py:get:35] : [{'id': 1, 'name': '買晚餐2', 'status': 1}, {'id': 3, 'name': '買晚餐2', 'status': 1}, {'id': 4, 'name': '買晚餐2', 'status': 1}, {'id': 6, 'name': '買晚餐2', 'status': 1}, {'id': 7, 'name': '買晚餐2', 'status': 1}, {'id': 8, 'name': '買晚餐2', 'status': 1}, {'id': 9, 'name': '買晚餐2', 'status': 1}, {'id': 10, 'name': '買晚餐2', 'status': 1}, {'id': 11, 'name': 'unitest', 'status': 0}, {'id': 12, 'name': 'unitest', 'status': 0}, {'id': 13, 'name': 'unitest', 'status': 0}, {'id': 14, 'name': 'unitest', 'status': 0}, {'id': 15, 'name': 'unitest', 'status': 0}, {'id': 16, 'name': 'unitest', 'status': 0}, {'id': 17, 'name': 'unitest', 'status': 0}, {'id': 18, 'name': 'unitest', 'status': 0}, {'id': 19, 'name': 'unitest', 'status': 0}, {'id': 20, 'name': 'unitest', 'status': 0}, {'id': 21, 'name': 'unitest', 'status': 0}, {'id': 22, 'name': 'unitest', 'status': 0}, {'id': 23, 'name': 'unitest', 'status': 0}, {'id': 24, 'name': 'unitest', 'status': 0}]
+[2021-06-06 06:31:50,848][56857][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 06:31:50] "[37mGET /tasks HTTP/1.1[0m" 200 -
+[2021-06-06 07:11:07,772][60045][MainThread][I][utils.py:setLogFileName:75] : change log file name to:2021-06-06-log.log
+[2021-06-06 07:11:07,777][60045][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 07:11:07,778][60045][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 07:14:04,733][60194][MainThread][I][utils.py:setLogFileName:75] : change log file name to:2021-06-06-log.log
+[2021-06-06 07:14:04,737][60194][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 07:14:04,738][60194][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 07:14:48,049][60254][MainThread][I][utils.py:setLogFileName:75] : change log file name to:2021-06-06-log.log
+[2021-06-06 07:14:48,055][60254][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 07:15:06,913][60304][MainThread][I][utils.py:setLogFileName:75] : change log file name to:2021-06-06-log.log
+[2021-06-06 07:15:46,098][60349][MainThread][I][utils.py:setLogFileName:75] : change log file name to:2021-06-06-log.log
+[2021-06-06 07:15:46,102][60349][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 07:15:46,103][60349][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 07:15:46,114][60349][MainThread][I][server.py:<module>:31] : ['001', '002']
+[2021-06-06 07:15:46,115][60349][MainThread][I][server.py:<module>:42] : ['001', '002']
+[2021-06-06 07:15:46,127][60349][MainThread][I][server.py:<module>:60] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.loader._FailedTest testMethod=test_api>]>]>
+[2021-06-06 07:16:29,427][60412][MainThread][I][utils.py:setLogFileName:75] : change log file name to:2021-06-06-log.log
+[2021-06-06 07:16:29,431][60412][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 07:16:29,432][60412][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 07:16:29,443][60412][MainThread][I][server.py:<module>:31] : ['001', '002']
+[2021-06-06 07:16:29,444][60412][MainThread][I][server.py:<module>:42] : ['001', '002']
+[2021-06-06 07:16:29,452][60412][MainThread][I][server.py:<module>:60] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.loader._FailedTest testMethod=test_api>]>]>
+[2021-06-06 07:17:14,423][60453][MainThread][I][utils.py:setLogFileName:75] : change log file name to:2021-06-06-log.log
+[2021-06-06 07:17:14,428][60453][MainThread][I][base.py:start:158] : Scheduler started
+[2021-06-06 07:17:14,429][60453][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-06-06 07:17:14,439][60453][MainThread][I][server.py:<module>:31] : ['001', '002']
+[2021-06-06 07:17:14,441][60453][MainThread][I][server.py:<module>:42] : ['001', '002']
+[2021-06-06 07:17:14,453][60453][MainThread][I][server.py:<module>:60] : <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_api.CheckUserAndLogin testMethod=test_addTasks>, <test_api.CheckUserAndLogin testMethod=test_getTasks>]>, <unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[]>]>]>
+[2021-06-06 07:17:14,464][60453][MainThread][I][daoGogolook.py:addTasks:48] : unitest
+[2021-06-06 07:17:14,471][60453][MainThread][I][test_api.py:test_addTasks:40] : True
+[2021-06-06 07:17:14,481][60453][MainThread][I][daoGogolook.py:addTasks:48] : unitest
+[2021-06-06 07:17:14,488][60453][MainThread][I][test_api.py:test_getTasks:45] : True
+[2021-06-06 07:17:14,501][60453][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-06-06 07:17:23,943][60453][  Thread-1][I][controller.py:get:35] : [{'id': 1, 'name': '買晚餐2', 'status': 1}, {'id': 3, 'name': '買晚餐2', 'status': 1}, {'id': 4, 'name': '買晚餐2', 'status': 1}, {'id': 6, 'name': '買晚餐2', 'status': 1}, {'id': 7, 'name': '買晚餐2', 'status': 1}, {'id': 8, 'name': '買晚餐2', 'status': 1}, {'id': 9, 'name': '買晚餐2', 'status': 1}, {'id': 10, 'name': '買晚餐2', 'status': 1}, {'id': 11, 'name': 'unitest', 'status': 0}, {'id': 12, 'name': 'unitest', 'status': 0}, {'id': 13, 'name': 'unitest', 'status': 0}, {'id': 14, 'name': 'unitest', 'status': 0}, {'id': 15, 'name': 'unitest', 'status': 0}, {'id': 16, 'name': 'unitest', 'status': 0}, {'id': 17, 'name': 'unitest', 'status': 0}, {'id': 18, 'name': 'unitest', 'status': 0}, {'id': 19, 'name': 'unitest', 'status': 0}, {'id': 20, 'name': 'unitest', 'status': 0}, {'id': 21, 'name': 'unitest', 'status': 0}, {'id': 22, 'name': 'unitest', 'status': 0}, {'id': 23, 'name': 'unitest', 'status': 0}, {'id': 24, 'name': 'unitest', 'status': 0}, {'id': 25, 'name': 'unitest', 'status': 0}, {'id': 26, 'name': 'unitest', 'status': 0}]
+[2021-06-06 07:17:23,945][60453][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [06/Jun/2021 07:17:23] "[37mGET /tasks HTTP/1.1[0m" 200 -

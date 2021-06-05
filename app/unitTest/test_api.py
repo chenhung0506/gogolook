@@ -8,10 +8,10 @@ currentdir = os.path.dirname(os.path.realpath(__file__))
 parentdir = os.path.dirname(currentdir)
 parentdir = os.path.dirname(parentdir)
 sys.path.append(parentdir)
-from module import callApiUtils
-from module import daoGogolook
-from module import log as logpy
-from module import const
+from app import callApiUtils
+from app import daoGogolook
+from app import log as logpy
+from app import const
 
 log = logpy.logging.getLogger(__name__)
 
@@ -22,7 +22,7 @@ class SettingBase(TestCase):
         return app
 
     def setUp(self):
-        conn = pymysql.Connect(host=const.DB_HOST, port=int(const.DB_PORT), user=const.DB_ACCOUNT, passwd=const.DB_PASSWORD, db='gogolook',charset='utf8')
+        # conn = pymysql.Connect(host=const.DB_HOST, port=int(const.DB_PORT), user=const.DB_ACCOUNT, passwd=const.DB_PASSWORD, db='gogolook',charset='utf8')
         pass
 
     def tearDown(self):

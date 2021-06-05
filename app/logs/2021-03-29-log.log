@@ -1,0 +1,679 @@
+[2021-03-29 11:19:02,057][63471][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-03-29-log.log
+[2021-03-29 11:19:02,070][63471][MainThread][I][base.py:start:158] : Scheduler started
+[2021-03-29 11:19:02,071][63471][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-03-29 11:19:30,909][63675][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-03-29-log.log
+[2021-03-29 11:19:30,923][63675][MainThread][I][base.py:start:158] : Scheduler started
+[2021-03-29 11:19:30,924][63675][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-03-29 11:19:31,173][63675][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-03-29 11:19:53,754][63675][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:19:53] "[32mGET / HTTP/1.1[0m" 302 -
+[2021-03-29 11:19:53,765][63675][  Thread-2][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:19:53] "[37mGET /university/ HTTP/1.1[0m" 200 -
+[2021-03-29 11:19:53,919][63675][  Thread-3][I][controller.py:get:75] : vendor/bootstrap/css/bootstrap.min.css
+[2021-03-29 11:19:53,919][63675][  Thread-4][I][controller.py:get:75] : css/style.css
+[2021-03-29 11:19:53,920][63675][  Thread-5][I][controller.py:get:75] : vendor/jquery/jquery.min.js
+[2021-03-29 11:19:53,921][63675][  Thread-6][I][controller.py:get:75] : vendor/bootstrap/js/bootstrap.min.js
+[2021-03-29 11:19:53,922][63675][  Thread-7][I][controller.py:get:75] : vendor/jquery-easing/jquery.easing.min.js
+[2021-03-29 11:19:53,922][63675][  Thread-8][I][controller.py:get:75] : img/banner.jpg
+[2021-03-29 11:19:53,924][63675][  Thread-3][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:19:53] "[37mGET /university/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+[2021-03-29 11:19:53,924][63675][  Thread-4][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:19:53] "[37mGET /university/css/style.css HTTP/1.1[0m" 200 -
+[2021-03-29 11:19:53,924][63675][  Thread-5][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:19:53] "[37mGET /university/vendor/jquery/jquery.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:19:53,926][63675][  Thread-6][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:19:53] "[37mGET /university/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:19:53,928][63675][  Thread-8][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:19:53] "[37mGET /university/img/banner.jpg HTTP/1.1[0m" 200 -
+[2021-03-29 11:19:53,930][63675][  Thread-7][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:19:53] "[37mGET /university/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:19:53,941][63675][  Thread-9][I][controller.py:get:75] : img/medal/2.png
+[2021-03-29 11:19:53,942][63675][  Thread-9][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:19:53] "[37mGET /university/img/medal/2.png HTTP/1.1[0m" 200 -
+[2021-03-29 11:19:54,030][63675][ Thread-10][I][dao_university.py:__init__:13] : 3306
+[2021-03-29 11:19:54,031][63675][ Thread-10][I][dao_university.py:__init__:14] : 172.17.0.1
+[2021-03-29 11:19:54,031][63675][ Thread-10][I][dao_university.py:__init__:15] : root
+[2021-03-29 11:19:54,031][63675][ Thread-10][I][dao_university.py:__init__:16] : password
+[2021-03-29 11:20:04,033][63675][ Thread-10][E][controller_university.py:post:75] : GetUniversity error: File "/usr/local/lib/python3.9/site-packages/pymysql/connections.py", line 630, in connect: [OperationalError] 2003
+[2021-03-29 11:20:04,034][63675][ Thread-10][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:20:04] "[37mPOST /university/getUniversity HTTP/1.1[0m" 200 -
+[2021-03-29 11:20:47,496][63675][ Thread-11][I][controller.py:get:60] : None
+[2021-03-29 11:20:47,499][63675][ Thread-11][E][utils.py:JWTdecode:267] : JWTdecode error: File "/usr/local/lib/python3.9/site-packages/jwt/api_jws.py", line 184, in _load: [DecodeError] Invalid token type. Token must be a <class 'bytes'>
+[2021-03-29 11:20:47,500][63675][ Thread-11][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:20:47] "[32mGET /admin/ HTTP/1.1[0m" 302 -
+[2021-03-29 11:20:47,505][63675][ Thread-12][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:20:47] "[37mGET /university/login HTTP/1.1[0m" 200 -
+[2021-03-29 11:20:47,559][63675][ Thread-13][I][controller.py:get:75] : vendor/fontawesome-free/css/all.min.css
+[2021-03-29 11:20:47,560][63675][ Thread-14][I][controller.py:get:75] : css/sb-admin-2.min.css
+[2021-03-29 11:20:47,561][63675][ Thread-15][I][controller.py:get:75] : vendor/bootstrap/js/bootstrap.bundle.min.js
+[2021-03-29 11:20:47,561][63675][ Thread-16][I][controller.py:get:75] : js/sb-admin-2.min.js
+[2021-03-29 11:20:47,562][63675][ Thread-17][I][controller.py:get:75] : vendor/jquery/jquery.md5.js
+[2021-03-29 11:20:47,568][63675][ Thread-13][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:20:47] "[37mGET /university/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+[2021-03-29 11:20:47,568][63675][ Thread-15][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:20:47] "[37mGET /university/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:20:47,570][63675][ Thread-16][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:20:47] "[37mGET /university/js/sb-admin-2.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:20:47,571][63675][ Thread-17][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:20:47] "[37mGET /university/vendor/jquery/jquery.md5.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:20:47,571][63675][ Thread-14][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:20:47] "[37mGET /university/css/sb-admin-2.min.css HTTP/1.1[0m" 200 -
+[2021-03-29 11:21:04,800][63675][ Thread-18][I][controller.py:post:106] : login success
+[2021-03-29 11:21:04,800][63675][ Thread-18][I][utils.py:JWTencode:248] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': datetime.datetime(2021, 3, 29, 4, 21, 4, 800852), 'nbf': datetime.datetime(2021, 3, 29, 3, 21, 4, 800861), 'iat': datetime.datetime(2021, 3, 29, 3, 21, 4, 800861)}
+[2021-03-29 11:21:04,801][63675][ Thread-18][I][utils.py:JWTencode:250] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:21:04,802][63675][ Thread-18][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:21:04] "[37mPOST /university/valid HTTP/1.1[0m" 200 -
+[2021-03-29 11:21:04,815][63675][ Thread-19][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:21:04] "[32mGET /admin HTTP/1.1[0m" 308 -
+[2021-03-29 11:21:04,819][63675][ Thread-20][I][controller.py:get:60] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:21:04,819][63675][ Thread-20][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:21:04,820][63675][ Thread-20][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:21:04] "[37mGET /admin/ HTTP/1.1[0m" 200 -
+[2021-03-29 11:21:04,876][63675][ Thread-21][I][controller.py:get:47] : vendor/fontawesome-free/css/all.min.css
+[2021-03-29 11:21:04,877][63675][ Thread-22][I][controller.py:get:47] : css/sb-admin-2.min.css
+[2021-03-29 11:21:04,878][63675][ Thread-23][I][controller.py:get:47] : vendor/jquery/jquery.min.js
+[2021-03-29 11:21:04,878][63675][ Thread-21][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:21:04,879][63675][ Thread-24][I][controller.py:get:47] : vendor/bootstrap/js/bootstrap.bundle.min.js
+[2021-03-29 11:21:04,879][63675][ Thread-25][I][controller.py:get:47] : vendor/jquery-easing/jquery.easing.min.js
+[2021-03-29 11:21:04,879][63675][ Thread-22][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:21:04,880][63675][ Thread-23][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:21:04,880][63675][ Thread-26][I][controller.py:get:47] : js/sb-admin-2.min.js
+[2021-03-29 11:21:04,881][63675][ Thread-21][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:21:04,881][63675][ Thread-24][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:21:04,881][63675][ Thread-25][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:21:04,882][63675][ Thread-22][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:21:04,882][63675][ Thread-23][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:21:04,882][63675][ Thread-26][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:21:04,883][63675][ Thread-24][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:21:04,883][63675][ Thread-25][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:21:04,884][63675][ Thread-26][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:21:04,887][63675][ Thread-22][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:21:04] "[37mGET /admin/css/sb-admin-2.min.css HTTP/1.1[0m" 200 -
+[2021-03-29 11:21:04,888][63675][ Thread-21][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:21:04] "[37mGET /admin/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+[2021-03-29 11:21:04,888][63675][ Thread-23][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:21:04] "[37mGET /admin/vendor/jquery/jquery.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:21:04,888][63675][ Thread-25][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:21:04] "[37mGET /admin/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:21:04,888][63675][ Thread-26][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:21:04] "[37mGET /admin/js/sb-admin-2.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:21:04,889][63675][ Thread-24][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:21:04] "[37mGET /admin/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:21:04,928][63675][ Thread-27][I][controller.py:get:47] : img/undraw_profile.svg
+[2021-03-29 11:21:04,928][63675][ Thread-27][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:21:04,928][63675][ Thread-27][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:21:04,930][63675][ Thread-27][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:21:04] "[37mGET /admin/img/undraw_profile.svg HTTP/1.1[0m" 200 -
+[2021-03-29 11:21:04,989][63675][ Thread-28][I][controller.py:get:47] : vendor/fontawesome-free/webfonts/fa-brands-400.woff2
+[2021-03-29 11:21:04,990][63675][ Thread-29][I][controller.py:get:47] : vendor/fontawesome-free/webfonts/fa-solid-900.woff2
+[2021-03-29 11:21:04,990][63675][ Thread-28][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:21:04,990][63675][ Thread-29][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:21:04,991][63675][ Thread-28][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:21:04,991][63675][ Thread-29][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:21:04,993][63675][ Thread-28][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:21:04] "[37mGET /admin/vendor/fontawesome-free/webfonts/fa-brands-400.woff2 HTTP/1.1[0m" 200 -
+[2021-03-29 11:21:04,993][63675][ Thread-29][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:21:04] "[37mGET /admin/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+[2021-03-29 11:21:06,286][63675][ Thread-30][I][controller.py:get:47] : add.html
+[2021-03-29 11:21:06,287][63675][ Thread-30][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:21:06,287][63675][ Thread-30][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:21:06,288][63675][ Thread-30][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:21:06] "[37mGET /admin/add.html HTTP/1.1[0m" 200 -
+[2021-03-29 11:34:12,545][63972][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-03-29-log.log
+[2021-03-29 11:34:12,559][63972][MainThread][I][base.py:start:158] : Scheduler started
+[2021-03-29 11:34:12,560][63972][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-03-29 11:34:12,585][63972][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-03-29 11:35:16,189][63972][  Thread-1][I][controller.py:get:47] : add.html
+[2021-03-29 11:35:16,190][63972][  Thread-1][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:35:16,190][63972][  Thread-1][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:35:16,196][63972][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:35:16] "[37mGET /admin/add.html HTTP/1.1[0m" 200 -
+[2021-03-29 11:35:43,243][63972][  Thread-2][I][controller_university.py:post:45] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:35:43,244][63972][  Thread-2][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:35:43,246][63972][  Thread-2][I][controller_university.py:post:49] : 0
+[2021-03-29 11:35:43,246][63972][  Thread-2][I][utils.py:clean_filename:225] : sample1.pdf
+[2021-03-29 11:35:43,249][63972][  Thread-2][I][utils.py:clean_filename:230] : sample1.pdf
+[2021-03-29 11:35:43,249][63972][  Thread-2][I][controller_university.py:post:52] : file name: sample1.pdf
+[2021-03-29 11:35:43,250][63972][  Thread-2][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:35:43] "[37mPOST /university/uploadPdf HTTP/1.1[0m" 200 -
+[2021-03-29 11:35:43,257][63972][  Thread-3][I][controller_university.py:post:104] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:35:43,258][63972][  Thread-3][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:35:43,260][63972][  Thread-3][I][controller_university.py:post:108] : {'u_name': '得獎測試', 'kind': 'A. 專科學校組', 'descri': '', 'pdf1_path': 'sample1.pdf', 'pdf2_path': '', 'url_path': '', 'reward': '5', 'medal1': False, 'medal2': False, 'medal3': False, 'medal4': True, 'medal5': True}
+[2021-03-29 11:35:43,260][63972][  Thread-3][I][dao_university.py:__init__:13] : 3306
+[2021-03-29 11:35:43,260][63972][  Thread-3][I][dao_university.py:__init__:14] : 172.17.0.1
+[2021-03-29 11:35:43,260][63972][  Thread-3][I][dao_university.py:__init__:15] : root
+[2021-03-29 11:35:43,260][63972][  Thread-3][I][dao_university.py:__init__:16] : password
+[2021-03-29 11:35:53,275][63972][  Thread-3][E][controller_university.py:post:117] : AddUniversity error: File "/usr/local/lib/python3.9/site-packages/pymysql/connections.py", line 630, in connect: [OperationalError] 2003
+[2021-03-29 11:35:53,276][63972][  Thread-3][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:35:53] "[37mPOST /university/addUniversity HTTP/1.1[0m" 200 -
+[2021-03-29 11:38:22,073][64253][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-03-29-log.log
+[2021-03-29 11:38:22,086][64253][MainThread][I][base.py:start:158] : Scheduler started
+[2021-03-29 11:38:22,087][64253][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-03-29 11:38:22,308][64253][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-03-29 11:38:27,873][64253][  Thread-1][I][controller.py:get:47] : add.html
+[2021-03-29 11:38:27,873][64253][  Thread-1][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:38:27,874][64253][  Thread-1][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:38:27,879][64253][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:38:27] "[36mGET /admin/add.html HTTP/1.1[0m" 304 -
+[2021-03-29 11:38:49,360][64253][  Thread-2][I][controller_university.py:post:104] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:38:49,361][64253][  Thread-2][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:38:49,362][64253][  Thread-2][I][controller_university.py:post:108] : {'u_name': 'test', 'kind': 'A. 專科學校組', 'descri': '123', 'pdf1_path': '', 'pdf2_path': '', 'url_path': '', 'reward': '5', 'medal1': False, 'medal2': False, 'medal3': False, 'medal4': True, 'medal5': True}
+[2021-03-29 11:38:49,363][64253][  Thread-2][I][dao_university.py:__init__:13] : 3306
+[2021-03-29 11:38:49,363][64253][  Thread-2][I][dao_university.py:__init__:14] : localhost
+[2021-03-29 11:38:49,363][64253][  Thread-2][I][dao_university.py:__init__:15] : root
+[2021-03-29 11:38:49,363][64253][  Thread-2][I][dao_university.py:__init__:16] : password
+[2021-03-29 11:38:49,386][64253][  Thread-2][I][dao_university.py:__init__:13] : 3306
+[2021-03-29 11:38:49,388][64253][  Thread-2][I][dao_university.py:__init__:14] : localhost
+[2021-03-29 11:38:49,389][64253][  Thread-2][I][dao_university.py:__init__:15] : root
+[2021-03-29 11:38:49,389][64253][  Thread-2][I][dao_university.py:__init__:16] : password
+[2021-03-29 11:38:49,396][64253][  Thread-2][I][dao_university.py:addUniversity:51] : ('test', 'A. 專科學校組', '123', '', '', '', '5', False, False, False, True, True)
+[2021-03-29 11:38:49,417][64253][  Thread-2][I][dao_university.py:__init__:13] : 3306
+[2021-03-29 11:38:49,418][64253][  Thread-2][I][dao_university.py:__init__:14] : localhost
+[2021-03-29 11:38:49,418][64253][  Thread-2][I][dao_university.py:__init__:15] : root
+[2021-03-29 11:38:49,419][64253][  Thread-2][I][dao_university.py:__init__:16] : password
+[2021-03-29 11:38:49,428][64253][  Thread-2][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:38:49] "[37mPOST /university/addUniversity HTTP/1.1[0m" 200 -
+[2021-03-29 11:39:06,558][64253][  Thread-3][I][controller_university.py:post:104] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:39:06,558][64253][  Thread-3][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:39:06,559][64253][  Thread-3][I][controller_university.py:post:108] : {'u_name': 'test2', 'kind': 'A. 專科學校組', 'descri': '12312323', 'pdf1_path': '', 'pdf2_path': '', 'url_path': '', 'reward': '3', 'medal1': True, 'medal2': True, 'medal3': True, 'medal4': True, 'medal5': True}
+[2021-03-29 11:39:06,559][64253][  Thread-3][I][dao_university.py:__init__:13] : 3306
+[2021-03-29 11:39:06,559][64253][  Thread-3][I][dao_university.py:__init__:14] : localhost
+[2021-03-29 11:39:06,559][64253][  Thread-3][I][dao_university.py:__init__:15] : root
+[2021-03-29 11:39:06,559][64253][  Thread-3][I][dao_university.py:__init__:16] : password
+[2021-03-29 11:39:06,570][64253][  Thread-3][I][dao_university.py:__init__:13] : 3306
+[2021-03-29 11:39:06,570][64253][  Thread-3][I][dao_university.py:__init__:14] : localhost
+[2021-03-29 11:39:06,570][64253][  Thread-3][I][dao_university.py:__init__:15] : root
+[2021-03-29 11:39:06,570][64253][  Thread-3][I][dao_university.py:__init__:16] : password
+[2021-03-29 11:39:06,576][64253][  Thread-3][I][dao_university.py:addUniversity:51] : ('test2', 'A. 專科學校組', '12312323', '', '', '', '3', True, True, True, True, True)
+[2021-03-29 11:39:06,584][64253][  Thread-3][I][dao_university.py:__init__:13] : 3306
+[2021-03-29 11:39:06,584][64253][  Thread-3][I][dao_university.py:__init__:14] : localhost
+[2021-03-29 11:39:06,584][64253][  Thread-3][I][dao_university.py:__init__:15] : root
+[2021-03-29 11:39:06,584][64253][  Thread-3][I][dao_university.py:__init__:16] : password
+[2021-03-29 11:39:06,596][64253][  Thread-3][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:39:06] "[37mPOST /university/addUniversity HTTP/1.1[0m" 200 -
+[2021-03-29 11:39:14,077][64253][  Thread-4][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:39:14] "[32mGET / HTTP/1.1[0m" 302 -
+[2021-03-29 11:39:14,156][64253][  Thread-5][I][dao_university.py:__init__:13] : 3306
+[2021-03-29 11:39:14,156][64253][  Thread-5][I][dao_university.py:__init__:14] : localhost
+[2021-03-29 11:39:14,156][64253][  Thread-5][I][dao_university.py:__init__:15] : root
+[2021-03-29 11:39:14,156][64253][  Thread-5][I][dao_university.py:__init__:16] : password
+[2021-03-29 11:39:14,169][64253][  Thread-5][I][controller_university.py:post:71] : [{'u_id': '1', 'u_name': 'test', 'kind': 'A. 專科學校組', 'descri': '123', 'pdf1_path': '', 'pdf2_path': '', 'url_path': '', 'reward': '5', 'medal1': '0', 'medal2': '0', 'medal3': '0', 'medal4': '1', 'medal5': '1'}, {'u_id': '2', 'u_name': 'test2', 'kind': 'A. 專科學校組', 'descri': '12312323', 'pdf1_path': '', 'pdf2_path': '', 'url_path': '', 'reward': '3', 'medal1': '1', 'medal2': '1', 'medal3': '1', 'medal4': '1', 'medal5': '1'}]
+[2021-03-29 11:39:14,170][64253][  Thread-5][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:39:14] "[37mPOST /university/getUniversity HTTP/1.1[0m" 200 -
+[2021-03-29 11:39:16,787][64253][  Thread-6][I][controller.py:get:75] : img/medal/5.png
+[2021-03-29 11:39:16,789][64253][  Thread-6][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:39:16] "[37mGET /university/img/medal/5.png HTTP/1.1[0m" 200 -
+[2021-03-29 11:39:16,937][64253][  Thread-7][I][controller.py:get:75] : img/card-top.png
+[2021-03-29 11:39:16,940][64253][  Thread-7][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:39:16] "[37mGET /university/img/card-top.png HTTP/1.1[0m" 200 -
+[2021-03-29 11:39:22,095][64253][  Thread-8][I][controller.py:get:75] : img/medal/3.png
+[2021-03-29 11:39:22,098][64253][  Thread-8][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:39:22] "[37mGET /university/img/medal/3.png HTTP/1.1[0m" 200 -
+[2021-03-29 11:40:39,281][64253][  Thread-9][I][controller.py:get:75] : vendor/bootstrap/js/bootstrap.min.js.map
+[2021-03-29 11:40:39,283][64253][  Thread-9][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:40:39] "[37mGET /university/vendor/bootstrap/js/bootstrap.min.js.map HTTP/1.1[0m" 200 -
+[2021-03-29 11:40:39,297][64253][ Thread-10][I][controller.py:get:75] : vendor/bootstrap/css/bootstrap.min.css.map
+[2021-03-29 11:40:39,299][64253][ Thread-10][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:40:39] "[37mGET /university/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+[2021-03-29 11:40:46,648][64253][ Thread-11][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:40:46] "[37mGET /university/ HTTP/1.1[0m" 200 -
+[2021-03-29 11:40:46,675][64253][ Thread-12][I][controller.py:get:75] : vendor/bootstrap/css/bootstrap.min.css
+[2021-03-29 11:40:46,676][64253][ Thread-13][I][controller.py:get:75] : css/style.css
+[2021-03-29 11:40:46,677][64253][ Thread-14][I][controller.py:get:75] : vendor/jquery/jquery.min.js
+[2021-03-29 11:40:46,679][64253][ Thread-12][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:40:46] "[37mGET /university/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+[2021-03-29 11:40:46,680][64253][ Thread-15][I][controller.py:get:75] : vendor/bootstrap/js/bootstrap.min.js
+[2021-03-29 11:40:46,683][64253][ Thread-13][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:40:46] "[37mGET /university/css/style.css HTTP/1.1[0m" 200 -
+[2021-03-29 11:40:46,684][64253][ Thread-16][I][controller.py:get:75] : vendor/jquery-easing/jquery.easing.min.js
+[2021-03-29 11:40:46,684][64253][ Thread-15][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:40:46] "[37mGET /university/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:40:46,686][64253][ Thread-17][I][controller.py:get:75] : img/banner.jpg
+[2021-03-29 11:40:46,687][64253][ Thread-14][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:40:46] "[37mGET /university/vendor/jquery/jquery.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:40:46,689][64253][ Thread-16][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:40:46] "[37mGET /university/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:40:46,691][64253][ Thread-18][I][controller.py:get:75] : img/medal/2.png
+[2021-03-29 11:40:46,694][64253][ Thread-17][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:40:46] "[37mGET /university/img/banner.jpg HTTP/1.1[0m" 200 -
+[2021-03-29 11:40:46,699][64253][ Thread-18][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:40:46] "[37mGET /university/img/medal/2.png HTTP/1.1[0m" 200 -
+[2021-03-29 11:40:46,742][64253][ Thread-19][I][controller.py:get:75] : vendor/bootstrap/js/bootstrap.min.js.map
+[2021-03-29 11:40:46,743][64253][ Thread-19][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:40:46] "[37mGET /university/vendor/bootstrap/js/bootstrap.min.js.map HTTP/1.1[0m" 200 -
+[2021-03-29 11:40:46,747][64253][ Thread-20][I][controller.py:get:75] : vendor/bootstrap/css/bootstrap.min.css.map
+[2021-03-29 11:40:46,748][64253][ Thread-20][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:40:46] "[37mGET /university/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+[2021-03-29 11:40:46,758][64253][ Thread-21][I][dao_university.py:__init__:13] : 3306
+[2021-03-29 11:40:46,758][64253][ Thread-21][I][dao_university.py:__init__:14] : localhost
+[2021-03-29 11:40:46,758][64253][ Thread-21][I][dao_university.py:__init__:15] : root
+[2021-03-29 11:40:46,758][64253][ Thread-21][I][dao_university.py:__init__:16] : password
+[2021-03-29 11:40:46,774][64253][ Thread-21][I][controller_university.py:post:71] : [{'u_id': '1', 'u_name': 'test', 'kind': 'A. 專科學校組', 'descri': '123', 'pdf1_path': '', 'pdf2_path': '', 'url_path': '', 'reward': '5', 'medal1': '0', 'medal2': '0', 'medal3': '0', 'medal4': '1', 'medal5': '1'}, {'u_id': '2', 'u_name': 'test2', 'kind': 'A. 專科學校組', 'descri': '12312323', 'pdf1_path': '', 'pdf2_path': '', 'url_path': '', 'reward': '3', 'medal1': '1', 'medal2': '1', 'medal3': '1', 'medal4': '1', 'medal5': '1'}]
+[2021-03-29 11:40:46,775][64253][ Thread-21][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:40:46] "[37mPOST /university/getUniversity HTTP/1.1[0m" 200 -
+[2021-03-29 11:40:48,048][64253][ Thread-22][I][controller.py:get:75] : img/medal/5.png
+[2021-03-29 11:40:48,051][64253][ Thread-22][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:40:48] "[37mGET /university/img/medal/5.png HTTP/1.1[0m" 200 -
+[2021-03-29 11:40:48,203][64253][ Thread-23][I][controller.py:get:75] : img/card-top.png
+[2021-03-29 11:40:48,206][64253][ Thread-23][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:40:48] "[37mGET /university/img/card-top.png HTTP/1.1[0m" 200 -
+[2021-03-29 11:40:50,087][64253][ Thread-24][I][controller.py:get:75] : img/medal/3.png
+[2021-03-29 11:40:50,088][64253][ Thread-24][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:40:50] "[37mGET /university/img/medal/3.png HTTP/1.1[0m" 200 -
+[2021-03-29 11:45:11,798][64253][ Thread-25][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:45:11] "[37mGET /university/ HTTP/1.1[0m" 200 -
+[2021-03-29 11:45:11,828][64253][ Thread-26][I][controller.py:get:75] : vendor/bootstrap/css/bootstrap.min.css
+[2021-03-29 11:45:11,830][64253][ Thread-27][I][controller.py:get:75] : css/style.css
+[2021-03-29 11:45:11,832][64253][ Thread-28][I][controller.py:get:75] : vendor/jquery/jquery.min.js
+[2021-03-29 11:45:11,832][64253][ Thread-26][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:45:11] "[37mGET /university/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+[2021-03-29 11:45:11,834][64253][ Thread-29][I][controller.py:get:75] : vendor/bootstrap/js/bootstrap.min.js
+[2021-03-29 11:45:11,836][64253][ Thread-27][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:45:11] "[37mGET /university/css/style.css HTTP/1.1[0m" 200 -
+[2021-03-29 11:45:11,837][64253][ Thread-28][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:45:11] "[37mGET /university/vendor/jquery/jquery.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:45:11,838][64253][ Thread-29][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:45:11] "[37mGET /university/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:45:11,844][64253][ Thread-30][I][controller.py:get:75] : vendor/jquery-easing/jquery.easing.min.js
+[2021-03-29 11:45:11,846][64253][ Thread-30][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:45:11] "[37mGET /university/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:45:11,852][64253][ Thread-31][I][controller.py:get:75] : img/banner.jpg
+[2021-03-29 11:45:11,853][64253][ Thread-31][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:45:11] "[37mGET /university/img/banner.jpg HTTP/1.1[0m" 200 -
+[2021-03-29 11:45:11,855][64253][ Thread-32][I][controller.py:get:75] : img/medal/2.png
+[2021-03-29 11:45:11,857][64253][ Thread-32][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:45:11] "[37mGET /university/img/medal/2.png HTTP/1.1[0m" 200 -
+[2021-03-29 11:45:11,871][64253][ Thread-33][I][controller.py:get:75] : vendor/bootstrap/js/bootstrap.min.js.map
+[2021-03-29 11:45:11,872][64253][ Thread-33][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:45:11] "[37mGET /university/vendor/bootstrap/js/bootstrap.min.js.map HTTP/1.1[0m" 200 -
+[2021-03-29 11:45:11,890][64253][ Thread-34][I][controller.py:get:75] : vendor/bootstrap/css/bootstrap.min.css.map
+[2021-03-29 11:45:11,892][64253][ Thread-34][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:45:11] "[37mGET /university/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+[2021-03-29 11:45:11,898][64253][ Thread-35][I][dao_university.py:__init__:13] : 3306
+[2021-03-29 11:45:11,899][64253][ Thread-35][I][dao_university.py:__init__:14] : localhost
+[2021-03-29 11:45:11,899][64253][ Thread-35][I][dao_university.py:__init__:15] : root
+[2021-03-29 11:45:11,899][64253][ Thread-35][I][dao_university.py:__init__:16] : password
+[2021-03-29 11:45:11,923][64253][ Thread-35][I][controller_university.py:post:71] : [{'u_id': '1', 'u_name': 'test', 'kind': 'A. 專科學校組', 'descri': '123', 'pdf1_path': '', 'pdf2_path': '', 'url_path': '', 'reward': '5', 'medal1': '0', 'medal2': '0', 'medal3': '0', 'medal4': '1', 'medal5': '1'}, {'u_id': '2', 'u_name': 'test2', 'kind': 'A. 專科學校組', 'descri': '12312323', 'pdf1_path': '', 'pdf2_path': '', 'url_path': '', 'reward': '3', 'medal1': '1', 'medal2': '1', 'medal3': '1', 'medal4': '1', 'medal5': '1'}]
+[2021-03-29 11:45:11,924][64253][ Thread-35][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:45:11] "[37mPOST /university/getUniversity HTTP/1.1[0m" 200 -
+[2021-03-29 11:45:14,205][64253][ Thread-36][I][controller.py:get:75] : img/medal/5.png
+[2021-03-29 11:45:14,206][64253][ Thread-36][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:45:14] "[37mGET /university/img/medal/5.png HTTP/1.1[0m" 200 -
+[2021-03-29 11:45:14,355][64253][ Thread-37][I][controller.py:get:75] : img/card-top.png
+[2021-03-29 11:45:14,356][64253][ Thread-37][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:45:14] "[37mGET /university/img/card-top.png HTTP/1.1[0m" 200 -
+[2021-03-29 11:45:18,548][64253][ Thread-38][I][controller.py:get:75] : img/medal/3.png
+[2021-03-29 11:45:18,548][64253][ Thread-38][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:45:18] "[37mGET /university/img/medal/3.png HTTP/1.1[0m" 200 -
+[2021-03-29 11:46:40,147][64698][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-03-29-log.log
+[2021-03-29 11:46:40,160][64698][MainThread][I][base.py:start:158] : Scheduler started
+[2021-03-29 11:46:40,161][64698][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"
+[2021-03-29 11:46:40,367][64698][MainThread][I][_internal.py:_log:113] :  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-03-29 11:46:45,278][64698][  Thread-1][I][controller.py:get:75] : img/medal/5.png
+[2021-03-29 11:46:45,288][64698][  Thread-1][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:46:45] "[37mGET /university/img/medal/5.png HTTP/1.1[0m" 200 -
+[2021-03-29 11:46:49,498][64698][  Thread-2][I][controller.py:get:60] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:46:49,498][64698][  Thread-2][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:46:49,501][64698][  Thread-2][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:46:49] "[37mGET /admin/ HTTP/1.1[0m" 200 -
+[2021-03-29 11:46:49,565][64698][  Thread-3][I][controller.py:get:47] : vendor/fontawesome-free/css/all.min.css
+[2021-03-29 11:46:49,566][64698][  Thread-3][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:46:49,567][64698][  Thread-3][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:46:49,568][64698][  Thread-4][I][controller.py:get:47] : css/sb-admin-2.min.css
+[2021-03-29 11:46:49,570][64698][  Thread-5][I][controller.py:get:47] : vendor/jquery/jquery.min.js
+[2021-03-29 11:46:49,570][64698][  Thread-4][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:46:49,571][64698][  Thread-5][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:46:49,571][64698][  Thread-6][I][controller.py:get:47] : vendor/bootstrap/js/bootstrap.bundle.min.js
+[2021-03-29 11:46:49,572][64698][  Thread-4][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:46:49,574][64698][  Thread-5][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:46:49,576][64698][  Thread-3][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:46:49] "[37mGET /admin/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+[2021-03-29 11:46:49,578][64698][  Thread-6][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:46:49,584][64698][  Thread-6][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:46:49,585][64698][  Thread-5][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:46:49] "[37mGET /admin/vendor/jquery/jquery.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:46:49,585][64698][  Thread-4][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:46:49] "[37mGET /admin/css/sb-admin-2.min.css HTTP/1.1[0m" 200 -
+[2021-03-29 11:46:49,589][64698][  Thread-6][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:46:49] "[37mGET /admin/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:46:49,599][64698][  Thread-7][I][controller.py:get:47] : vendor/jquery-easing/jquery.easing.min.js
+[2021-03-29 11:46:49,599][64698][  Thread-7][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:46:49,599][64698][  Thread-7][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:46:49,601][64698][  Thread-8][I][controller.py:get:47] : js/sb-admin-2.min.js
+[2021-03-29 11:46:49,601][64698][  Thread-8][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:46:49,602][64698][  Thread-8][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:46:49,604][64698][  Thread-7][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:46:49] "[37mGET /admin/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:46:49,608][64698][  Thread-8][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:46:49] "[37mGET /admin/js/sb-admin-2.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:46:49,609][64698][  Thread-9][I][controller.py:get:47] : img/undraw_profile.svg
+[2021-03-29 11:46:49,610][64698][  Thread-9][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:46:49,610][64698][  Thread-9][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:46:49,612][64698][  Thread-9][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:46:49] "[37mGET /admin/img/undraw_profile.svg HTTP/1.1[0m" 200 -
+[2021-03-29 11:46:49,625][64698][ Thread-10][I][controller.py:get:47] : vendor/bootstrap/js/bootstrap.bundle.min.js.map
+[2021-03-29 11:46:49,625][64698][ Thread-10][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:46:49,625][64698][ Thread-10][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:46:49,627][64698][ Thread-10][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:46:49] "[37mGET /admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 200 -
+[2021-03-29 11:46:49,636][64698][ Thread-11][I][controller.py:get:47] : vendor/fontawesome-free/webfonts/fa-brands-400.woff2
+[2021-03-29 11:46:49,637][64698][ Thread-11][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:46:49,637][64698][ Thread-11][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:46:49,639][64698][ Thread-12][I][controller.py:get:47] : vendor/fontawesome-free/webfonts/fa-solid-900.woff2
+[2021-03-29 11:46:49,639][64698][ Thread-12][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:46:49,639][64698][ Thread-12][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:46:49,640][64698][ Thread-11][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:46:49] "[37mGET /admin/vendor/fontawesome-free/webfonts/fa-brands-400.woff2 HTTP/1.1[0m" 200 -
+[2021-03-29 11:46:49,644][64698][ Thread-12][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:46:49] "[37mGET /admin/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+[2021-03-29 11:46:50,832][64698][ Thread-13][I][controller.py:get:47] : add.html
+[2021-03-29 11:46:50,833][64698][ Thread-13][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:46:50,833][64698][ Thread-13][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:46:50,836][64698][ Thread-13][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:46:50] "[37mGET /admin/add.html HTTP/1.1[0m" 200 -
+[2021-03-29 11:46:50,870][64698][ Thread-14][I][controller.py:get:47] : vendor/fontawesome-free/css/all.min.css
+[2021-03-29 11:46:50,871][64698][ Thread-14][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:46:50,871][64698][ Thread-14][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:46:50,873][64698][ Thread-15][I][controller.py:get:47] : css/sb-admin-2.min.css
+[2021-03-29 11:46:50,874][64698][ Thread-15][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:46:50,874][64698][ Thread-15][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:46:50,876][64698][ Thread-14][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:46:50] "[37mGET /admin/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+[2021-03-29 11:46:50,876][64698][ Thread-15][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:46:50] "[37mGET /admin/css/sb-admin-2.min.css HTTP/1.1[0m" 200 -
+[2021-03-29 11:46:50,882][64698][ Thread-16][I][controller.py:get:47] : vendor/jquery/jquery.min.js
+[2021-03-29 11:46:50,883][64698][ Thread-16][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:46:50,883][64698][ Thread-16][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:46:50,887][64698][ Thread-17][I][controller.py:get:47] : vendor/bootstrap/js/bootstrap.bundle.min.js
+[2021-03-29 11:46:50,887][64698][ Thread-17][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:46:50,887][64698][ Thread-17][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:46:50,889][64698][ Thread-17][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:46:50] "[37mGET /admin/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:46:50,891][64698][ Thread-19][I][controller.py:get:47] : js/sb-admin-2.min.js
+[2021-03-29 11:46:50,891][64698][ Thread-19][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:46:50,892][64698][ Thread-18][I][controller.py:get:47] : vendor/jquery-easing/jquery.easing.min.js
+[2021-03-29 11:46:50,893][64698][ Thread-16][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:46:50] "[37mGET /admin/vendor/jquery/jquery.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:46:50,895][64698][ Thread-20][I][controller.py:get:47] : img/undraw_profile.svg
+[2021-03-29 11:46:50,896][64698][ Thread-19][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:46:50,897][64698][ Thread-20][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:46:50,900][64698][ Thread-20][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:46:50,902][64698][ Thread-20][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:46:50] "[37mGET /admin/img/undraw_profile.svg HTTP/1.1[0m" 200 -
+[2021-03-29 11:46:50,896][64698][ Thread-18][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:46:50,904][64698][ Thread-18][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:46:50,906][64698][ Thread-19][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:46:50] "[37mGET /admin/js/sb-admin-2.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:46:50,907][64698][ Thread-18][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:46:50] "[37mGET /admin/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:46:50,909][64698][ Thread-21][I][controller.py:get:47] : vendor/fontawesome-free/webfonts/fa-brands-400.woff2
+[2021-03-29 11:46:50,909][64698][ Thread-21][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:46:50,911][64698][ Thread-22][I][controller.py:get:47] : vendor/fontawesome-free/webfonts/fa-solid-900.woff2
+[2021-03-29 11:46:50,912][64698][ Thread-21][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:46:50,913][64698][ Thread-22][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:46:50,913][64698][ Thread-22][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:46:50,915][64698][ Thread-21][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:46:50] "[37mGET /admin/vendor/fontawesome-free/webfonts/fa-brands-400.woff2 HTTP/1.1[0m" 200 -
+[2021-03-29 11:46:50,915][64698][ Thread-22][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:46:50] "[37mGET /admin/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+[2021-03-29 11:46:52,160][64698][ Thread-23][I][controller.py:get:47] : vendor/bootstrap/js/bootstrap.bundle.min.js.map
+[2021-03-29 11:46:52,160][64698][ Thread-23][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:46:52,161][64698][ Thread-23][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:46:52,162][64698][ Thread-23][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:46:52] "[37mGET /admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 200 -
+[2021-03-29 11:47:25,823][64698][ Thread-24][I][controller_university.py:post:45] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:47:25,824][64698][ Thread-24][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:47:25,825][64698][ Thread-24][I][controller_university.py:post:49] : 0
+[2021-03-29 11:47:25,825][64698][ Thread-24][I][utils.py:clean_filename:225] : sample1.pdf
+[2021-03-29 11:47:25,828][64698][ Thread-24][I][utils.py:clean_filename:230] : sample1.pdf
+[2021-03-29 11:47:25,828][64698][ Thread-24][I][controller_university.py:post:52] : file name: sample1.pdf
+[2021-03-29 11:47:25,829][64698][ Thread-24][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:47:25] "[37mPOST /university/uploadPdf HTTP/1.1[0m" 200 -
+[2021-03-29 11:47:25,838][64698][ Thread-25][I][controller_university.py:post:45] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:47:25,839][64698][ Thread-25][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:47:25,842][64698][ Thread-25][I][controller_university.py:post:49] : 0
+[2021-03-29 11:47:25,842][64698][ Thread-25][I][utils.py:clean_filename:225] : sample2.pdf
+[2021-03-29 11:47:25,842][64698][ Thread-25][I][utils.py:clean_filename:230] : sample2.pdf
+[2021-03-29 11:47:25,842][64698][ Thread-25][I][controller_university.py:post:52] : file name: sample2.pdf
+[2021-03-29 11:47:25,843][64698][ Thread-25][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:47:25] "[37mPOST /university/uploadPdf HTTP/1.1[0m" 200 -
+[2021-03-29 11:47:25,853][64698][ Thread-26][I][controller_university.py:post:104] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:47:25,853][64698][ Thread-26][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:47:25,854][64698][ Thread-26][I][controller_university.py:post:108] : {'u_name': '檔案測是', 'kind': 'C. 科技大學組', 'descri': '', 'pdf1_path': 'sample1.pdf', 'pdf2_path': 'sample2.pdf', 'url_path': '', 'reward': '5', 'medal1': False, 'medal2': True, 'medal3': True, 'medal4': True, 'medal5': True}
+[2021-03-29 11:47:25,855][64698][ Thread-26][I][dao_university.py:__init__:13] : 3306
+[2021-03-29 11:47:25,855][64698][ Thread-26][I][dao_university.py:__init__:14] : localhost
+[2021-03-29 11:47:25,855][64698][ Thread-26][I][dao_university.py:__init__:15] : root
+[2021-03-29 11:47:25,861][64698][ Thread-26][I][dao_university.py:__init__:16] : password
+[2021-03-29 11:47:25,877][64698][ Thread-26][I][dao_university.py:__init__:13] : 3306
+[2021-03-29 11:47:25,878][64698][ Thread-26][I][dao_university.py:__init__:14] : localhost
+[2021-03-29 11:47:25,878][64698][ Thread-26][I][dao_university.py:__init__:15] : root
+[2021-03-29 11:47:25,878][64698][ Thread-26][I][dao_university.py:__init__:16] : password
+[2021-03-29 11:47:25,886][64698][ Thread-26][I][dao_university.py:addUniversity:51] : ('檔案測是', 'C. 科技大學組', '', 'sample1.pdf', 'sample2.pdf', '', '5', False, True, True, True, True)
+[2021-03-29 11:47:25,895][64698][ Thread-26][I][dao_university.py:__init__:13] : 3306
+[2021-03-29 11:47:25,895][64698][ Thread-26][I][dao_university.py:__init__:14] : localhost
+[2021-03-29 11:47:25,896][64698][ Thread-26][I][dao_university.py:__init__:15] : root
+[2021-03-29 11:47:25,896][64698][ Thread-26][I][dao_university.py:__init__:16] : password
+[2021-03-29 11:47:25,910][64698][ Thread-26][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:47:25] "[37mPOST /university/addUniversity HTTP/1.1[0m" 200 -
+[2021-03-29 11:47:47,804][64698][ Thread-27][I][controller_university.py:post:45] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:47:47,804][64698][ Thread-27][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:47:47,805][64698][ Thread-27][I][controller_university.py:post:49] : 0
+[2021-03-29 11:47:47,806][64698][ Thread-27][I][utils.py:clean_filename:225] : sample1.pdf
+[2021-03-29 11:47:47,806][64698][ Thread-27][I][utils.py:clean_filename:230] : sample1.pdf
+[2021-03-29 11:47:47,806][64698][ Thread-27][I][controller_university.py:post:52] : file name: sample1.pdf
+[2021-03-29 11:47:47,808][64698][ Thread-27][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:47:47] "[37mPOST /university/uploadPdf HTTP/1.1[0m" 200 -
+[2021-03-29 11:47:47,816][64698][ Thread-28][I][controller_university.py:post:104] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:47:47,817][64698][ Thread-28][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:47:47,817][64698][ Thread-28][I][controller_university.py:post:108] : {'u_name': '上傳測試二', 'kind': 'B. 大學校院組', 'descri': '', 'pdf1_path': '', 'pdf2_path': 'sample1.pdf', 'url_path': '', 'reward': '2', 'medal1': True, 'medal2': False, 'medal3': False, 'medal4': False, 'medal5': True}
+[2021-03-29 11:47:47,817][64698][ Thread-28][I][dao_university.py:__init__:13] : 3306
+[2021-03-29 11:47:47,817][64698][ Thread-28][I][dao_university.py:__init__:14] : localhost
+[2021-03-29 11:47:47,817][64698][ Thread-28][I][dao_university.py:__init__:15] : root
+[2021-03-29 11:47:47,818][64698][ Thread-28][I][dao_university.py:__init__:16] : password
+[2021-03-29 11:47:47,836][64698][ Thread-28][I][dao_university.py:__init__:13] : 3306
+[2021-03-29 11:47:47,837][64698][ Thread-28][I][dao_university.py:__init__:14] : localhost
+[2021-03-29 11:47:47,837][64698][ Thread-28][I][dao_university.py:__init__:15] : root
+[2021-03-29 11:47:47,837][64698][ Thread-28][I][dao_university.py:__init__:16] : password
+[2021-03-29 11:47:47,847][64698][ Thread-28][I][dao_university.py:addUniversity:51] : ('上傳測試二', 'B. 大學校院組', '', '', 'sample1.pdf', '', '2', True, False, False, False, True)
+[2021-03-29 11:47:47,856][64698][ Thread-28][I][dao_university.py:__init__:13] : 3306
+[2021-03-29 11:47:47,857][64698][ Thread-28][I][dao_university.py:__init__:14] : localhost
+[2021-03-29 11:47:47,857][64698][ Thread-28][I][dao_university.py:__init__:15] : root
+[2021-03-29 11:47:47,857][64698][ Thread-28][I][dao_university.py:__init__:16] : password
+[2021-03-29 11:47:47,871][64698][ Thread-28][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:47:47] "[37mPOST /university/addUniversity HTTP/1.1[0m" 200 -
+[2021-03-29 11:47:51,895][64698][ Thread-29][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:47:51] "[32mGET / HTTP/1.1[0m" 302 -
+[2021-03-29 11:47:51,902][64698][ Thread-30][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:47:51] "[37mGET /university/ HTTP/1.1[0m" 200 -
+[2021-03-29 11:47:51,973][64698][ Thread-31][I][controller.py:get:75] : vendor/bootstrap/css/bootstrap.min.css
+[2021-03-29 11:47:51,974][64698][ Thread-31][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:47:51] "[37mGET /university/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+[2021-03-29 11:47:51,997][64698][ Thread-33][I][controller.py:get:75] : vendor/jquery/jquery.min.js
+[2021-03-29 11:47:51,998][64698][ Thread-32][I][controller.py:get:75] : css/style.css
+[2021-03-29 11:47:51,999][64698][ Thread-34][I][controller.py:get:75] : vendor/bootstrap/js/bootstrap.min.js
+[2021-03-29 11:47:52,001][64698][ Thread-33][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:47:52] "[37mGET /university/vendor/jquery/jquery.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:47:52,002][64698][ Thread-32][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:47:52] "[37mGET /university/css/style.css HTTP/1.1[0m" 200 -
+[2021-03-29 11:47:52,004][64698][ Thread-35][I][controller.py:get:75] : vendor/jquery-easing/jquery.easing.min.js
+[2021-03-29 11:47:52,005][64698][ Thread-34][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:47:52] "[37mGET /university/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:47:52,009][64698][ Thread-35][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:47:52] "[37mGET /university/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:47:52,012][64698][ Thread-36][I][controller.py:get:75] : img/banner.jpg
+[2021-03-29 11:47:52,013][64698][ Thread-36][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:47:52] "[37mGET /university/img/banner.jpg HTTP/1.1[0m" 200 -
+[2021-03-29 11:47:52,015][64698][ Thread-37][I][controller.py:get:75] : img/medal/2.png
+[2021-03-29 11:47:52,017][64698][ Thread-37][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:47:52] "[37mGET /university/img/medal/2.png HTTP/1.1[0m" 200 -
+[2021-03-29 11:47:52,034][64698][ Thread-38][I][controller.py:get:75] : vendor/bootstrap/css/bootstrap.min.css.map
+[2021-03-29 11:47:52,035][64698][ Thread-38][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:47:52] "[37mGET /university/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+[2021-03-29 11:47:52,059][64698][ Thread-39][I][controller.py:get:75] : vendor/bootstrap/js/bootstrap.min.js.map
+[2021-03-29 11:47:52,060][64698][ Thread-39][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:47:52] "[37mGET /university/vendor/bootstrap/js/bootstrap.min.js.map HTTP/1.1[0m" 200 -
+[2021-03-29 11:47:52,096][64698][ Thread-40][I][dao_university.py:__init__:13] : 3306
+[2021-03-29 11:47:52,096][64698][ Thread-40][I][dao_university.py:__init__:14] : localhost
+[2021-03-29 11:47:52,097][64698][ Thread-40][I][dao_university.py:__init__:15] : root
+[2021-03-29 11:47:52,097][64698][ Thread-40][I][dao_university.py:__init__:16] : password
+[2021-03-29 11:47:52,113][64698][ Thread-40][I][controller_university.py:post:71] : [{'u_id': '1', 'u_name': 'test', 'kind': 'A. 專科學校組', 'descri': '123', 'pdf1_path': '', 'pdf2_path': '', 'url_path': '', 'reward': '5', 'medal1': '0', 'medal2': '0', 'medal3': '0', 'medal4': '1', 'medal5': '1'}, {'u_id': '2', 'u_name': 'test2', 'kind': 'A. 專科學校組', 'descri': '12312323', 'pdf1_path': '', 'pdf2_path': '', 'url_path': '', 'reward': '3', 'medal1': '1', 'medal2': '1', 'medal3': '1', 'medal4': '1', 'medal5': '1'}, {'u_id': '3', 'u_name': '檔案測是', 'kind': 'C. 科技大學組', 'descri': '', 'pdf1_path': 'sample1.pdf', 'pdf2_path': 'sample2.pdf', 'url_path': '', 'reward': '5', 'medal1': '0', 'medal2': '1', 'medal3': '1', 'medal4': '1', 'medal5': '1'}, {'u_id': '4', 'u_name': '上傳測試二', 'kind': 'B. 大學校院組', 'descri': '', 'pdf1_path': '', 'pdf2_path': 'sample1.pdf', 'url_path': '', 'reward': '2', 'medal1': '1', 'medal2': '0', 'medal3': '0', 'medal4': '0', 'medal5': '1'}]
+[2021-03-29 11:47:52,116][64698][ Thread-40][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:47:52] "[37mPOST /university/getUniversity HTTP/1.1[0m" 200 -
+[2021-03-29 11:47:54,237][64698][ Thread-41][I][controller.py:get:75] : img/medal/5.png
+[2021-03-29 11:47:54,238][64698][ Thread-41][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:47:54] "[37mGET /university/img/medal/5.png HTTP/1.1[0m" 200 -
+[2021-03-29 11:47:54,382][64698][ Thread-42][I][controller.py:get:75] : img/card-top.png
+[2021-03-29 11:47:54,383][64698][ Thread-42][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:47:54] "[37mGET /university/img/card-top.png HTTP/1.1[0m" 200 -
+[2021-03-29 11:47:56,274][64698][ Thread-43][I][controller.py:get:75] : img/medal/2.png
+[2021-03-29 11:47:56,275][64698][ Thread-43][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:47:56] "[37mGET /university/img/medal/2.png HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:02,192][64698][ Thread-44][I][controller.py:get:75] : img/medal/5.png
+[2021-03-29 11:48:02,192][64698][ Thread-44][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:02] "[37mGET /university/img/medal/5.png HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:15,153][64698][ Thread-45][I][controller.py:get:60] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:15,153][64698][ Thread-45][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:15,154][64698][ Thread-45][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:15] "[37mGET /admin/ HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:15,181][64698][ Thread-46][I][controller.py:get:47] : vendor/fontawesome-free/css/all.min.css
+[2021-03-29 11:48:15,182][64698][ Thread-46][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:15,182][64698][ Thread-46][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:15,185][64698][ Thread-46][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:15] "[37mGET /admin/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:15,186][64698][ Thread-47][I][controller.py:get:47] : css/sb-admin-2.min.css
+[2021-03-29 11:48:15,186][64698][ Thread-47][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:15,186][64698][ Thread-47][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:15,189][64698][ Thread-47][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:15] "[37mGET /admin/css/sb-admin-2.min.css HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:15,191][64698][ Thread-48][I][controller.py:get:47] : vendor/jquery/jquery.min.js
+[2021-03-29 11:48:15,192][64698][ Thread-48][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:15,192][64698][ Thread-48][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:15,194][64698][ Thread-49][I][controller.py:get:47] : vendor/bootstrap/js/bootstrap.bundle.min.js
+[2021-03-29 11:48:15,196][64698][ Thread-49][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:15,195][64698][ Thread-48][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:15] "[37mGET /admin/vendor/jquery/jquery.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:15,196][64698][ Thread-49][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:15,201][64698][ Thread-49][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:15] "[37mGET /admin/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:15,207][64698][ Thread-50][I][controller.py:get:47] : vendor/jquery-easing/jquery.easing.min.js
+[2021-03-29 11:48:15,207][64698][ Thread-50][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:15,207][64698][ Thread-50][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:15,208][64698][ Thread-50][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:15] "[37mGET /admin/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:15,211][64698][ Thread-51][I][controller.py:get:47] : js/sb-admin-2.min.js
+[2021-03-29 11:48:15,211][64698][ Thread-51][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:15,214][64698][ Thread-51][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:15,215][64698][ Thread-51][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:15] "[37mGET /admin/js/sb-admin-2.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:15,219][64698][ Thread-52][I][controller.py:get:47] : img/undraw_profile.svg
+[2021-03-29 11:48:15,220][64698][ Thread-52][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:15,220][64698][ Thread-52][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:15,222][64698][ Thread-52][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:15] "[37mGET /admin/img/undraw_profile.svg HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:15,234][64698][ Thread-53][I][controller.py:get:47] : vendor/fontawesome-free/webfonts/fa-brands-400.woff2
+[2021-03-29 11:48:15,235][64698][ Thread-53][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:15,236][64698][ Thread-54][I][controller.py:get:47] : vendor/fontawesome-free/webfonts/fa-solid-900.woff2
+[2021-03-29 11:48:15,236][64698][ Thread-53][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:15,237][64698][ Thread-54][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:15,238][64698][ Thread-54][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:15,240][64698][ Thread-53][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:15] "[37mGET /admin/vendor/fontawesome-free/webfonts/fa-brands-400.woff2 HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:15,241][64698][ Thread-54][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:15] "[37mGET /admin/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:15,274][64698][ Thread-55][I][controller.py:get:47] : vendor/bootstrap/js/bootstrap.bundle.min.js.map
+[2021-03-29 11:48:15,274][64698][ Thread-55][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:15,275][64698][ Thread-55][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:15,276][64698][ Thread-55][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:15] "[37mGET /admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:17,041][64698][ Thread-56][I][controller.py:get:47] : list.html
+[2021-03-29 11:48:17,041][64698][ Thread-56][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:17,042][64698][ Thread-56][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:17,045][64698][ Thread-56][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:17] "[37mGET /admin/list.html HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:17,078][64698][ Thread-57][I][controller.py:get:47] : vendor/fontawesome-free/css/all.min.css
+[2021-03-29 11:48:17,079][64698][ Thread-57][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:17,079][64698][ Thread-57][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:17,081][64698][ Thread-58][I][controller.py:get:47] : css/sb-admin-2.min.css
+[2021-03-29 11:48:17,081][64698][ Thread-58][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:17,082][64698][ Thread-58][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:17,084][64698][ Thread-59][I][controller.py:get:47] : vendor/jquery/jquery.min.js
+[2021-03-29 11:48:17,084][64698][ Thread-57][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:17] "[37mGET /admin/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:17,086][64698][ Thread-58][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:17] "[37mGET /admin/css/sb-admin-2.min.css HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:17,087][64698][ Thread-60][I][controller.py:get:47] : vendor/bootstrap/js/bootstrap.bundle.min.js
+[2021-03-29 11:48:17,087][64698][ Thread-59][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:17,090][64698][ Thread-59][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:17,089][64698][ Thread-60][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:17,091][64698][ Thread-60][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:17,093][64698][ Thread-59][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:17] "[37mGET /admin/vendor/jquery/jquery.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:17,094][64698][ Thread-61][I][controller.py:get:47] : vendor/jquery-easing/jquery.easing.min.js
+[2021-03-29 11:48:17,095][64698][ Thread-61][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:17,095][64698][ Thread-61][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:17,096][64698][ Thread-61][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:17] "[37mGET /admin/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:17,100][64698][ Thread-62][I][controller.py:get:47] : js/sb-admin-2.min.js
+[2021-03-29 11:48:17,100][64698][ Thread-62][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:17,100][64698][ Thread-62][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:17,102][64698][ Thread-62][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:17] "[37mGET /admin/js/sb-admin-2.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:17,106][64698][ Thread-63][I][controller.py:get:47] : vendor/datatables/jquery.dataTables.js
+[2021-03-29 11:48:17,106][64698][ Thread-63][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:17,107][64698][ Thread-63][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:17,108][64698][ Thread-60][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:17] "[37mGET /admin/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:17,110][64698][ Thread-64][I][controller.py:get:47] : vendor/datatables/dataTables.bootstrap4.min.js
+[2021-03-29 11:48:17,111][64698][ Thread-65][I][controller.py:get:47] : js/demo/datatables-demo.js
+[2021-03-29 11:48:17,111][64698][ Thread-64][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:17,112][64698][ Thread-63][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:17] "[37mGET /admin/vendor/datatables/jquery.dataTables.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:17,112][64698][ Thread-65][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:17,114][64698][ Thread-66][I][controller.py:get:47] : img/undraw_profile.svg
+[2021-03-29 11:48:17,118][64698][ Thread-67][I][controller.py:get:47] : vendor/fontawesome-free/webfonts/fa-brands-400.woff2
+[2021-03-29 11:48:17,119][64698][ Thread-64][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:17,120][64698][ Thread-68][I][controller.py:get:47] : vendor/fontawesome-free/webfonts/fa-solid-900.woff2
+[2021-03-29 11:48:17,121][64698][ Thread-65][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:17,121][64698][ Thread-66][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:17,121][64698][ Thread-67][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:17,124][64698][ Thread-64][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:17] "[37mGET /admin/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:17,124][64698][ Thread-68][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:17,125][64698][ Thread-66][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:17,126][64698][ Thread-67][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:17,127][64698][ Thread-65][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:17] "[37mGET /admin/js/demo/datatables-demo.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:17,127][64698][ Thread-68][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:17,130][64698][ Thread-68][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:17] "[37mGET /admin/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:17,132][64698][ Thread-67][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:17] "[37mGET /admin/vendor/fontawesome-free/webfonts/fa-brands-400.woff2 HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:17,136][64698][ Thread-66][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:17] "[37mGET /admin/img/undraw_profile.svg HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:17,163][64698][ Thread-69][I][controller.py:get:47] : vendor/bootstrap/js/bootstrap.bundle.min.js.map
+[2021-03-29 11:48:17,164][64698][ Thread-69][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:17,164][64698][ Thread-69][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:17,165][64698][ Thread-69][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:17] "[37mGET /admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:17,241][64698][ Thread-70][I][dao_university.py:__init__:13] : 3306
+[2021-03-29 11:48:17,242][64698][ Thread-70][I][dao_university.py:__init__:14] : localhost
+[2021-03-29 11:48:17,242][64698][ Thread-70][I][dao_university.py:__init__:15] : root
+[2021-03-29 11:48:17,242][64698][ Thread-70][I][dao_university.py:__init__:16] : password
+[2021-03-29 11:48:17,258][64698][ Thread-70][I][controller_university.py:post:71] : [{'u_id': '1', 'u_name': 'test', 'kind': 'A. 專科學校組', 'descri': '123', 'pdf1_path': '', 'pdf2_path': '', 'url_path': '', 'reward': '5', 'medal1': '0', 'medal2': '0', 'medal3': '0', 'medal4': '1', 'medal5': '1'}, {'u_id': '2', 'u_name': 'test2', 'kind': 'A. 專科學校組', 'descri': '12312323', 'pdf1_path': '', 'pdf2_path': '', 'url_path': '', 'reward': '3', 'medal1': '1', 'medal2': '1', 'medal3': '1', 'medal4': '1', 'medal5': '1'}, {'u_id': '3', 'u_name': '檔案測是', 'kind': 'C. 科技大學組', 'descri': '', 'pdf1_path': 'sample1.pdf', 'pdf2_path': 'sample2.pdf', 'url_path': '', 'reward': '5', 'medal1': '0', 'medal2': '1', 'medal3': '1', 'medal4': '1', 'medal5': '1'}, {'u_id': '4', 'u_name': '上傳測試二', 'kind': 'B. 大學校院組', 'descri': '', 'pdf1_path': '', 'pdf2_path': 'sample1.pdf', 'url_path': '', 'reward': '2', 'medal1': '1', 'medal2': '0', 'medal3': '0', 'medal4': '0', 'medal5': '1'}]
+[2021-03-29 11:48:17,259][64698][ Thread-70][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:17] "[37mPOST /university/getUniversity HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:59,583][64698][ Thread-71][I][controller.py:get:47] : detail.html
+[2021-03-29 11:48:59,584][64698][ Thread-71][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:59,584][64698][ Thread-71][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:59,587][64698][ Thread-71][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:59] "[37mGET /admin/detail.html?uid=1 HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:59,656][64698][ Thread-72][I][controller.py:get:47] : vendor/fontawesome-free/css/all.min.css
+[2021-03-29 11:48:59,657][64698][ Thread-72][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:59,658][64698][ Thread-73][I][controller.py:get:47] : css/sb-admin-2.min.css
+[2021-03-29 11:48:59,659][64698][ Thread-72][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:59,660][64698][ Thread-73][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:59,661][64698][ Thread-74][I][controller.py:get:47] : vendor/jquery/jquery.min.js
+[2021-03-29 11:48:59,663][64698][ Thread-75][I][controller.py:get:47] : vendor/bootstrap/js/bootstrap.bundle.min.js
+[2021-03-29 11:48:59,663][64698][ Thread-73][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:59,663][64698][ Thread-74][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:59,664][64698][ Thread-75][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:59,664][64698][ Thread-74][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:59,666][64698][ Thread-73][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:59] "[37mGET /admin/css/sb-admin-2.min.css HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:59,666][64698][ Thread-75][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:59,665][64698][ Thread-72][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:59] "[37mGET /admin/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:59,669][64698][ Thread-74][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:59] "[37mGET /admin/vendor/jquery/jquery.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:59,671][64698][ Thread-75][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:59] "[37mGET /admin/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:59,683][64698][ Thread-76][I][controller.py:get:47] : vendor/jquery-easing/jquery.easing.min.js
+[2021-03-29 11:48:59,686][64698][ Thread-76][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:59,684][64698][ Thread-77][I][controller.py:get:47] : js/sb-admin-2.min.js
+[2021-03-29 11:48:59,685][64698][ Thread-78][I][controller.py:get:47] : img/undraw_profile.svg
+[2021-03-29 11:48:59,687][64698][ Thread-76][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:59,688][64698][ Thread-77][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:59,688][64698][ Thread-78][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:59,689][64698][ Thread-76][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:59] "[37mGET /admin/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:59,690][64698][ Thread-77][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:59,692][64698][ Thread-78][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:59,696][64698][ Thread-77][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:59] "[37mGET /admin/js/sb-admin-2.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:59,697][64698][ Thread-78][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:59] "[37mGET /admin/img/undraw_profile.svg HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:59,710][64698][ Thread-79][I][controller.py:get:47] : vendor/fontawesome-free/webfonts/fa-brands-400.woff2
+[2021-03-29 11:48:59,710][64698][ Thread-80][I][controller.py:get:47] : vendor/fontawesome-free/webfonts/fa-solid-900.woff2
+[2021-03-29 11:48:59,711][64698][ Thread-79][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:59,711][64698][ Thread-80][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:59,711][64698][ Thread-79][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:59,712][64698][ Thread-80][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:59,713][64698][ Thread-80][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:59] "[37mGET /admin/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:59,714][64698][ Thread-79][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:59] "[37mGET /admin/vendor/fontawesome-free/webfonts/fa-brands-400.woff2 HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:59,740][64698][ Thread-81][I][controller.py:get:47] : vendor/bootstrap/js/bootstrap.bundle.min.js.map
+[2021-03-29 11:48:59,741][64698][ Thread-81][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:48:59,742][64698][ Thread-81][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:48:59,744][64698][ Thread-81][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:59] "[37mGET /admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 200 -
+[2021-03-29 11:48:59,763][64698][ Thread-82][I][controller_university.py:post:67] : {'u_id': '1'}
+[2021-03-29 11:48:59,763][64698][ Thread-82][I][dao_university.py:__init__:13] : 3306
+[2021-03-29 11:48:59,764][64698][ Thread-82][I][dao_university.py:__init__:14] : localhost
+[2021-03-29 11:48:59,764][64698][ Thread-82][I][dao_university.py:__init__:15] : root
+[2021-03-29 11:48:59,764][64698][ Thread-82][I][dao_university.py:__init__:16] : password
+[2021-03-29 11:48:59,787][64698][ Thread-82][I][controller_university.py:post:71] : [{'u_id': '1', 'u_name': 'test', 'kind': 'A. 專科學校組', 'descri': '123', 'pdf1_path': '', 'pdf2_path': '', 'url_path': '', 'reward': '5', 'medal1': '0', 'medal2': '0', 'medal3': '0', 'medal4': '1', 'medal5': '1'}]
+[2021-03-29 11:48:59,788][64698][ Thread-82][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:48:59] "[37mPOST /university/getUniversity HTTP/1.1[0m" 200 -
+[2021-03-29 11:49:37,159][64698][ Thread-83][I][controller_university.py:post:45] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:49:37,159][64698][ Thread-83][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:49:37,160][64698][ Thread-83][I][controller_university.py:post:49] : 0
+[2021-03-29 11:49:37,160][64698][ Thread-83][I][utils.py:clean_filename:225] : sample1.pdf
+[2021-03-29 11:49:37,160][64698][ Thread-83][I][utils.py:clean_filename:230] : sample1.pdf
+[2021-03-29 11:49:37,160][64698][ Thread-83][I][controller_university.py:post:52] : file name: sample1.pdf
+[2021-03-29 11:49:37,161][64698][ Thread-83][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:49:37] "[37mPOST /university/uploadPdf HTTP/1.1[0m" 200 -
+[2021-03-29 11:49:37,171][64698][ Thread-84][I][controller_university.py:post:45] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:49:37,172][64698][ Thread-84][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:49:37,173][64698][ Thread-84][I][controller_university.py:post:49] : 0
+[2021-03-29 11:49:37,173][64698][ Thread-84][I][utils.py:clean_filename:225] : sample2.pdf
+[2021-03-29 11:49:37,173][64698][ Thread-84][I][utils.py:clean_filename:230] : sample2.pdf
+[2021-03-29 11:49:37,173][64698][ Thread-84][I][controller_university.py:post:52] : file name: sample2.pdf
+[2021-03-29 11:49:37,174][64698][ Thread-84][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:49:37] "[37mPOST /university/uploadPdf HTTP/1.1[0m" 200 -
+[2021-03-29 11:49:37,180][64698][ Thread-85][I][controller_university.py:post:82] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:49:37,181][64698][ Thread-85][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:49:37,181][64698][ Thread-85][I][controller_university.py:post:86] : {'u_id': '1', 'u_name': 'test123', 'kind': 'C. 科技大學組', 'descri': '123', 'pdf1_path': 'sample1.pdf', 'pdf2_path': 'sample2.pdf', 'url_path': 'https://google.com', 'reward': '5', 'medal1': True, 'medal2': True, 'medal3': True, 'medal4': True, 'medal5': True}
+[2021-03-29 11:49:37,181][64698][ Thread-85][I][dao_university.py:__init__:13] : 3306
+[2021-03-29 11:49:37,181][64698][ Thread-85][I][dao_university.py:__init__:14] : localhost
+[2021-03-29 11:49:37,181][64698][ Thread-85][I][dao_university.py:__init__:15] : root
+[2021-03-29 11:49:37,182][64698][ Thread-85][I][dao_university.py:__init__:16] : password
+[2021-03-29 11:49:37,212][64698][ Thread-85][I][dao_university.py:__init__:13] : 3306
+[2021-03-29 11:49:37,212][64698][ Thread-85][I][dao_university.py:__init__:14] : localhost
+[2021-03-29 11:49:37,212][64698][ Thread-85][I][dao_university.py:__init__:15] : root
+[2021-03-29 11:49:37,212][64698][ Thread-85][I][dao_university.py:__init__:16] : password
+[2021-03-29 11:49:37,222][64698][ Thread-85][I][dao_university.py:editUniversity:69] : ('test123', 'C. 科技大學組', '123', 'sample1.pdf', 'sample2.pdf', 'https://google.com', '5', True, True, True, True, True, 1)
+[2021-03-29 11:49:37,228][64698][ Thread-85][I][controller_university.py:post:91] : edit result:True
+[2021-03-29 11:49:37,229][64698][ Thread-85][I][dao_university.py:__init__:13] : 3306
+[2021-03-29 11:49:37,229][64698][ Thread-85][I][dao_university.py:__init__:14] : localhost
+[2021-03-29 11:49:37,229][64698][ Thread-85][I][dao_university.py:__init__:15] : root
+[2021-03-29 11:49:37,229][64698][ Thread-85][I][dao_university.py:__init__:16] : password
+[2021-03-29 11:49:37,242][64698][ Thread-85][I][controller_university.py:post:94] : [{'u_id': '1', 'u_name': 'test123', 'kind': 'C. 科技大學組', 'descri': '123', 'pdf1_path': 'sample1.pdf', 'pdf2_path': 'sample2.pdf', 'url_path': 'https://google.com', 'reward': '5', 'medal1': '1', 'medal2': '1', 'medal3': '1', 'medal4': '1', 'medal5': '1'}]
+[2021-03-29 11:49:37,243][64698][ Thread-85][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:49:37] "[37mPOST /university/editUniversity HTTP/1.1[0m" 200 -
+[2021-03-29 11:49:38,318][64698][ Thread-86][I][controller.py:get:47] : list.html
+[2021-03-29 11:49:38,319][64698][ Thread-86][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:49:38,319][64698][ Thread-86][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:49:38,320][64698][ Thread-86][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:49:38] "[37mGET /admin/list.html HTTP/1.1[0m" 200 -
+[2021-03-29 11:49:38,358][64698][ Thread-88][I][controller.py:get:47] : css/sb-admin-2.min.css
+[2021-03-29 11:49:38,359][64698][ Thread-87][I][controller.py:get:47] : vendor/fontawesome-free/css/all.min.css
+[2021-03-29 11:49:38,361][64698][ Thread-89][I][controller.py:get:47] : vendor/jquery/jquery.min.js
+[2021-03-29 11:49:38,361][64698][ Thread-88][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:49:38,362][64698][ Thread-87][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:49:38,364][64698][ Thread-90][I][controller.py:get:47] : vendor/bootstrap/js/bootstrap.bundle.min.js
+[2021-03-29 11:49:38,364][64698][ Thread-89][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:49:38,365][64698][ Thread-88][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:49:38,366][64698][ Thread-87][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:49:38,366][64698][ Thread-90][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:49:38,369][64698][ Thread-89][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:49:38,370][64698][ Thread-90][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:49:38,372][64698][ Thread-88][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:49:38] "[37mGET /admin/css/sb-admin-2.min.css HTTP/1.1[0m" 200 -
+[2021-03-29 11:49:38,373][64698][ Thread-87][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:49:38] "[37mGET /admin/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+[2021-03-29 11:49:38,374][64698][ Thread-89][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:49:38] "[37mGET /admin/vendor/jquery/jquery.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:49:38,379][64698][ Thread-90][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:49:38] "[37mGET /admin/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:49:38,390][64698][ Thread-91][I][controller.py:get:47] : vendor/jquery-easing/jquery.easing.min.js
+[2021-03-29 11:49:38,391][64698][ Thread-91][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:49:38,391][64698][ Thread-91][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:49:38,393][64698][ Thread-91][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:49:38] "[37mGET /admin/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:49:38,396][64698][ Thread-92][I][controller.py:get:47] : js/sb-admin-2.min.js
+[2021-03-29 11:49:38,399][64698][ Thread-92][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:49:38,399][64698][ Thread-92][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:49:38,398][64698][ Thread-93][I][controller.py:get:47] : vendor/datatables/jquery.dataTables.js
+[2021-03-29 11:49:38,401][64698][ Thread-92][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:49:38] "[37mGET /admin/js/sb-admin-2.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:49:38,401][64698][ Thread-93][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:49:38,402][64698][ Thread-94][I][controller.py:get:47] : vendor/datatables/dataTables.bootstrap4.min.js
+[2021-03-29 11:49:38,404][64698][ Thread-95][I][controller.py:get:47] : js/demo/datatables-demo.js
+[2021-03-29 11:49:38,405][64698][ Thread-93][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:49:38,406][64698][ Thread-96][I][controller.py:get:47] : img/undraw_profile.svg
+[2021-03-29 11:49:38,406][64698][ Thread-94][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:49:38,407][64698][ Thread-95][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:49:38,409][64698][ Thread-95][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:49:38,408][64698][ Thread-93][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:49:38] "[37mGET /admin/vendor/datatables/jquery.dataTables.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:49:38,408][64698][ Thread-94][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:49:38,410][64698][ Thread-95][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:49:38] "[37mGET /admin/js/demo/datatables-demo.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:49:38,408][64698][ Thread-96][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:49:38,412][64698][ Thread-94][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:49:38] "[37mGET /admin/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1[0m" 200 -
+[2021-03-29 11:49:38,414][64698][ Thread-96][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:49:38,418][64698][ Thread-96][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:49:38] "[37mGET /admin/img/undraw_profile.svg HTTP/1.1[0m" 200 -
+[2021-03-29 11:49:38,431][64698][ Thread-97][I][controller.py:get:47] : vendor/bootstrap/js/bootstrap.bundle.min.js.map
+[2021-03-29 11:49:38,432][64698][ Thread-97][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:49:38,432][64698][ Thread-97][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:49:38,433][64698][ Thread-97][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:49:38] "[37mGET /admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 200 -
+[2021-03-29 11:49:38,445][64698][ Thread-98][I][controller.py:get:47] : vendor/fontawesome-free/webfonts/fa-brands-400.woff2
+[2021-03-29 11:49:38,446][64698][ Thread-99][I][controller.py:get:47] : vendor/fontawesome-free/webfonts/fa-solid-900.woff2
+[2021-03-29 11:49:38,446][64698][ Thread-98][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:49:38,447][64698][ Thread-99][I][controller.py:get:49] : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMjcuMC4wLjEiLCJzdWIiOiJlZHVfYWRtaW4iLCJleHAiOjE2MTY5OTE2NjQsIm5iZiI6MTYxNjk4ODA2NCwiaWF0IjoxNjE2OTg4MDY0fQ.DfLrYDOp6aj9ex3KGw2EgPs3nQtZR8O3SrknFS0T2Tk
+[2021-03-29 11:49:38,448][64698][ Thread-99][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:49:38,447][64698][ Thread-98][I][utils.py:JWTdecode:263] : {'iss': '127.0.0.1', 'sub': 'edu_admin', 'exp': 1616991664, 'nbf': 1616988064, 'iat': 1616988064}
+[2021-03-29 11:49:38,450][64698][ Thread-98][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:49:38] "[37mGET /admin/vendor/fontawesome-free/webfonts/fa-brands-400.woff2 HTTP/1.1[0m" 200 -
+[2021-03-29 11:49:38,451][64698][ Thread-99][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:49:38] "[37mGET /admin/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+[2021-03-29 11:49:38,554][64698][Thread-100][I][dao_university.py:__init__:13] : 3306
+[2021-03-29 11:49:38,554][64698][Thread-100][I][dao_university.py:__init__:14] : localhost
+[2021-03-29 11:49:38,554][64698][Thread-100][I][dao_university.py:__init__:15] : root
+[2021-03-29 11:49:38,554][64698][Thread-100][I][dao_university.py:__init__:16] : password
+[2021-03-29 11:49:38,574][64698][Thread-100][I][controller_university.py:post:71] : [{'u_id': '1', 'u_name': 'test123', 'kind': 'C. 科技大學組', 'descri': '123', 'pdf1_path': 'sample1.pdf', 'pdf2_path': 'sample2.pdf', 'url_path': 'https://google.com', 'reward': '5', 'medal1': '1', 'medal2': '1', 'medal3': '1', 'medal4': '1', 'medal5': '1'}, {'u_id': '2', 'u_name': 'test2', 'kind': 'A. 專科學校組', 'descri': '12312323', 'pdf1_path': '', 'pdf2_path': '', 'url_path': '', 'reward': '3', 'medal1': '1', 'medal2': '1', 'medal3': '1', 'medal4': '1', 'medal5': '1'}, {'u_id': '3', 'u_name': '檔案測是', 'kind': 'C. 科技大學組', 'descri': '', 'pdf1_path': 'sample1.pdf', 'pdf2_path': 'sample2.pdf', 'url_path': '', 'reward': '5', 'medal1': '0', 'medal2': '1', 'medal3': '1', 'medal4': '1', 'medal5': '1'}, {'u_id': '4', 'u_name': '上傳測試二', 'kind': 'B. 大學校院組', 'descri': '', 'pdf1_path': '', 'pdf2_path': 'sample1.pdf', 'url_path': '', 'reward': '2', 'medal1': '1', 'medal2': '0', 'medal3': '0', 'medal4': '0', 'medal5': '1'}]
+[2021-03-29 11:49:38,575][64698][Thread-100][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:49:38] "[37mPOST /university/getUniversity HTTP/1.1[0m" 200 -
+[2021-03-29 11:49:43,859][64698][Thread-101][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:49:43] "[32mGET / HTTP/1.1[0m" 302 -
+[2021-03-29 11:49:44,023][64698][Thread-102][I][dao_university.py:__init__:13] : 3306
+[2021-03-29 11:49:44,024][64698][Thread-102][I][dao_university.py:__init__:14] : localhost
+[2021-03-29 11:49:44,024][64698][Thread-102][I][dao_university.py:__init__:15] : root
+[2021-03-29 11:49:44,024][64698][Thread-102][I][dao_university.py:__init__:16] : password
+[2021-03-29 11:49:44,041][64698][Thread-102][I][controller_university.py:post:71] : [{'u_id': '1', 'u_name': 'test123', 'kind': 'C. 科技大學組', 'descri': '123', 'pdf1_path': 'sample1.pdf', 'pdf2_path': 'sample2.pdf', 'url_path': 'https://google.com', 'reward': '5', 'medal1': '1', 'medal2': '1', 'medal3': '1', 'medal4': '1', 'medal5': '1'}, {'u_id': '2', 'u_name': 'test2', 'kind': 'A. 專科學校組', 'descri': '12312323', 'pdf1_path': '', 'pdf2_path': '', 'url_path': '', 'reward': '3', 'medal1': '1', 'medal2': '1', 'medal3': '1', 'medal4': '1', 'medal5': '1'}, {'u_id': '3', 'u_name': '檔案測是', 'kind': 'C. 科技大學組', 'descri': '', 'pdf1_path': 'sample1.pdf', 'pdf2_path': 'sample2.pdf', 'url_path': '', 'reward': '5', 'medal1': '0', 'medal2': '1', 'medal3': '1', 'medal4': '1', 'medal5': '1'}, {'u_id': '4', 'u_name': '上傳測試二', 'kind': 'B. 大學校院組', 'descri': '', 'pdf1_path': '', 'pdf2_path': 'sample1.pdf', 'url_path': '', 'reward': '2', 'medal1': '1', 'medal2': '0', 'medal3': '0', 'medal4': '0', 'medal5': '1'}]
+[2021-03-29 11:49:44,043][64698][Thread-102][I][_internal.py:_log:113] : 127.0.0.1 - - [29/Mar/2021 11:49:44] "[37mPOST /university/getUniversity HTTP/1.1[0m" 200 -
+[2021-03-29 14:48:24,619][67804][MainThread][I][utils.py:setLogFileName:77] : change log file name to:2021-03-29-log.log
+[2021-03-29 14:48:24,634][67804][MainThread][I][base.py:start:158] : Scheduler started
+[2021-03-29 14:48:24,635][67804][MainThread][I][base.py:_real_add_job:865] : Added job "setLogFileName" to job store "default"

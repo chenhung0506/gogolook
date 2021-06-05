@@ -1,20 +1,17 @@
 # -*- coding: utf-8 -*-
 import log as logpy
-import re
-import os
 import const
 import controller
 import daoMigrate
-import flask_restful
 import utils
+import os
+import flask_restful
 import json
 import glob
 import re
 import unittest
 import sys
-from flask_restful import Api
-from flask_restful import Resource
-from flask_script import Manager, Server
+from flask_restful import Api, Resource
 from datetime import datetime
 from flask import Flask, request, render_template, send_from_directory, redirect, url_for
 from apscheduler.schedulers.background import BackgroundScheduler
@@ -22,8 +19,7 @@ from apscheduler.triggers.cron import CronTrigger
 
 utils.setLogFileName()
 log = logpy.logging.getLogger(__name__)
-template_dir = os.path.abspath('./resource/university/') # setting for render_template
-app = Flask(__name__, template_folder=template_dir)
+app = Flask(__name__)
 api = Api(app)
 controller.setup_route(api)
 
@@ -31,7 +27,6 @@ if __name__=="__main__":
     sched = BackgroundScheduler()
     sched.start()
     sched.add_job(utils.setLogFileName, CronTrigger.from_crontab('59 23 * * *'))
-
     dbData = daoMigrate.Database().getMigrate()
     log.info(dbData)
 

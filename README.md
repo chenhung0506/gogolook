@@ -34,27 +34,27 @@ pip install -r ./gogolook/module/requirements.txt
 
 
 ## Deploy with harbor image
-### step1: harbor login with account / password
-#### account / password => guest / HelloGuest@1
+### step1: init mysql db
+```
+cd ./gogolook/docker && ./run.sh 0
+```
+### step2: harbor login with account / password
 ```
 docker login harbor.chlin.tk 
 ```
-### step2: execute run.sh
+### step3: execute run.sh
 ```
-cd ./gogolook/docker && ./run.sh 0 3 -v
-```
-
-## Deploy with docker build and docker run 
-```
-cd ./gogolook/docker && ./run.sh 0 1
+./run.sh 3 -v
 ```
 
-## Note if mysql db was init, excute below command 
+## Deploy with docker build and run 
+### step1: init mysql db
 ```
-cd ./gogolook/docker && ./run.sh 3 -v
+cd ./gogolook/docker && ./run.sh 0
 ```
+### step2: excute docker build and run
 ```
-cd ./gogolook/docker && ./run.sh 1
+./run.sh 1
 ```
 
 

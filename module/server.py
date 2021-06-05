@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-from flask import Flask
-# from flask_cors import CORS
 import log as logpy
 import re
 import os
@@ -12,8 +10,11 @@ import utils
 import json
 import glob
 import re
+import unittest
+import sys
 from flask_restful import Api
 from flask_restful import Resource
+from flask_script import Manager, Server
 from datetime import datetime
 from flask import Flask, request, render_template, send_from_directory, redirect, url_for
 from apscheduler.schedulers.background import BackgroundScheduler
@@ -23,8 +24,6 @@ utils.setLogFileName()
 log = logpy.logging.getLogger(__name__)
 template_dir = os.path.abspath('./resource/university/') # setting for render_template
 app = Flask(__name__, template_folder=template_dir)
-# app.config['UPLOAD_FOLDER'] = './univer/upload'
-app.config['MAX_CONTENT_LENGTH'] = 128 * 1024 * 1024  # 16MB
 api = Api(app)
 controller.setup_route(api)
 
@@ -36,7 +35,7 @@ if __name__=="__main__":
     dbData = daoMigrate.Database().getMigrate()
     log.info(dbData)
 
-    # migrate db
+    #====== migrate db start =======
     fileNameList=[]
     for file in glob.glob("./migrate/*.sql"):
         log.debug(file)
@@ -59,5 +58,16 @@ if __name__=="__main__":
                 log.info("migrate ./migrate/{name}.sql result: {result}".format(name=record, result=result))
             except Exception as e:
                 utils.except_raise(e)
+    #====== migrate db end =======
+
+    #====== unittest start =======
+    tests = unittest.TestLoader().discover("unitTest")
+    log.info(tests)
+    result = unittest.TextTestRunner(verbosity=2).run(tests)
+    if result.errors or result.failures:
+        sys.exit(1)
+    #====== unittest end =======
 
     app.run(host="0.0.0.0", port=const.PORT, debug=True, use_reloader=False)
+
+

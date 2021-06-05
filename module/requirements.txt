@@ -8,6 +8,8 @@ Flask-RESTful==0.3.8
 APScheduler==3.5.0
 Flask-Cors==3.0.8
 pysftp==0.2.9
+flask-script==2.0.6
+Flask-Testing==0.8.1
 # cffi==1.14.2 
 # setuptools==40.8.0
 # paramiko==2.7.2 

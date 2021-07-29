@@ -1,0 +1,169 @@
+
+CREATE DATABASE IF NOT EXISTS `RMS` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+
+  CREATE TABLE `RMS`.`AUTHORITY` (
+    `AUTH_ID` INT(100) NOT NULL AUTO_INCREMENT,
+    `AUTH_NAME` VARCHAR(20) NOT NULL,
+    `DESCRIBE` VARCHAR(20) NOT NULL,
+    PRIMARY KEY (`AUTH_ID`)
+  )engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='權限對照表';
+
+
+insert into `RMS`.`AUTHORITY`(`AUTH_NAME`,`DESCRIBE`)values ('default_page','造訪首頁權限');
+insert into `RMS`.`AUTHORITY`(`AUTH_NAME`,`DESCRIBE`)values ('query_candidate','搜尋面試者');
+insert into `RMS`.`AUTHORITY`(`AUTH_NAME`,`DESCRIBE`)values ('query_enterprise','搜尋企業');
+insert into `RMS`.`AUTHORITY`(`AUTH_NAME`,`DESCRIBE`)values ('query_resume','搜尋履歷');
+
+ 
+ CREATE TABLE `RMS`.`ROLE` (
+    `ROLE_ID` INT(100) NOT NULL, 
+    `AURH_ID` INT(100) NOT NULL,
+    `DESCRIBE` VARCHAR(20) NOT NULL,
+    PRIMARY KEY (`ROLE_ID`, `AURH_ID`),
+    FOREIGN KEY (`AURH_ID`) REFERENCES `RMS`.`AUTHORITY` (`AUTH_ID`)
+  )engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='角色對照表';
+ 
+insert into `RMS`.`ROLE`(`ROLE_ID`,`AURH_ID`,`DESCRIBE`)values ( 1, 1, 'admin 管理者');
+insert into `RMS`.`ROLE`(`ROLE_ID`,`AURH_ID`,`DESCRIBE`)values ( 1, 2, 'admin 管理者');
+insert into `RMS`.`ROLE`(`ROLE_ID`,`AURH_ID`,`DESCRIBE`)values ( 1, 3, 'admin 管理者');
+insert into `RMS`.`ROLE`(`ROLE_ID`,`AURH_ID`,`DESCRIBE`)values ( 1, 4, 'admin 管理者');
+insert into `RMS`.`ROLE`(`ROLE_ID`,`AURH_ID`,`DESCRIBE`)values ( 2, 1,'company 企業帳戶');
+insert into `RMS`.`ROLE`(`ROLE_ID`,`AURH_ID`,`DESCRIBE`)values ( 2, 2,'company 企業帳戶');
+insert into `RMS`.`ROLE`(`ROLE_ID`,`AURH_ID`,`DESCRIBE`)values ( 2, 3,'company 企業帳戶');
+insert into `RMS`.`ROLE`(`ROLE_ID`,`AURH_ID`,`DESCRIBE`)values ( 2, 4,'company 企業帳戶');
+insert into `RMS`.`ROLE`(`ROLE_ID`,`AURH_ID`,`DESCRIBE`)values ( 3, 1,'normal 一班用戶');
+insert into `RMS`.`ROLE`(`ROLE_ID`,`AURH_ID`,`DESCRIBE`)values ( 3, 3,'normal 一班用戶');
+insert into `RMS`.`ROLE`(`ROLE_ID`,`AURH_ID`,`DESCRIBE`)values ( 3, 4,'normal 一班用戶');
+insert into `RMS`.`ROLE`(`ROLE_ID`,`AURH_ID`,`DESCRIBE`)values ( 4, 1,'guest 訪客');
+
+ 
+ CREATE TABLE `RMS`.`USER` (
+    `USER_ID` INT(100) NOT NULL AUTO_INCREMENT, 
+    `USER_NAME` VARCHAR(20) NOT NULL,
+    `ACCOUTN` VARCHAR(20) NOT NULL,
+    `PASSWORD` VARCHAR(40) NOT NULL,
+    `ROLE_ID` INT(100) NOT NULL,
+    `INIT_DATE` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    INDEX (`USER_NAME`),
+    PRIMARY KEY (`USER_ID`), 
+    FOREIGN KEY (`ROLE_ID`) REFERENCES `RMS`.`ROLE` (`ROLE_ID`)
+)engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='用戶總表';
+
+insert into `RMS`.`USER`(`USER_NAME`,`ACCOUTN`,`PASSWORD`,`ROLE_ID`)values('Morrison','Morrison','md5_password', 2);
+insert into `RMS`.`USER`(`USER_NAME`,`ACCOUTN`,`PASSWORD`,`ROLE_ID`)values('Davis','Davis','md5_password', 3);
+ 
+  CREATE TABLE `RMS`.`TEMPLATE` (
+    `TEMP_ID` INT(100) NOT NULL AUTO_INCREMENT COMMENT '樣板ID',
+    `TEMP_NAME` VARCHAR(20) NOT NULL COMMENT '樣板名稱',
+    `TEMP_CONTENT` MEDIUMTEXT NOT NULL COMMENT '樣板內容',
+    PRIMARY KEY (`TEMP_ID`)
+  )engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='履歷樣板';
+  
+ 
+insert into `RMS`.`TEMPLATE` (`TEMP_NAME`, `TEMP_CONTENT`) values('A1','<!DOCTYPE html><html><body></body></html>');
+insert into `RMS`.`TEMPLATE` (`TEMP_NAME`, `TEMP_CONTENT`) values('A2','<!DOCTYPE html><html><body></body></html>');
+insert into `RMS`.`TEMPLATE` (`TEMP_NAME`, `TEMP_CONTENT`) values('B1','<!DOCTYPE html><html><body></body></html>');
+
+
+  CREATE TABLE `RMS`.`EXPERIENCE` (
+    `EXP_ID` INT(100) NOT NULL AUTO_INCREMENT COMMENT '經歷ID',
+    `EXP_NAME` VARCHAR(20) NOT NULL COMMENT '經歷名稱',
+    `EXP_YEAR` INT(100) NOT NULL COMMENT '經歷時間',
+    `EXP_CONTENT` MEDIUMTEXT NOT NULL COMMENT '經歷內容',
+    PRIMARY KEY (`EXP_ID`)
+  )engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='經歷表';
+  
+ insert into `RMS`.`EXPERIENCE`(`EXP_NAME`,`EXP_YEAR`,`EXP_CONTENT`) values('MorrisonExpress',5,'this is content for descirpe experience');
+ insert into `RMS`.`EXPERIENCE`(`EXP_NAME`,`EXP_YEAR`,`EXP_CONTENT`) values('Company',3,'this is content for descirpe experience');
+ 
+   CREATE TABLE `RMS`.`AUTOBIOGRAPHY` (
+    `AUTOB_ID` INT(100) NOT NULL AUTO_INCREMENT COMMENT '自傳ID',
+    `AUTOB_NAME` VARCHAR(20) NOT NULL COMMENT '自傳名稱',
+    `AUTOB_CONTENT` MEDIUMTEXT NOT NULL COMMENT '自傳內容',
+    PRIMARY KEY (AUTOB_ID)
+  )engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='自傳表';
+  
+  insert into `RMS`.`AUTOBIOGRAPHY`(`AUTOB_NAME`,`AUTOB_CONTENT`) values('A autobiography','this is content for autobiography');
+  insert into `RMS`.`AUTOBIOGRAPHY`(`AUTOB_NAME`,`AUTOB_CONTENT`) values('B autobiography','this is content for autobiography');
+
+CREATE TABLE `RMS`.`RESUME` (
+    `RESUME_ID` INT(100) NOT NULL AUTO_INCREMENT comment '履歷ID', 
+    `USER_ID` INT(100) NOT NULL comment '使用者ID',
+    `INIT_DATE` TIMESTAMP DEFAULT CURRENT_TIMESTAMP comment '創建時間',
+    `RESUME_NAME` VARCHAR(20) COMMENT '手機',
+    `HOMER` VARCHAR(20) COMMENT '居住地', 
+    `EDUCATION` VARCHAR(20) COMMENT '學歷',
+    `SKILL` VARCHAR(20) COMMENT '技能',
+    `CERTIFICATIONS` VARCHAR(20) COMMENT '證照',
+    `EXP_ID` INT(100) COMMENT '工作經歷ID',
+    `AUTOB_ID` INT(100) COMMENT '自傳ID',
+    PRIMARY KEY (`RESUME_ID`), 
+    INDEX `NAME_HOMER_EDU_INDEX` (`RESUME_NAME`,`HOMER`,`EDUCATION`),
+    FOREIGN KEY (`USER_ID`) REFERENCES `RMS`.`USER` (`USER_ID`),
+    FOREIGN KEY (`EXP_ID`) REFERENCES `RMS`.`EXPERIENCE` (`EXP_ID`),
+    FOREIGN KEY (`AUTOB_ID`) REFERENCES `RMS`.`AUTOBIOGRAPHY` (`AUTOB_ID`)
+  )engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='履歷表';
+  
+insert into `RMS`.`RESUME`(`USER_ID`,`RESUME_NAME`,`HOMER`,`EDUCATION`,`SKILL`,`CERTIFICATIONS`,`EXP_ID`,`AUTOB_ID`)
+values (2,'Resume A','taiwn','master degree', 'python, java, docker', 'OCA',1,1);
+insert into `RMS`.`RESUME`(`USER_ID`,`RESUME_NAME`,`HOMER`,`EDUCATION`,`SKILL`,`CERTIFICATIONS`,`EXP_ID`,`AUTOB_ID`)
+values (2,'Resume B','taiwn','master degree', 'python, java, docker', 'OCA',2,2);
+
+ 
+CREATE TABLE `RMS`.`RESUME_MAP_TEMPLATE` (
+    `RESUME_ID` INT(100) NOT NULL COMMENT '履歷ID',
+    `TEMP_ID` INT(100) NOT NULL COMMENT '樣板ID',
+    PRIMARY KEY (`RESUME_ID`,`TEMP_ID`),
+    FOREIGN KEY (`RESUME_ID`) REFERENCES `RMS`.`RESUME` (`RESUME_ID`),
+    FOREIGN KEY (`TEMP_ID`) REFERENCES `RMS`.`TEMPLATE` (`TEMP_ID`)
+)engine=InnoDB default charset=utf8mb4 collate utf8mb4_general_ci comment='履歷對應幾組樣板';
+ 
+insert into `RMS`.`RESUME_MAP_TEMPLATE`(`RESUME_ID`,`TEMP_ID`)values(1,1);
+insert into `RMS`.`RESUME_MAP_TEMPLATE`(`RESUME_ID`,`TEMP_ID`)values(1,2);
+insert into `RMS`.`RESUME_MAP_TEMPLATE`(`RESUME_ID`,`TEMP_ID`)values(2,3);
+
+
+-- Use Case 1:
+
+select `R`.`RESUME_NAME`, `T`.`TEMP_NAME` from `RMS`.`RESUME_MAP_TEMPLATE` AS `RMT`
+LEFT JOIN `RMS`.`RESUME` AS `R` ON `RMT`.`RESUME_ID` = `R`.`RESUME_ID`
+LEFT JOIN `RMS`.`TEMPLATE` AS `T` ON `RMT`.`TEMP_ID` = `T`.`TEMP_ID`
+LEFT JOIN `RMS`.`USER` AS `U` ON `R`.`USER_ID` = `U`.`USER_ID`
+LEFT JOIN `RMS`.`ROLE` AS `ROLE` ON `U`.`ROLE_ID` = `ROLE`.`ROLE_ID`
+where `U`.`USER_NAME`='Davis'
+and `ROLE`.`ROLE_ID` in (1,2,3) -- ROLE 角色 1: admin, 2: company, 3: normal 皆有查詢權限
+and `ROLE`.`AURH_ID` = 4; -- AURTH_ID:4 為查詢履歷權限
+
+-- User Case 2;
+
+select `U`.`USER_NAME`,`EXP`.`EXP_NAME`,`EXP`.`EXP_YEAR` from `RMS`.`RESUME` AS `R`
+LEFT JOIN `RMS`.`USER` AS `U` ON `R`.`USER_ID` = `U`.`USER_ID`
+LEFT JOIN `RMS`.`ROLE` AS `ROLE` ON `U`.`ROLE_ID` = `ROLE`.`ROLE_ID`
+LEFT JOIN `RMS`.`EXPERIENCE` AS `EXP` ON `R`.`EXP_ID` = `EXP`.`EXP_ID`
+where `ROLE`.`ROLE_ID` in (1,2,3) -- ROLE 角色 1: admin, 2: company, 3: normal 皆有查詢權限
+and `ROLE`.`AURH_ID` = 4 -- AURTH_ID:4 為搜尋面試者權限
+and `EXP`.`EXP_YEAR` > 4; -- 工作時間大於 4 年
+
+
+
+# Function Implement A
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        s = s.lower()
+        s = re.sub(r'[^a-z0-9]', '', s)
+        input = s
+        s = s[::-1]
+        r = 1 if input == s else 0
+        return r
+        
+        
+# Function Implement B
+class Solution:
+    def minDeletionSize(self, strs) -> int:
+        count = 0
+        for i in range(len(strs[0])):
+            for j in range(len(strs)-1):
+                if strs[j][i] > strs[j+1][i]:
+                    count = count + 1
+                    break
+        return count
